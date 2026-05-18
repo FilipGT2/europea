@@ -2,13 +2,57 @@
 
 import * as React from "react"
 import Image from "next/image"
+import { useTheme } from "next-themes"
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
+import { Sun, Moon } from "lucide-react"
 
 const links = [
   { label: "About", href: "#mission" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" },
 ]
+
+function ThemeToggle() {
+  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = React.useState(false)
+  React.useEffect(() => setMounted(true), [])
+
+  if (!mounted) return <div className="w-9 h-9" aria-hidden="true" />
+
+  const isDark = theme === "dark"
+
+  return (
+    <button
+      onClick={() => setTheme(isDark ? "light" : "dark")}
+      className="relative w-9 h-9 flex items-center justify-center rounded-lg border border-blue-border text-text-secondary hover:text-text-primary hover:border-blue-DEFAULT hover:bg-blue-subtle transition-all duration-200"
+      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      <AnimatePresence mode="wait" initial={false}>
+        {isDark ? (
+          <motion.span
+            key="sun"
+            initial={{ opacity: 0, rotate: -30, scale: 0.8 }}
+            animate={{ opacity: 1, rotate: 0, scale: 1 }}
+            exit={{ opacity: 0, rotate: 30, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <Sun size={15} strokeWidth={1.75} />
+          </motion.span>
+        ) : (
+          <motion.span
+            key="moon"
+            initial={{ opacity: 0, rotate: 30, scale: 0.8 }}
+            animate={{ opacity: 1, rotate: 0, scale: 1 }}
+            exit={{ opacity: 0, rotate: -30, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <Moon size={15} strokeWidth={1.75} />
+          </motion.span>
+        )}
+      </AnimatePresence>
+    </button>
+  )
+}
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = React.useState(false)
@@ -18,40 +62,57 @@ export default function Navbar() {
 
   return (
     <>
-      <motion.header className="fixed top-0 left-0 right-0 z-50 px-6 md:px-10 py-4">
+      <motion.header
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="fixed top-0 left-0 right-0 z-50 px-6 md:px-10 py-4"
+      >
         <motion.div
-          className="absolute inset-0 bg-white/90 backdrop-blur-md shadow-sm"
+          className="absolute inset-0 bg-bg-base/90 backdrop-blur-md"
           style={{ opacity: bgOpacity }}
         />
         <motion.div
-          className="absolute inset-0 border-b border-blue-100"
+          className="absolute inset-0 border-b border-blue-border"
           style={{ opacity: borderOpacity }}
         />
 
         <div className="relative z-10 flex items-center justify-between max-w-7xl mx-auto">
           <a href="#" aria-label="Europea home">
+            {/* Light theme logo */}
             <Image
-              src="/europea-logo.svg"
+              src="/europea-logo.png"
               alt="Europea i Malmö AB"
               width={1080}
               height={360}
               priority
-              className="h-24 sm:h-26 md:h-32 w-auto"
+              className="h-16 sm:h-20 md:h-24 w-auto dark:hidden"
+            />
+            {/* Dark theme logo */}
+            <Image
+              src="/europea-logo-white.png"
+              alt="Europea i Malmö AB"
+              width={1080}
+              height={360}
+              priority
+              className="h-16 sm:h-20 md:h-24 w-auto hidden dark:block"
             />
           </a>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-4">
             <nav aria-label="Primary" className="hidden md:flex items-center gap-8">
               {links.map((l) => (
                 <a
                   key={l.href}
                   href={l.href}
-                  className="font-sans text-sm font-medium text-navy hover:text-blue-DEFAULT transition-colors duration-200 tracking-wide rounded"
+                  className="font-sans text-sm font-medium text-text-secondary hover:text-text-primary transition-colors duration-200 tracking-wide rounded"
                 >
                   {l.label}
                 </a>
               ))}
             </nav>
+
+            <ThemeToggle />
 
             <button
               className="md:hidden flex flex-col gap-1.5 w-10 h-10 items-center justify-center rounded"
@@ -60,9 +121,9 @@ export default function Navbar() {
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
             >
-              <span aria-hidden="true" className="block w-6 h-px bg-navy" />
-              <span aria-hidden="true" className="block w-4 h-px bg-navy" />
-              <span aria-hidden="true" className="block w-6 h-px bg-navy" />
+              <span aria-hidden="true" className="block w-6 h-px bg-text-primary" />
+              <span aria-hidden="true" className="block w-4 h-px bg-text-primary" />
+              <span aria-hidden="true" className="block w-6 h-px bg-text-primary" />
             </button>
           </div>
         </div>
@@ -72,21 +133,21 @@ export default function Navbar() {
         {mobileOpen && (
           <motion.div
             id="mobile-nav"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            className="fixed inset-0 z-[100] bg-white flex flex-col px-8 pt-20 pb-12"
+            initial={{ opacity: 0, y: -8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.25, ease: [0.16, 1, 0.3, 1] }}
+            className="fixed inset-0 z-[100] bg-bg-base flex flex-col px-8 pt-20 pb-12 border-b border-blue-border"
             role="dialog"
             aria-modal="true"
             aria-label="Navigation menu"
           >
             <button
               onClick={() => setMobileOpen(false)}
-              className="absolute top-5 right-6 w-10 h-10 flex items-center justify-center text-navy hover:text-blue-DEFAULT rounded"
+              className="absolute top-5 right-6 w-10 h-10 flex items-center justify-center text-text-secondary hover:text-text-primary transition-colors rounded"
               aria-label="Close navigation menu"
             >
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                 <path d="M18 6 6 18M6 6l12 12" />
               </svg>
             </button>
@@ -96,10 +157,10 @@ export default function Navbar() {
                 <motion.a
                   key={l.href}
                   href={l.href}
-                  initial={{ opacity: 0, x: -24 }}
+                  initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.08, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-                  className="font-display text-display-md text-navy hover:text-blue-DEFAULT transition-colors rounded"
+                  className="font-display text-display-md text-text-primary hover:text-blue-label transition-colors rounded"
                   onClick={() => setMobileOpen(false)}
                 >
                   {l.label}

@@ -7,25 +7,27 @@ const config: Config = {
     extend: {
       colors: {
         bg: {
-          base:    '#080e24',
-          surface: '#0d1535',
-          card:    '#111c42',
+          /* RGB channels → supports Tailwind opacity modifier, e.g. bg-bg-base/90 */
+          base:    'rgb(var(--bg-base) / <alpha-value>)',
+          surface: 'rgb(var(--bg-surface) / <alpha-value>)',
+          card:    'rgb(var(--bg-card) / <alpha-value>)',
         },
         blue: {
           DEFAULT: '#2563EB',
           muted:   '#1E40AF',
-          subtle:  'rgba(37,99,235,0.12)',
-          border:  'rgba(37,99,235,0.2)',
-          glow:    'rgba(37,99,235,0.35)',
+          subtle:  'var(--blue-subtle)',
+          border:  'var(--blue-border)',
+          glow:    'var(--blue-glow)',
+          label:   'var(--blue-label)',
         },
         navy: {
           DEFAULT: '#0F1D6E',
           deep:    '#080e24',
         },
         text: {
-          primary:   '#f0ede6',
-          secondary: '#8fa8d4',
-          tertiary:  '#4a6080',
+          primary:   'var(--text-primary)',
+          secondary: 'var(--text-secondary)',
+          tertiary:  'var(--text-tertiary)',
         },
       },
       fontFamily: {
@@ -38,7 +40,7 @@ const config: Config = {
         'display-md': ['clamp(1.75rem, 3vw, 3rem)', { lineHeight: '1.1',  letterSpacing: '-0.01em' }],
       },
       backgroundImage: {
-        'grain': "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E\")",
+        'grain':          "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E\")",
         'brand-gradient': 'linear-gradient(135deg, #2563EB 0%, #0F1D6E 100%)',
       },
       animation: {

@@ -2,17 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ─── Font variables ─────────────────────────────────────────── */
 :root {
   --font-cormorant: 'Cormorant Garamond', Georgia, serif;
-  --font-dm-sans: 'DM Sans', system-ui, sans-serif;
+  --font-dm-sans:   'DM Sans', system-ui, sans-serif;
+
+  /* Light theme — bg colors as RGB channels so Tailwind /opacity works */
+  --bg-base:    245 247 255;   /* #f5f7ff */
+  --bg-surface: 235 240 255;   /* #ebf0ff */
+  --bg-card:    255 255 255;   /* #ffffff */
+
+  /* Light theme — text */
+  --text-primary:   #0d1b36;
+  --text-secondary: #3d5a80;
+  --text-tertiary:  #7a97bc;
+
+  /* Light theme — blue tokens */
+  --blue-border: rgba(37, 99, 235, 0.18);
+  --blue-subtle: rgba(37, 99, 235, 0.07);
+  --blue-glow:   rgba(37, 99, 235, 0.18);
+  --blue-label:  #1D4ED8; /* blue-700 — 8.6:1 contrast on light bg */
 }
 
+.dark {
+  --bg-base:    8 14 36;       /* #080e24 */
+  --bg-surface: 13 21 53;      /* #0d1535 */
+  --bg-card:    17 28 66;      /* #111c42 */
+
+  --text-primary:   #f0ede6;
+  --text-secondary: #8fa8d4;
+  --text-tertiary:  #4a6080;
+
+  --blue-border: rgba(37, 99, 235, 0.20);
+  --blue-subtle: rgba(37, 99, 235, 0.12);
+  --blue-glow:   rgba(37, 99, 235, 0.35);
+  --blue-label:  #60A5FA; /* blue-400 — 7.9:1 contrast on dark bg */
+}
+
+/* ─── Global layout ──────────────────────────────────────────── */
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
 }
 
-/* WCAG 2.2 AA — visible focus indicator for keyboard navigation */
+/* WCAG 2.2 AA — keyboard focus indicator */
 :focus-visible {
   outline: 2px solid #2563EB;
   outline-offset: 3px;
@@ -20,25 +53,20 @@ html {
 }
 
 body {
-  background-color: #080e24;
-  color: #f0ede6;
+  background-color: rgb(var(--bg-base));
+  color: var(--text-primary);
   font-family: var(--font-dm-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* ─── Selection ──────────────────────────────────────────────── */
 ::selection {
-  background: rgba(37, 99, 235, 0.3);
-  color: #f0ede6;
+  background: rgba(37, 99, 235, 0.25);
+  color: var(--text-primary);
 }
 
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #080e24;
-}
-::-webkit-scrollbar-thumb {
-  background: rgba(37, 99, 235, 0.4);
-  border-radius: 3px;
-}
+/* ─── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar        { width: 5px; }
+::-webkit-scrollbar-track  { background: rgb(var(--bg-base)); }
+::-webkit-scrollbar-thumb  { background: var(--blue-border); border-radius: 3px; }

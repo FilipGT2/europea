@@ -1,20 +1,32 @@
 "use client"
 
 import { motion } from "framer-motion"
+import { FloatingBlob } from "@/components/ui/floating-blob"
 
 const revealLeft = {
-  hidden: { opacity: 0, x: -32 },
+  hidden: { opacity: 0, x: -20 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } },
 }
 const revealRight = {
-  hidden: { opacity: 0, x: 32 },
+  hidden: { opacity: 0, x: 20 },
   visible: { opacity: 1, x: 0, transition: { duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] } },
 }
 
 export default function Mission() {
   return (
-    <section id="mission" className="relative border-t border-blue-border bg-bg-base py-28 md:py-36">
-      <div className="max-w-7xl mx-auto px-6 md:px-10">
+    <section id="mission" className="relative overflow-hidden border-t border-blue-border bg-bg-base py-28 md:py-36">
+
+      {/* Atmospheric blobs */}
+      <FloatingBlob
+        className="top-0 right-0 w-[420px] h-[380px] bg-gradient-to-bl from-blue-500/12 to-indigo-600/8 blur-[110px]"
+        delay={0} breathDuration={11} driftDuration={22} driftX={-30} driftY={35}
+      />
+      <FloatingBlob
+        className="bottom-0 left-0 w-[360px] h-[310px] bg-gradient-to-tr from-sky-400/10 to-blue-500/7 blur-[95px]"
+        delay={1.8} breathDuration={14} driftDuration={26} driftX={28} driftY={-22}
+      />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-[58fr_42fr] gap-16 items-center">
           {/* Left */}
           <motion.div
@@ -23,10 +35,10 @@ export default function Mission() {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
           >
-            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-400 mb-6">
+            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-6">
               Our Mission
             </p>
-            <h2 className="font-display text-display-md text-text-primary mb-8 leading-tight">
+            <h2 className="font-display text-display-md text-text-primary mb-6 leading-tight">
               Communication on equal terms — for every individual.
             </h2>
             <p className="font-sans text-text-secondary leading-relaxed mb-5">
@@ -57,7 +69,7 @@ export default function Mission() {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
           >
-            <div className="bg-brand-gradient rounded-2xl p-8 md:p-10 shadow-cta">
+            <div className="bg-brand-gradient rounded-2xl p-8 md:p-10 shadow-cta transition-transform duration-500 hover:scale-[1.02]">
               <blockquote className="font-display text-display-lg text-white italic leading-tight mb-6">
                 &ldquo;Komplett<br />Kommunikation.&rdquo;
               </blockquote>

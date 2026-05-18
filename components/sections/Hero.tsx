@@ -14,7 +14,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center z-20">
-        <div className="relative w-px h-10 bg-white/20 overflow-hidden rounded-full">
+        <div className="relative w-px h-10 dark:bg-white/20 bg-blue-border overflow-hidden rounded-full">
           <motion.div
             className="absolute top-0 left-0 w-full bg-blue-DEFAULT rounded-full"
             style={{ height: "40%" }}
