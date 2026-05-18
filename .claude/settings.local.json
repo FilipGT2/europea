@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(cmd /c \"dir /a C:\\\\Users\\\\filip\\\\OneDrive\\\\Documents\\\\europea_web\")",
+      "PowerShell($r = Invoke-WebRequest -Uri \"http://localhost:3001\" -UseBasicParsing; $html = $r.Content; @\\(\"id=`\"mission`\"\", \"id=`\"portfolio`\"\", \"id=`\"partnership`\"\", \"id=`\"contact`\"\", \"Komplett\", \"Giving everyone\", \"We are stronger\", \"Amiralsgatan\"\\) | ForEach-Object { $found = $html -match $_; \"$_ : $found\" })",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
+    ]
+  }
+}
