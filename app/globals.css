@@ -15,7 +15,7 @@
   /* Light theme — text */
   --text-primary:   #0d1b36;
   --text-secondary: #3d5a80;
-  --text-tertiary:  #7a97bc;
+  --text-tertiary:  #3d5a80;
 
   /* Light theme — blue tokens */
   --blue-border: rgba(37, 99, 235, 0.18);
@@ -31,7 +31,7 @@
 
   --text-primary:   #f0ede6;
   --text-secondary: #8fa8d4;
-  --text-tertiary:  #4a6080;
+  --text-tertiary:  #8FA8D4;
 
   --blue-border: rgba(37, 99, 235, 0.20);
   --blue-subtle: rgba(37, 99, 235, 0.12);
