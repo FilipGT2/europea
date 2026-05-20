@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Sobre nosaltres",
+    "portfolio": "Portafoli",
+    "contact": "Contacte",
+    "openMenu": "Obre el menú de navegació",
+    "closeMenu": "Tanca el menú de navegació",
+    "home": "Europea inici",
+    "switchLight": "Canvia a mode clar",
+    "switchDark": "Canvia a mode fosc",
+    "languageSwitcher": "Selecciona l'idioma"
+  },
+  "hero": {
+    "badge": "MALMÖ, SUÈCIA · EST. 2000 · GRUP D'ACCESSITAT",
+    "title1": "Tecnologia que apropa la gent",
+    "title2": "més.",
+    "subtitle": "Creiem en una societat socialment sostenible construïda sobre la igualtat i la diversitat. Les empreses d'Europea proporcionen a la gent les eines per participar plenament — i per viure vides més riques.",
+    "cta_primary": "Descobreix les nostres empreses",
+    "cta_secondary": "Contacta amb nosaltres"
+  },
+  "mission": {
+    "label": "La nostra missió",
+    "heading": "Comunicació en igualtat de condicions — per a cada individu.",
+    "body1": "Quan dissenyem pensant en les necessitats més exigents, creem productes que beneficien a tothom. Això no és només una qüestió de justícia i drets humans — es tracta de disseny inclusiu i universal. Aquest és el pensament del futur.",
+    "body2": "Només a Suècia, gairebé dos milions de persones tenen problemes d'audició. Per a molts — inclosos els sords — històricament ha estat difícil accedir directament a serveis com un banc, un proveïdor d'atenció mèdica o una oficina governamental. Hem passat més de vint-i-cinc anys tancant aquesta bretxa. Avui, la nostra tecnologia permet que una persona sordcega treballi en atenció al client i ajudi a cada interlocutor.",
+    "tag1": "Enfocament en el client",
+    "tag2": "Pensament a llarg termini",
+    "tag3": "Innovació",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Comunicació Completa — el concepte fundador d'Europea. Tothom hauria de poder arribar i ser arribat per qualsevol persona, utilitzant les eines que tenen a mà.",
+    "quoteAttribution": "Max i Faruk Tairi, fundadors"
+  },
+  "stats": {
+    "years_label": "Anys construint tecnologia accessible",
+    "engineers_label": "Enginyers i desenvolupadors",
+    "europeans_label": "Europeus que viuen amb una discapacitat"
+  },
+  "values": {
+    "label": "Valors",
+    "heading": "Com pensem i construïm.",
+    "item1_title": "Inclusió per disseny",
+    "item1_heading": "No afegim l'accessibilitat després.",
+    "item1_body": "Cada producte comença amb la pregunta: qui està sent exclòs? Quan dissenyem pensant en les necessitats més exigents, creem solucions que beneficien a tothom.",
+    "item2_title": "Tecnologia amb humanitat",
+    "item2_heading": "Darrere de cada línia de codi hi ha una persona.",
+    "item2_body": "Les nostres eines resolen problemes humans reals. Tot el nostre codi es desenvolupa internament, per un equip que inclou investigadors doctorals en desenvolupament de sistemes. Escoltem els nostres usuaris i construïm el que realment necessiten.",
+    "item3_title": "Construir per durar",
+    "item3_heading": "Agafem el camí més difícil.",
+    "item3_body": "Les solucions a curt termini no són el nostre negoci. Quan falten estàndards, els establim. Quan una solució no existeix, la construïm. Els nostres productes es cuiden com els nostres propis fills."
+  },
+  "partnership": {
+    "label": "Col·laboració",
+    "heading": "Som més forts junts.",
+    "body": "Amb una família de productes completa construïda durant vint-i-cinc anys, Europea i les seves empreses s'enorgulleixen de col·laborar en projectes més grans que impulsen la digitalització accessible. Realitzem demostracions de productes, oferim xerrades a conferències i co-desenvolupem solucions amb organitzacions públiques i privades a Escandinàvia i Europa.",
+    "item1_title": "Recerca i Desenvolupament",
+    "item1_body": "Hem col·laborat amb PTS (l'Autoritat Postal i de Telecomunicacions de Suècia) en diversos projectes d'innovació, inclosos TERA Next Generation i Fritt Fram.",
+    "item2_title": "Sector Públic",
+    "item2_body": "Municipis, regions i organitzacions de benestar tecnològic. Si teniu un servei digital, podem ajudar a fer-lo completament accessible — de principi a fi.",
+    "item3_title": "Esdeveniments i Educació",
+    "item3_body": "Organitzem conferències anuals i demostracions de productes. Des del 2018, en col·laboració amb Lidol, co-patrocinem una conferència oberta sobre Komplett Kommunikation.",
+    "cta": "Interessat a col·laborar?"
+  },
+  "contact": {
+    "label": "Contacte",
+    "heading": "Som a Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Planta 3",
+    "address2": "211 55 Malmö, Suècia",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea no té un producte públic. Per a consultes d'accessibilitat, visiteu EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Saltar al contingut principal"
+  }
+}

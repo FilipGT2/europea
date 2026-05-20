@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Maidir linn",
+    "portfolio": "Pórtóir",
+    "contact": "Déan teagmháil",
+    "openMenu": "Oscail an roghchlár nascleanúna",
+    "closeMenu": "Dún an roghchlár nascleanúna",
+    "home": "Baile Europea",
+    "switchLight": "Athraigh go mód solais",
+    "switchDark": "Athraigh go mód dorcha",
+    "languageSwitcher": "Roghnaigh teanga"
+  },
+  "hero": {
+    "badge": "MALMÖ, AN tSVEIN · BUNÚ 2000 · GRÚPA INROCHTANNACHTA",
+    "title1": "Teicneolaíocht a thagann le chéile",
+    "title2": "daoine.",
+    "subtitle": "Creidimid i sochaí shóisialta inbhuanaithe atá tógtha ar chomhionannas agus éagsúlacht. Tugann cuideachtaí Europea uirlisí do dhaoine chun páirt iomlán a ghlacadh — agus chun saol níos saibhre a chaitheamh.",
+    "cta_primary": "Faigh Amach Ár gCuideachtaí",
+    "cta_secondary": "Déan Teagmháil Linn"
+  },
+  "mission": {
+    "label": "Ár Misean",
+    "heading": "Cumarsáid ar théarmaí comhionanna — do gach duine aonair.",
+    "body1": "Nuair a dhearamar ag smaoineamh ar na riachtanais is déine, cruthaímid táirgí a fhreastalaíonn ar gach duine. Ní bhaineann sé seo ach le ceartas agus cearta an duine — baineann sé le dearadh uilíoch, cuimsitheach. Is é sin smaointeoireacht na todhchaí.",
+    "body2": "Sa tSualainn amháin, tá beagnach dhá mhilliún duine ann a bhfuil fadhbanna éisteachta acu. Do go leor — lena n-áirítear iad siúd atá bodhar — bhí sé deacair go stairiúil seirbhísí a bhaint amach go díreach mar bhanc, soláthraí cúraim sláinte, nó oifig rialtais. Tá os cionn fiche cúig bliana caite againn ag dúnadh an bhearna sin. Sa lá atá inniu ann, is féidir lenár dteicneolaíocht do dhuine dallbhodhar oibriú i seirbhís do chustaiméirí agus gach glaoiteoir a chúidiú.",
+    "tag1": "Fócas ar an gCustaiméir",
+    "tag2": "Smaointeoireacht Fadtéarmach",
+    "tag3": "Nuálaíocht",
+    "quoteText": "\"Cumarsáid Iomlán.\"",
+    "quoteBody": "Cumarsáid Iomlán — an coincheap bunaitheach de Europea. Ba cheart go mbeadh gach duine in ann teacht ar aon duine agus a bheith teacht orthu, ag baint úsáide as na huirlisí atá ar láimh acu.",
+    "quoteAttribution": "Max & Faruk Tairi, bunaitheoirí"
+  },
+  "stats": {
+    "years_label": "Blianta ag tógáil teicneolaíocht inrochtana",
+    "engineers_label": "Innealtóirí & forbróirí",
+    "europeans_label": "Eorpaigh ina gcónaí le míchumas"
+  },
+  "values": {
+    "label": "Luachanna",
+    "heading": "Conas a cheapaimid agus a thógann muid.",
+    "item1_title": "Cuimsiú de réir dearaidh",
+    "item1_heading": "Ní chuirimid inrochtaineacht leis tar éis na fírinne.",
+    "item1_body": "Tosaíonn gach táirge leis an gceist: cé atá á eisiamh? Nuair a dhearamar ag smaoineamh ar na riachtanais is déine, cruthaímid réitigh a fhreastalaíonn ar gach duine.",
+    "item2_title": "Teicneolaíocht le daonnacht",
+    "item2_heading": "Taobh thiar de gach líne cód tá duine.",
+    "item2_body": "Réitíonn ár n-uirlisí fadhbanna fíor-dhaonna. Forbraítear ár gcóid go léir laistigh den teach, ag foireann a chuimsíonn taighdeoirí dochtúireachta i bhforbairt córais. Éisteann muid lenár n-úsáideoirí agus tógann muid an rud a theastaíonn uathu i ndáiríre.",
+    "item3_title": "Tógáil le maireachtáil",
+    "item3_heading": "Tógann muid an cosán is deacra.",
+    "item3_body": "Ní dhéantar socruithe gearrthéarmacha mar ghnó againn. Nuair a bhíonn caighdeáin in easnamh, socraíonn muid iad. Nuair nach bhfuil réiteach ann, tógann muid é. Cothaítear ár dtáirgí cosúil lenár leanaí féin."
+  },
+  "partnership": {
+    "label": "Comhpháirtíocht",
+    "heading": "Tá muid níos láidre le chéile.",
+    "body": "Le teaghlach táirgí cuimsitheach arna thógáil thar fiche cúig bliana, tá Europea agus a chuid cuideachtaí bródúil as a bheith ina gcomhpháirtithe ar thionscadail níos mó ag tiomáint digitiúcháin inrochtana. Déanaimid léirithe táirge, tugaimid cainteanna comhdhála, agus comhfhorbraímid réitigh le heagraíochtaí poiblí agus príobháideacha ar fud na Scairtíre agus na hEorpa.",
+    "item1_title": "Taighde & Forbairt",
+    "item1_body": "Tá comhpháirtíocht againn le PTS (Údarás Poist agus Teileachumarsáide na Sualainne) ar thionscadail nuálaíochta iolracha lena n-áirítear TERA Next Generation agus Fritt Fram.",
+    "item2_title": "An Earnáil Phoiblí",
+    "item2_body": "Bardais, réigiúin, agus eagraíochtaí teicneolaíochta leasa. Má tá seirbhís dhigiteach agat, is féidir linn cabhrú lena dhéanamh go hiomlán inrochtana — ó thús go deireadh.",
+    "item3_title": "Imeachtaí & Oideachas",
+    "item3_body": "Eagraímid comhdhálacha bliantúla agus léirithe táirge. Ó 2018, i gcomhpháirtíocht le Lidol, comh-urraitheoir againn comhdháil oscailte ar Komplett Kommunikation.",
+    "cta": "Suim agat i gcomhoibriú?"
+  },
+  "contact": {
+    "label": "Teagmháil",
+    "heading": "Táimid lonnaithe i Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Urlár 3",
+    "address2": "211 55 Malmö, An tSualainn",
+    "org": "Eagraíocht. 556464-0323",
+    "noProduct": "Níl táirge poiblí ag Europea. Le haghaidh fiosruithe faoi chumasúcháin, tabhair cuairt ar EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Eagraíocht. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Déan neamhaird den ábhar príomhúil"
+  }
+}

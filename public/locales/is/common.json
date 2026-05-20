@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Um okkur",
+    "portfolio": "Eignasafn",
+    "contact": "Hafa samband",
+    "openMenu": "Opnaðu leiðsagnarmatseðil",
+    "closeMenu": "Lokaðu leiðsagnarmatseðil",
+    "home": "Europea heim",
+    "switchLight": "Skipta í dagsbirtustillingu",
+    "switchDark": "Skipta í myrkvastillingu",
+    "languageSwitcher": "Veldu tungumál"
+  },
+  "hero": {
+    "badge": "MALMÖ, Svíþjóð · STOFNAÐ 2000 · AÐGANGSHÓPUR",
+    "title1": "Tækni sem færir fólk",
+    "title2": "næra.",
+    "subtitle": "Við trúum á félagslega sjálfbært samfélag byggt á jafnrétti og fjölbreytileika. Fyrirtæki Europea veita fólki tæki til að taka fullan þátt — og til að lifa ríkara lífi.",
+    "cta_primary": "Uppgötvaðu fyrirtæki okkar",
+    "cta_secondary": "Hafðu samband"
+  },
+  "mission": {
+    "label": "Verkefni okkar",
+    "heading": "Samskipti á jöfnum grundvelli — fyrir hvern einstakling.",
+    "body1": "Þegar við hönnum með kröfuharðustu þarfir í huga, sköpum við vörur sem gagnast öllum. Þetta snýst ekki aðeins um réttlæti og mannréttindi — þetta snýst um samþætta, alhliða hönnun. Þetta er hugsun framtíðarinnar.",
+    "body2": "Í Svíþjóð einni hafa næstum tvær milljónir manna heyrnarskerðingu. Fyrir marga — þar á meðal þá sem eru heyrnarlausir — hefur sögulega verið erfitt að ná beint til þjónustu eins og banka, heilbrigðisþjónustu eða ríkisstofnunar. Við höfum eytt yfir tuttugu og fimm árum í að loka því bili. Í dag gerir tækni okkar það mögulegt fyrir einstakling með heyrnar- og sjónskertingu að vinna í þjónustu við viðskiptavini og aðstoða hvern viðskiptavin.",
+    "tag1": "Áhersla á viðskiptavini",
+    "tag2": "Langsigtihugsun",
+    "tag3": "Nýsköpun",
+    "quoteText": "\"Alhliða samskipti.\"",
+    "quoteBody": "Alhliða samskipti — stofnhugtak Europea. Allir ættu að geta náð til og orðið náðir af hverjum sem er, með því að nota þau tæki sem þeir hafa við hendina.",
+    "quoteAttribution": "Max & Faruk Tairi, stofnendur"
+  },
+  "stats": {
+    "years_label": "Ár í að byggja aðgengilega tækni",
+    "engineers_label": "Verkfræðingar & forritarar",
+    "europeans_label": "Evrópubúar sem búa með fötlun"
+  },
+  "values": {
+    "label": "Gildi",
+    "heading": "Hvernig við hugsum og byggjum.",
+    "item1_title": "Samþætting með hönnun",
+    "item1_heading": "Við bætum ekki aðgengi eftirá.",
+    "item1_body": "Hver vara byrjar með spurningunni: hverjum er útilokað? Þegar við hönnum með kröfuharðustu þarfir í huga, sköpum við lausnir sem gagnast öllum.",
+    "item2_title": "Tækni með mannúð",
+    "item2_heading": "Á bak við hverja línu af kóða er manneskja.",
+    "item2_body": "Tæki okkar leysa raunveruleg mannleg vandamál. Allur okkar kóði er þróaður í húsi, af teymi sem inniheldur doktorsrannsakendur í kerfisþróun. Við hlustum á notendur okkar og smíðum það sem þeir þurfa raunverulega.",
+    "item3_title": "Smíðað til að endast",
+    "item3_heading": "Við veljum erfiðari leiðina.",
+    "item3_body": "Skammtímalausnir eru ekki okkar viðskipti. Þegar staðlar vantar, setjum við þá. Þegar lausn er ekki til, smíðum við hana. Vörur okkar eru meðhöndlaðar eins og eigin börn okkar."
+  },
+  "partnership": {
+    "label": "Samstarf",
+    "heading": "Við erum sterkari saman.",
+    "body": "Með alhliða vörufjölskyldu sem byggð hefur verið í tuttugu og fimm ár, eru Europea og fyrirtæki þess stolt af því að taka þátt í stærri verkefnum sem knýja aðgangsstýringu stafrænnar þróunar. Við höldum vörusýningar, flytjum fyrirlestra á ráðstefnum og þróum lausnir með opinberum og einkareknum samtökum um Skandinavíu og Evrópu.",
+    "item1_title": "Rannsóknir og þróun",
+    "item1_body": "Við höfum unnið með PTS (Sænsku póst- og fjarskiptaeftirlitinu) að mörgum nýsköpunarverkefnum þar á meðal TERA Next Generation og Fritt Fram.",
+    "item2_title": "Opinber geiri",
+    "item2_body": "Sveitarfélög, svæði og velferðartæknisamtök. Ef þú átt stafræna þjónustu, getum við hjálpað til við að gera hana að fullu aðgengilega — allt frá byrjun til enda.",
+    "item3_title": "Viðburðir og fræðsla",
+    "item3_body": "Við skipuleggjum árlegar ráðstefnur og vörusýningar. Frá árinu 2018, í samstarfi við Lidol, höfum við sameiginlega styrkt opna ráðstefnu um Alhliða samskipti.",
+    "cta": "Hefur þú áhuga á samstarfi?"
+  },
+  "contact": {
+    "label": "Hafa samband",
+    "heading": "Við erum í Malmö.",
+    "company": "Europea í Malmö AB",
+    "address1": "Amiralsgatan 20, hæð 3",
+    "address2": "211 55 Malmö, Svíþjóð",
+    "org": "Kt. 556464-0323",
+    "noProduct": "Europea hefur ekki opinbera vöru. Fyrir fyrirspurnir um aðgengi, farðu á EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea í Malmö AB · Kt. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Hoppa yfir í aðalefni"
+  }
+}

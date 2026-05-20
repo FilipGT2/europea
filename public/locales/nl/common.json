@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Over ons",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "openMenu": "Navigatiemenu openen",
+    "closeMenu": "Navigatiemenu sluiten",
+    "home": "Europese home",
+    "switchLight": "Schakelen naar lichte modus",
+    "switchDark": "Schakelen naar donkere modus",
+    "languageSwitcher": "Taal selecteren"
+  },
+  "hero": {
+    "badge": "MALMÖ, ZWEDEN · OPGERICHT IN 2000 · ACCESSIBILITY GROUP",
+    "title1": "Technologie die mensen dichterbij",
+    "title2": "brengt.",
+    "subtitle": "Wij geloven in een sociaal duurzame samenleving gebouwd op gelijkheid en diversiteit. De bedrijven van Europea geven mensen de middelen om volledig deel te nemen — en om rijkere levens te leiden.",
+    "cta_primary": "Ontdek onze bedrijven",
+    "cta_secondary": "Neem contact op"
+  },
+  "mission": {
+    "label": "Onze missie",
+    "heading": "Communicatie op gelijke voet — voor ieder individu.",
+    "body1": "Wanneer we ontwerpen met de meest veeleisende behoeften in gedachten, creëren we producten die iedereen ten goede komen. Dit gaat niet alleen over rechtvaardigheid en mensenrechten — het gaat over inclusief, universeel ontwerp. Dat is de denkwijze van de toekomst.",
+    "body2": "Alleen al in Zweden hebben bijna twee miljoen mensen gehoorproblemen. Voor velen — waaronder doven — is het historisch gezien moeilijk geweest om direct diensten zoals een bank, zorgverlener of overheidsinstantie te bereiken. We hebben meer dan vijfentwintig jaar besteed aan het dichten van die kloof. Tegenwoordig maakt onze technologie het mogelijk voor een persoon met zowel een visuele als auditieve beperking om in de klantenservice te werken en elke beller te helpen.",
+    "tag1": "Klantgerichtheid",
+    "tag2": "Lange-termijn denken",
+    "tag3": "Innovatie",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Complete Communicatie — het oprichtingsconcept van Europea. Iedereen moet iedereen kunnen bereiken en bereikt kunnen worden, met de hulpmiddelen die voorhanden zijn.",
+    "quoteAttribution": "Max & Faruk Tairi, oprichters"
+  },
+  "stats": {
+    "years_label": "Jaren met het bouwen van toegankelijke technologie",
+    "engineers_label": "Ingenieurs & ontwikkelaars",
+    "europeans_label": "Europeanen die leven met een handicap"
+  },
+  "values": {
+    "label": "Waarden",
+    "heading": "Hoe we denken en bouwen.",
+    "item1_title": "Inclusie door ontwerp",
+    "item1_heading": "We voegen toegankelijkheid niet achteraf toe.",
+    "item1_body": "Elk product begint met de vraag: wie wordt er uitgesloten? Wanneer we ontwerpen met de meest veeleisende behoeften in gedachten, creëren we oplossingen die iedereen ten goede komen.",
+    "item2_title": "Technologie met menselijkheid",
+    "item2_heading": "Achter elke regel code staat een persoon.",
+    "item2_body": "Onze tools lossen echte menselijke problemen op. Al onze code wordt in-house ontwikkeld, door een team dat promotieonderzoekers in systeemontwikkeling omvat. We luisteren naar onze gebruikers en bouwen wat ze echt nodig hebben.",
+    "item3_title": "Bouwen om te blijven",
+    "item3_heading": "We nemen het moeilijkere pad.",
+    "item3_body": "Kortetermijnoplossingen zijn niet onze zaak. Wanneer er geen normen zijn, stellen we ze vast. Wanneer er geen oplossing bestaat, bouwen we die. Onze producten worden verzorgd als onze eigen kinderen."
+  },
+  "partnership": {
+    "label": "Partnerschap",
+    "heading": "Samen zijn we sterker.",
+    "body": "Met een uitgebreide productfamilie die in vijfentwintig jaar is opgebouwd, zijn Europea en haar bedrijven er trots op samen te werken aan grotere projecten die toegankelijke digitalisering stimuleren. We geven productdemonstraties, geven lezingen op conferenties en ontwikkelen gezamenlijk oplossingen met publieke en private organisaties in Scandinavië en Europa.",
+    "item1_title": "Onderzoek & Ontwikkeling",
+    "item1_body": "We hebben samengewerkt met PTS (de Zweedse autoriteit voor post en telecommunicatie) aan meerdere innovatieprojecten, waaronder TERA Next Generation en Fritt Fram.",
+    "item2_title": "Publieke Sector",
+    "item2_body": "Gemeenten, regio's en welzijnstechnologie-organisaties. Als u een digitale dienst heeft, kunnen wij helpen deze volledig toegankelijk te maken — van begin tot eind.",
+    "item3_title": "Evenementen & Educatie",
+    "item3_body": "We organiseren jaarlijkse conferenties en productdemonstraties. Sinds 2018, in samenwerking met Lidol, mede-sponsoren we een open conferentie over Komplett Kommunikation.",
+    "cta": "Geïnteresseerd om samen te werken?"
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "We zijn in Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Zweden",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea heeft geen publiek product. Voor toegankelijkheidsvragen kunt u terecht op EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Overslaan naar hoofdinhoud"
+  }
+}

@@ -2,29 +2,32 @@
 
 import { motion } from "framer-motion"
 import { FloatingBlob } from "@/components/ui/floating-blob"
-
-const values = [
-  {
-    num: "01",
-    heading: "We don't add accessibility after the fact.",
-    body: "Every product begins with the question: who is being excluded? When we design with the most demanding needs in mind, we create solutions that benefit everyone.",
-    title: "Inclusion by design",
-  },
-  {
-    num: "02",
-    heading: "Behind every line of code is a person.",
-    body: "Our tools solve real human problems. All our code is developed in-house, by a team that includes doctoral researchers in systems development. We listen to our users and build what they actually need.",
-    title: "Technology with humanity",
-  },
-  {
-    num: "03",
-    heading: "We take the harder path.",
-    body: "Short-term fixes are not our business. When standards are missing, we set them. When a solution doesn't exist, we build it. Our products are cared for like our own children.",
-    title: "Build to last",
-  },
-]
+import { useTranslation } from "react-i18next"
 
 export default function Values() {
+  const { t } = useTranslation()
+
+  const values = [
+    {
+      num: '01',
+      title: t('values.item1_title'),
+      heading: t('values.item1_heading'),
+      body: t('values.item1_body'),
+    },
+    {
+      num: '02',
+      title: t('values.item2_title'),
+      heading: t('values.item2_heading'),
+      body: t('values.item2_body'),
+    },
+    {
+      num: '03',
+      title: t('values.item3_title'),
+      heading: t('values.item3_heading'),
+      body: t('values.item3_body'),
+    },
+  ]
+
   return (
     <section className="relative overflow-hidden bg-bg-base py-28 md:py-36 border-t border-blue-border">
 
@@ -46,9 +49,9 @@ export default function Values() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="mb-16"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">Values</p>
+          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">{t('values.label')}</p>
           <h2 className="font-display text-display-md text-text-primary leading-tight">
-            How we think and build.
+            {t('values.heading')}
           </h2>
         </motion.div>
 

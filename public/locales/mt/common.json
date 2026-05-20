@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Fuq",
+    "portfolio": "Portafoll",
+    "contact": "Kuntatt",
+    "openMenu": "Iftaħ il-menu tan-navigazzjoni",
+    "closeMenu": "Agħlaq il-menu tan-navigazzjoni",
+    "home": "Europea dar",
+    "switchLight": "Aqleb għal modalità ħafifa",
+    "switchDark": "Aqleb għal modalità skura",
+    "languageSwitcher": "Agħżel il-lingwa"
+  },
+  "hero": {
+    "badge": "MALMÖ, L-ISVEZJA · MWAQQFA FL-2000 · GRUPP TA' AĊĊESSIBILITÀ",
+    "title1": "Teknoloġija li ġġib in-nies",
+    "title2": "eqreb.",
+    "subtitle": "Aħna nemmnu f'soċjetà sostenibbli soċjalment mibnija fuq ugwaljanza u diversità. Il-kumpaniji ta' Europea jagħtu lin-nies l-għodod biex jipparteċipaw bis-sħiħ — u biex jgħixu ħajjiet aktar sinjuri.",
+    "cta_primary": " Skopri l-Kumpaniji Tagħna",
+    "cta_secondary": "Ikkuntattjana"
+  },
+  "mission": {
+    "label": "Il-Missjoni Tagħna",
+    "heading": "Komunikazzjoni fuq termini ugwali — għal kull individwu.",
+    "body1": "Meta niddisinjaw bl-aktar bżonnijiet impenjattivi f'moħħna, noħolqu prodotti li jibbenefikaw lil kulħadd. Dan mhux biss dwar ġustizzja u drittijiet tal-bniedem — huwa dwar disinn inklużiv u universali. Dak hu l-ħsieb tal-futur.",
+    "body2": "Fl-Isvezja biss, kważi żewġ miljuni ruħ għandhom problemi fis-smigħ. Għal ħafna — inklużi dawk li huma neqsin mis-smigħ — storikament kien diffiċli li jilħqu direttament servizzi bħal bank, fornitur tal-kura tas-saħħa, jew uffiċċju tal-gvern. Dawn l-aħħar għoxrin sena u aktar qed nagħlqu dik id-distakk. Illum, it-teknoloġija tagħna tagħmilha possibbli għal persuna neqsin kemm mis-smigħ kif ukoll mill-vista biex taħdem fis-servizz tal-klijent u tassisti lil kull min iċempel.",
+    "tag1": "Fokus fuq il-Klijent",
+    "tag2": "Ħsieb fit-tul",
+    "tag3": "Innovazzjoni",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Komunikazzjoni Sħiħa — il-kunċett fundatur ta' Europea. Kulħadd għandu jkun jista' jilħaq u jintlaħaq minn xi ħadd, billi juża l-għodod li għandu fil-idejn.",
+    "quoteAttribution": "Max & Faruk Tairi, fundaturi"
+  },
+  "stats": {
+    "years_label": "Snin nibnu teknoloġija aċċessibbli",
+    "engineers_label": "Inġiniera u żviluppaturi",
+    "europeans_label": "Ewropej li jgħixu b'diżabilità"
+  },
+  "values": {
+    "label": "Valuri",
+    "heading": "Kif naħsbu u nibnu.",
+    "item1_title": "Inklużjoni permezz tad-disinn",
+    "item1_heading": "Aħna ma nżidux l-aċċessibbiltà wara l-fatt.",
+    "item1_body": "Kull prodott jibda bil-mistoqsija: min qed jiġi eskluż? Meta niddisinjaw bl-aktar bżonnijiet impenjattivi f'moħħna, noħolqu soluzzjonijiet li jibbenefikaw lil kulħadd.",
+    "item2_title": "Teknoloġija bil-umanità",
+    "item2_heading": "Wara kull linja ta' kodiċi hemm persuna.",
+    "item2_body": "L-għodod tagħna jsolvu problemi umani reali. Il-kodiċi kollu tagħna huwa żviluppat internament, minn tim li jinkludi riċerkaturi dottorali fl-iżvilupp tas-sistemi. Aħna nisimgħu lill-utenti tagħna u nibnu dak li fil-fatt jeħtieġu.",
+    "item3_title": "Ibni biex idum",
+    "item3_heading": "Aħna nieħdu t-triq aktar diffiċli.",
+    "item3_body": "Soluzzjonijiet għal żmien qasir mhumiex in-negozju tagħna. Meta n-standards ikunu nieqsa, aħna nistabbilixxuhom. Meta soluzzjoni ma teżistix, aħna nibnuha. Il-prodotti tagħna huma kkurati bħal uliedna."
+  },
+  "partnership": {
+    "label": "Sħubija",
+    "heading": "Aħna aktar b'saħħitna flimkien.",
+    "body": "B'familja ta' prodotti komprensiva mibnija fuq għoxrin sena u aktar, Europea u l-kumpaniji tagħha huma kburin li jissħabbu fuq proġetti akbar li jmexxu d-diġitalizzazzjoni aċċessibbli. Aħna nagħtu dimostrazzjonijiet tal-prodotti, nagħtu taħditiet f'konferenzi, u niżviluppaw soluzzjonijiet flimkien ma' organizzazzjonijiet pubbliċi u privati madwar l-Iskandinavja u l-Ewropa.",
+    "item1_title": "Riċerka u żvilupp",
+    "item1_body": "Aħna sħabna ma' PTS (l-Awtorità Svediża tal-Post u t-Telekomunikazzjonijiet) fuq proġetti ta' innovazzjoni multipli inklużi TERA Next Generation u Fritt Fram.",
+    "item2_title": "Settur Pubbliku",
+    "item2_body": "Muniċipalitajiet, reġjuni, u organizzazzjonijiet tal-welfare-tech. Jekk għandek servizz diġitali, nistgħu ngħinu biex insiru kompletament aċċessibbli — minn tarf sa tarf.",
+    "item3_title": "Avvenimenti u Edukazzjoni",
+    "item3_body": "Aħna norganizzaw konferenzi annwali u dimostrazzjonijiet tal-prodotti. Minn meta bdejna fl-2018, bħala sħab ma' Lidol, aħna nikkopja sponsorizzazzjoni ta' konferenza miftuħa fuq Komplett Kommunikation.",
+    "cta": "Interessat li tikkoopera?"
+  },
+  "contact": {
+    "label": "Kuntatt",
+    "heading": "Aħna f'Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Sweden",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea m'għandhiex prodott pubbliku. Għal mistoqsijiet dwar aċċessibilità, żur EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Aqbeż għall-kontenut ewlieni"
+  }
+}

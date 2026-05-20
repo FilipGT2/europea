@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Par mums",
+    "portfolio": "Portfolio",
+    "contact": "Kontakti",
+    "openMenu": "Atvērt navigācijas izvēlni",
+    "closeMenu": "Aizvērt navigācijas izvēlni",
+    "home": "Eiropas sākumlapa",
+    "switchLight": "Pārslēgties uz gaišo režīmu",
+    "switchDark": "Pārslēgties uz tumšo režīmu",
+    "languageSwitcher": "Izvēlēties valodu"
+  },
+  "hero": {
+    "badge": "MALME, ZVIEDRIJA · NODIBINĀTS 2000. GADĀ · PIEEJAMĪBAS GRUPA",
+    "title1": "Tehnoloģija, kas saved cilvēkus",
+    "title2": "kopā.",
+    "subtitle": "Mēs ticam sociāli ilgtspējīgai sabiedrībai, kas balstīta uz līdztiesību un daudzveidību. Eiropas uzņēmumi sniedz cilvēkiem rīkus, lai viņi varētu pilnvērtīgi piedalīties — un dzīvot bagātāku dzīvi.",
+    "cta_primary": "Atklājiet mūsu uzņēmumus",
+    "cta_secondary": "Sazinieties ar mums"
+  },
+  "mission": {
+    "label": "Mūsu misija",
+    "heading": "Komunikācija vienlīdzīgos noteikumos — ikvienam indivīdam.",
+    "body1": "Kad mēs projektējam, ņemot vērā visprasīgākās vajadzības, mēs radām produktus, kas nāk par labu visiem. Tas ir ne tikai par taisnīgumu un cilvēktiesībām — tas ir par iekļaujošu, universālu dizainu. Tāda ir nākotnes domāšana.",
+    "body2": "Tikai Zviedrijā gandrīz diviem miljoniem cilvēku ir dzirdes traucējumi. Daudziem — arī nedzirdīgiem — vēsturiski ir bijis grūti tieši piekļūt tādiem pakalpojumiem kā banka, veselības aprūpes sniedzējs vai valdības birojs. Mēs esam pavadījuši vairāk nekā divdesmit piecus gadus, aizpildot šo plaisu. Šodien mūsu tehnoloģija ļauj cilvēkam ar dzirdes un redzes traucējumiem strādāt klientu apkalpošanas jomā un palīdzēt ikvienam zvanītājam.",
+    "tag1": "Klientu fokuss",
+    "tag2": "Ilgtermiņa domāšana",
+    "tag3": "Inovācija",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Pilnīga komunikācija — Eiropas pamatkonceptija. Ikvienam vajadzētu būt iespējai sazināties ar jebkuru un saņemt atbildi, izmantojot pie rokas esošos rīkus.",
+    "quoteAttribution": "Max & Faruk Tairi, dibinātāji"
+  },
+  "stats": {
+    "years_label": "Gadi, veidojot pieejamas tehnoloģijas",
+    "engineers_label": "Inženieri un izstrādātāji",
+    "europeans_label": "Eiropieši, kas dzīvo ar invaliditāti"
+  },
+  "values": {
+    "label": "Vērtības",
+    "heading": "Kā mēs domājam un būvējam.",
+    "item1_title": "Iekļaušana dizainā",
+    "item1_heading": "Mēs nepievienojam pieejamību pēc faktiem.",
+    "item1_body": "Katrs produkts sākas ar jautājumu: kas tiek izslēgts? Kad mēs projektējam, ņemot vērā visprasīgākās vajadzības, mēs radām risinājumus, kas nāk par labu visiem.",
+    "item2_title": "Tehnoloģija ar cilvēcību",
+    "item2_heading": "Aiz katras koda rindas ir cilvēks.",
+    "item2_body": "Mūsu rīki risina reālas cilvēku problēmas. Viss mūsu kods tiek izstrādāts iekšēji, komandā, kurā ietilpst doktorantūras pētnieki sistēmu izstrādē. Mēs klausāmies mūsu lietotājus un veidojam to, kas viņiem patiešām ir nepieciešams.",
+    "item3_title": "Būvēt, lai izturētu",
+    "item3_heading": "Mēs izvēlamies grūtāko ceļu.",
+    "item3_body": "Īstermiņa labojumi nav mūsu bizness. Kad trūkst standartu, mēs tos nosakām. Kad risinājums nepastāv, mēs to izveidojam. Mūsu produkti tiek kopti kā mūsu pašu bērni."
+  },
+  "partnership": {
+    "label": "Partnerība",
+    "heading": "Kopā mēs esam stiprāki.",
+    "body": "Ar visaptverošu produktu saimi, kas veidota vairāk nekā divdesmit piecus gadus, Eiropas un tās uzņēmumi lepojas, sadarbojoties lielākos projektos, kas veicina pieejamu digitalizāciju. Mēs rīkojam produktu demonstrācijas, uzstājamies konferencēs un kopīgi izstrādājam risinājumus ar publiskām un privātām organizācijām visā Skandināvijā un Eiropā.",
+    "item1_title": "Pētniecība un attīstība",
+    "item1_body": "Mēs sadarbojāmies ar PTS (Zviedrijas Pasta un telekomunikāciju pārvaldi) vairākos inovāciju projektos, tostarp TERA Next Generation un Fritt Fram.",
+    "item2_title": "Publiskais sektors",
+    "item2_body": "Pašvaldības, reģioni un labklājības tehnoloģiju organizācijas. Ja jums ir digitālais pakalpojums, mēs varam palīdzēt padarīt to pilnībā pieejamu — no sākuma līdz beigām.",
+    "item3_title": "Pasākumi un izglītība",
+    "item3_body": "Mēs organizējam ikgadējas konferences un produktu demonstrācijas. Kopš 2018. gada sadarbībā ar Lidol mēs kopīgi sponsorējam atklātu konferenci par Komplett Kommunikation.",
+    "cta": "Interesē sadarbība?"
+  },
+  "contact": {
+    "label": "Kontakti",
+    "heading": "Mēs atrodamies Malmē.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, 3. stāvs",
+    "address2": "211 55 Malmē, Zviedrija",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea nav publiski pieejama produkta. Lai saņemtu palīdzību saistībā ar pieejamību, apmeklējiet vietni EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmē"
+  },
+  "a11y": {
+    "skipToMain": "Pāriet uz galveno saturu"
+  }
+}

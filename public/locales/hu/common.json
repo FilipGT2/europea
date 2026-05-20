@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Rólunk",
+    "portfolio": "Portfólió",
+    "contact": "Kapcsolat",
+    "openMenu": "Navigációs menü megnyitása",
+    "closeMenu": "Navigációs menü bezárása",
+    "home": "Europea Kezdőlap",
+    "switchLight": "Váltás világos módra",
+    "switchDark": "Váltás sötét módra",
+    "languageSwitcher": "Nyelv kiválasztása"
+  },
+  "hero": {
+    "badge": "MALMÖ, SVÉDORSZÁG · ALAPÍTVA: 2000 · HOZZÁFÉRHETŐSÉGI CSOPORT",
+    "title1": "Technológia, ami közelebb hozza az embereket",
+    "title2": ".",
+    "subtitle": "Hiszünk egy társadalmilag fenntartható társadalomban, amely az egyenlőségre és a sokszínűségre épül. Az Europea vállalatai megadják az embereknek az eszközöket a teljes részvételhez — és a gazdagabb élethez.",
+    "cta_primary": "Fedezze fel Cégeinket",
+    "cta_secondary": "Vegye fel velünk a kapcsolatot"
+  },
+  "mission": {
+    "label": "Küldetésünk",
+    "heading": "Kommunikáció egyenlő feltételekkel — minden egyén számára.",
+    "body1": "Amikor a legigényesebb igények figyelembevételével tervezünk, olyan termékeket hozunk létre, amelyek mindenki számára előnyösek. Ez nem csak az igazságról és az emberi jogokról szól — ez az inkluzív, univerzális tervezésről szól. Ez a jövő gondolkodásmódja.",
+    "body2": "Csak Svédországban közel kétmillió ember szenved halláskárosodásban. Sokak számára — beleértve a siketeket is — történelmileg nehéz volt közvetlenül elérni olyan szolgáltatásokat, mint egy bank, egészségügyi szolgáltató vagy kormányzati hivatal. Több mint huszonöt évet töltöttünk ennek a résnek a bezárásával. Ma technológiánk lehetővé teszi, hogy egy siketvak személy az ügyfélszolgálaton dolgozhasson és minden hívót segíthessen.",
+    "tag1": "Ügyfélközpontúság",
+    "tag2": "Hosszú távú gondolkodás",
+    "tag3": "Innováció",
+    "quoteText": "\"Komplett Kommunikáció.\"",
+    "quoteBody": "Teljes kommunikáció — az Europea alapító koncepciója. Mindenkinek képesnek kell lennie bárkit elérni és elérhetőnek lenni, a kezében lévő eszközökkel.",
+    "quoteAttribution": "Max & Faruk Tairi, alapítók"
+  },
+  "stats": {
+    "years_label": "Évek a hozzáférhető technológia építésében",
+    "engineers_label": "Mérnökök és fejlesztők",
+    "europeans_label": "Európaiak, akik fogyatékossággal élnek"
+  },
+  "values": {
+    "label": "Értékek",
+    "heading": "Hogyan gondolkodunk és alkotunk.",
+    "item1_title": "Inkluzivitás tervezéssel",
+    "item1_heading": "Nem utólag adjuk hozzá a hozzáférhetőséget.",
+    "item1_body": "Minden termék azzal a kérdéssel kezdődik: kit zárnak ki? Amikor a legigényesebb igények figyelembevételével tervezünk, olyan megoldásokat hozunk létre, amelyek mindenki számára előnyösek.",
+    "item2_title": "Technológia emberiséggel",
+    "item2_heading": "Minden kódsor mögött egy ember áll.",
+    "item2_body": "Eszközeink valós emberi problémákat oldanak meg. Minden kódunkat házon belül fejlesztjük, egy olyan csapat által, amely magában foglalja a rendszerek fejlesztésének doktori kutatóit. Meghallgatjuk felhasználóinkat, és azt építjük, amire valóban szükségük van.",
+    "item3_title": "Tartós alkotás",
+    "item3_heading": "Mi választjuk a nehezebb utat.",
+    "item3_body": "A rövid távú javítások nem az üzletünk részei. Amikor hiányoznak a szabványok, mi állítjuk fel őket. Amikor egy megoldás nem létezik, mi építjük meg. Termékeinket úgy gondozzuk, mint saját gyermekeinket."
+  },
+  "partnership": {
+    "label": "Partnerség",
+    "heading": "Együtt erősebbek vagyunk.",
+    "body": "Egy átfogó termékcsaláddal, amelyet huszonöt év alatt építettünk fel, az Europea és vállalatai büszkék arra, hogy nagyobb projektekben partnerek lehetnek, amelyek az elérhető digitalizációt ösztönzik. Termékbemutatókat tartunk, konferencia-előadásokat tartunk, és közösen fejlesztünk megoldásokat nyilvános és magánszervezetekkel Skandináviában és Európában.",
+    "item1_title": "Kutatás és fejlesztés",
+    "item1_body": "Számos innovációs projekten dolgoztunk együtt a PTS-szel (Svéd Posta- és Távközlési Hatóság), beleértve a TERA Next Generation és a Fritt Fram projekteket.",
+    "item2_title": "Közszféra",
+    "item2_body": "Önkormányzatok, régiók és jóléti technológiai szervezetek. Ha van digitális szolgáltatása, mi segíthetünk annak teljes mértékű, végponttól végpontig tartó hozzáférhetővé tételében.",
+    "item3_title": "Rendezvények és oktatás",
+    "item3_body": "Éves konferenciákat és termékbemutatókat szervezünk. 2018 óta a Lidol partnerségében társfinanszírozzuk a Komplett Kommunikációról szóló nyílt konferenciát.",
+    "cta": "Érdekli az együttműködés?"
+  },
+  "contact": {
+    "label": "Kapcsolat",
+    "heading": "Malmőben vagyunk.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, 3. emelet",
+    "address2": "211 55 Malmö, Svédország",
+    "org": "Cégjegyzékszám: 556464-0323",
+    "noProduct": "Az Europea nem rendelkezik nyilvános termékkel. A hozzáférhetőséggel kapcsolatos megkeresésekkel keresse fel a EaseAccess24.com weboldalt.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Cégjegyzékszám: 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Ugrás a fő tartalomra"
+  }
+}

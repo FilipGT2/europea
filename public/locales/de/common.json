@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt",
+    "openMenu": "Navigationsmenü öffnen",
+    "closeMenu": "Navigationsmenü schließen",
+    "home": "Europaea Home",
+    "switchLight": "Zu hellem Modus wechseln",
+    "switchDark": "Zu dunklem Modus wechseln",
+    "languageSwitcher": "Sprache auswählen"
+  },
+  "hero": {
+    "badge": "MALMÖ, SCHWEDEN · GEGR. 2000 · ACCESSIBILITY GROUP",
+    "title1": "Technologie, die Menschen",
+    "title2": "zusammenbringt.",
+    "subtitle": "Wir glauben an eine sozial nachhaltige Gesellschaft, die auf Gleichheit und Vielfalt basiert. Die Unternehmen von Europea geben den Menschen die Werkzeuge, um vollständig teilzuhaben — und ein reicheres Leben zu führen.",
+    "cta_primary": "Unsere Unternehmen entdecken",
+    "cta_secondary": "Kontaktieren Sie uns"
+  },
+  "mission": {
+    "label": "Unsere Mission",
+    "heading": "Kommunikation auf Augenhöhe — für jedes Individuum.",
+    "body1": "Wenn wir mit Blick auf die anspruchsvollsten Bedürfnisse entwickeln, schaffen wir Produkte, die allen zugutekommen. Es geht dabei nicht nur um Gerechtigkeit und Menschenrechte — es geht um inklusives, universelles Design. Das ist das Denken der Zukunft.",
+    "body2": "Allein in Schweden haben fast zwei Millionen Menschen Hörbehinderungen. Für viele — einschließlich Gehörloser — war es historisch schwierig, Dienstleistungen wie eine Bank, einen Gesundheitsdienstleister oder ein Amt direkt zu erreichen. Wir haben über fünfundzwanzig Jahre damit verbracht, diese Lücke zu schließen. Heute ermöglicht unsere Technologie einer gehörlosen und blinden Person, im Kundenservice zu arbeiten und jeden Anrufer zu unterstützen.",
+    "tag1": "Kundenorientierung",
+    "tag2": "Langfristiges Denken",
+    "tag3": "Innovation",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Komplette Kommunikation — das Gründungskonzept von Europea. Jeder sollte in der Lage sein, jeden zu erreichen und von jedem erreicht zu werden, mit den Werkzeugen, die ihm zur Verfügung stehen.",
+    "quoteAttribution": "Max & Faruk Tairi, Gründer"
+  },
+  "stats": {
+    "years_label": "Jahre im Aufbau barrierefreier Technologie",
+    "engineers_label": "Ingenieure & Entwickler",
+    "europeans_label": "Europäer mit Behinderung"
+  },
+  "values": {
+    "label": "Werte",
+    "heading": "Wie wir denken und bauen.",
+    "item1_title": "Inklusion durch Design",
+    "item1_heading": "Wir fügen Barrierefreiheit nicht nachträglich hinzu.",
+    "item1_body": "Jedes Produkt beginnt mit der Frage: Wer wird ausgeschlossen? Wenn wir mit Blick auf die anspruchsvollsten Bedürfnisse entwickeln, schaffen wir Lösungen, die allen zugutekommen.",
+    "item2_title": "Technologie mit Menschlichkeit",
+    "item2_heading": "Hinter jeder Codezeile steht ein Mensch.",
+    "item2_body": "Unsere Werkzeuge lösen reale menschliche Probleme. Unser gesamter Code wird intern entwickelt, von einem Team, das Doktoren der Systementwicklung umfasst. Wir hören unseren Benutzern zu und entwickeln, was sie wirklich brauchen.",
+    "item3_title": "Auf Langlebigkeit ausgelegt",
+    "item3_heading": "Wir gehen den schwierigeren Weg.",
+    "item3_body": "Kurzfristige Lösungen sind nicht unser Geschäft. Wenn Standards fehlen, setzen wir sie. Wenn eine Lösung nicht existiert, bauen wir sie. Unsere Produkte werden wie unsere eigenen Kinder gepflegt."
+  },
+  "partnership": {
+    "label": "Partnerschaft",
+    "heading": "Gemeinsam sind wir stärker.",
+    "body": "Mit einer umfassenden Produktfamilie, die über fünfundzwanzig Jahre entwickelt wurde, sind Europea und seine Unternehmen stolz darauf, bei größeren Projekten zur Förderung der barrierefreien Digitalisierung zusammenzuarbeiten. Wir führen Produktdemonstrationen durch, halten Vorträge auf Konferenzen und entwickeln gemeinsam Lösungen mit öffentlichen und privaten Organisationen in ganz Skandinavien und Europa.",
+    "item1_title": "Forschung & Entwicklung",
+    "item1_body": "Wir haben mit PTS (der schwedischen Post- und Telekommunikationsbehörde) bei mehreren Innovationsprojekten zusammengearbeitet, darunter TERA Next Generation und Fritt Fram.",
+    "item2_title": "Öffentlicher Sektor",
+    "item2_body": "Gemeinden, Regionen und Wohlfahrtstechnologie-Organisationen. Wenn Sie einen digitalen Dienst haben, können wir Ihnen helfen, ihn vollständig barrierefrei zu machen – von Ende zu Ende.",
+    "item3_title": "Veranstaltungen & Bildung",
+    "item3_body": "Wir organisieren jährliche Konferenzen und Produktdemonstrationen. Seit 2018 sponsern wir gemeinsam mit Lidol eine offene Konferenz über Komplett Kommunikation.",
+    "cta": "Interessiert an einer Zusammenarbeit?"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Wir sind in Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Schweden",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea hat kein öffentlich zugängliches Produkt. Für Anfragen zur Barrierefreiheit besuchen Sie EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Zum Hauptinhalt springen"
+  }
+}

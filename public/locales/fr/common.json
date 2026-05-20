@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "À propos",
+    "portfolio": "Portefeuille",
+    "contact": "Contact",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "home": "Europea Home",
+    "switchLight": "Passer en mode clair",
+    "switchDark": "Passer en mode sombre",
+    "languageSwitcher": "Sélectionner la langue"
+  },
+  "hero": {
+    "badge": "MALMÖ, SUÈDE · ÉTABLI EN 2000 · GROUPE ACCESSIBILITÉ",
+    "title1": "La technologie qui rapproche les gens",
+    "title2": ".",
+    "subtitle": "Nous croyons en une société socialement durable, fondée sur l'égalité et la diversité. Les entreprises d'Europea donnent aux gens les outils pour participer pleinement — et pour vivre une vie plus riche.",
+    "cta_primary": "Découvrir nos entreprises",
+    "cta_secondary": "Contactez-nous"
+  },
+  "mission": {
+    "label": "Notre Mission",
+    "heading": "Communication à égalité de termes — pour chaque individu.",
+    "body1": "Lorsque nous concevons en pensant aux besoins les plus exigeants, nous créons des produits qui profitent à tous. Il ne s'agit pas seulement de justice et de droits de l'homme — il s'agit de conception universelle et inclusive. C'est la pensée de l'avenir.",
+    "body2": "Rien qu'en Suède, près de deux millions de personnes ont des troubles auditifs. Pour beaucoup — y compris les sourds — il a été historiquement difficile d'atteindre directement des services comme une banque, un fournisseur de soins de santé ou un bureau gouvernemental. Nous avons passé plus de vingt-cinq ans à combler ce fossé. Aujourd'hui, notre technologie permet à une personne sourde-aveugle de travailler dans le service client et d'aider chaque appelant.",
+    "tag1": "Orientation client",
+    "tag2": "Vision à long terme",
+    "tag3": "Innovation",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Communication complète — le concept fondateur d'Europea. Chacun devrait pouvoir joindre et être joint par n'importe qui, en utilisant les outils qu'il a à portée de main.",
+    "quoteAttribution": "Max & Faruk Tairi, fondateurs"
+  },
+  "stats": {
+    "years_label": "Années de construction de technologie accessible",
+    "engineers_label": "Ingénieurs et développeurs",
+    "europeans_label": "Européens vivant avec un handicap"
+  },
+  "values": {
+    "label": "Valeurs",
+    "heading": "Comment nous pensons et construisons.",
+    "item1_title": "Inclusion par conception",
+    "item1_heading": "Nous n'ajoutons pas l'accessibilité après coup.",
+    "item1_body": "Chaque produit commence par la question : qui est exclu ? Lorsque nous concevons en pensant aux besoins les plus exigeants, nous créons des solutions qui profitent à tous.",
+    "item2_title": "Technologie avec humanité",
+    "item2_heading": "Derrière chaque ligne de code se cache une personne.",
+    "item2_body": "Nos outils résolvent de vrais problèmes humains. Tout notre code est développé en interne, par une équipe qui comprend des chercheurs doctorants en développement de systèmes. Nous écoutons nos utilisateurs et construisons ce dont ils ont réellement besoin.",
+    "item3_title": "Construire pour durer",
+    "item3_heading": "Nous prenons le chemin le plus difficile.",
+    "item3_body": "Les solutions rapides ne sont pas notre affaire. Lorsque des normes font défaut, nous les établissons. Lorsqu'une solution n'existe pas, nous la construisons. Nos produits sont soignés comme nos propres enfants."
+  },
+  "partnership": {
+    "label": "Partenariat",
+    "heading": "Nous sommes plus forts ensemble.",
+    "body": "Avec une gamme complète de produits développée sur vingt-cinq ans, Europea et ses entreprises sont fières de s'associer sur des projets plus importants de numérisation accessible. Nous organisons des démonstrations de produits, donnons des conférences et co-développons des solutions avec des organisations publiques et privées en Scandinavie et en Europe.",
+    "item1_title": "Recherche et développement",
+    "item1_body": "Nous avons collaboré avec PTS (l'autorité suédoise des postes et des télécommunications) sur plusieurs projets d'innovation, notamment TERA Next Generation et Fritt Fram.",
+    "item2_title": "Secteur public",
+    "item2_body": "Municipalités, régions et organisations de technologies de bien-être. Si vous avez un service numérique, nous pouvons aider à le rendre entièrement accessible — de bout en bout.",
+    "item3_title": "Événements et éducation",
+    "item3_body": "Nous organisons des conférences annuelles et des démonstrations de produits. Depuis 2018, en partenariat avec Lidol, nous co-parrainons une conférence ouverte sur la communication complète.",
+    "cta": "Intéressé par une collaboration ?"
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Nous sommes à Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Étage 3",
+    "address2": "211 55 Malmö, Suède",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea n'a pas de produit public. Pour les demandes d'accessibilité, visitez EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Passer au contenu principal"
+  }
+}

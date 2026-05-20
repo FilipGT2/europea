@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Meist",
+    "portfolio": "Portfoolio",
+    "contact": "Kontakt",
+    "openMenu": "Ava navigeerimismenüü",
+    "closeMenu": "Sule navigeerimismenüü",
+    "home": "Europea kodu",
+    "switchLight": "Lülitu heledale režiimile",
+    "switchDark": "Lülitu tumedale režiimile",
+    "languageSwitcher": "Vali keel"
+  },
+  "hero": {
+    "badge": "MALMÖ, ROOTS<bos> · ASUTATUD 2000 · LIGIPÄÄSETAVUSE GRUPP",
+    "title1": "Tehnoloogia, mis toob inimesed",
+    "title2": "lähemale.",
+    "subtitle": "Usume sotsiaalselt jätkusuutlikku ühiskonda, mis põhineb võrdõiguslikkusel ja mitmekesisusel. Europea ettevõtted annavad inimestele vahendid täielikuks osalemiseks – ja rikkama elu elamiseks.",
+    "cta_primary": "Avasta meie ettevõtted",
+    "cta_secondary": "Võta meiega ühendust"
+  },
+  "mission": {
+    "label": "Meie missioon",
+    "heading": "Suhtlus võrdsetel alustel – iga üksikisiku jaoks.",
+    "body1": "Kui kavandame kõige nõudlikumaid vajadusi silmas pidades, loome tooteid, millest on kasu kõigile. See ei puuduta mitte ainult õiglust ja inimõigusi – see puudutab kaasavat, universaalset disaini. See on tuleviku mõtteviis.",
+    "body2": "Ainuüksi Rootsis on peaaegu kaks miljonit inimest kuulmispuudega. Paljudel – sealhulgas kurtidel – on ajalooliselt olnud raske otse teeninduspunktidesse pöörduda, nagu pank, tervishoiuteenuse osutaja või valitsus. Oleme seda vahet üle viie aasta vähendanud. Täna võimaldab meie tehnoloogia pimedürbil töötada klienditeeninduses ja abistada iga helistajat.",
+    "tag1": "Kliendikesksus",
+    "tag2": "Pikaajaline mõtlemine",
+    "tag3": "Innovatsioon",
+    "quoteText": "\"Täielik suhtlus.\"",
+    "quoteBody": "Täielik suhtlus – Europea asutav kontseptsioon. Igaüks peaks saama pöörduda ja saada pöördumist igaühe poole, kasutades käepärast olevaid vahendeid.",
+    "quoteAttribution": "Max & Faruk Tairi, asutajad"
+  },
+  "stats": {
+    "years_label": "Aastat ligipääsetava tehnoloogia ehitamist",
+    "engineers_label": "Insenerid ja arendajad",
+    "europeans_label": "Puudega eurooplast"
+  },
+  "values": {
+    "label": "Väärtused",
+    "heading": "Kuidas me mõtleme ja ehitame.",
+    "item1_title": "Kaasamine disainiga",
+    "item1_heading": "Me ei lisa ligipääsetavust hiljem.",
+    "item1_body": "Iga toode algab küsimusest: keda jäetakse välja? Kui kavandame kõige nõudlikumaid vajadusi silmas pidades, loome lahendusi, millest on kasu kõigile.",
+    "item2_title": "Tehnoloogia inimlikkusega",
+    "item2_heading": "Iga koodirea taga on inimene.",
+    "item2_body": "Meie tööriistad lahendavad tegelikke inimprobleeme. Kogu meie kood on välja töötatud omal kohal, doktorantuuriga süsteemiarenduse uurijatest koosneva meeskonna poolt. Kuulame oma kasutajaid ja ehitame seda, mida nad tegelikult vajavad.",
+    "item3_title": "Ehita kestma",
+    "item3_heading": "Valime raskema tee.",
+    "item3_body": "Lühiajalised lahendused pole meie äri. Kui standardid puuduvad, loome need. Kui lahendust pole, ehitame selle. Me hoolitseme oma toodete eest nagu oma laste eest."
+  },
+  "partnership": {
+    "label": "Partnerlus",
+    "heading": "Koos oleme tugevamad.",
+    "body": "Kaheksakümne viie aasta jooksul ehitatud laiaulatusliku tooteperega on Europea ja selle ettevõtted uhked, et saavad teha koostööd suuremate projektide nimel, mis juhivad ligipääsetavat digitaliseerimist. Peame tootetutvustusi, esineme konverentsidel ja arendame koos lahendusi avaliku ja erasektori organisatsioonidega üle Skandinaavia ja Euroopa.",
+    "item1_title": "Uuringud ja arendus",
+    "item1_body": "Oleme teinud koostööd PTS-iga (Rootsi Posti ja Telekommunikatsiooniamet) mitmetes innovatsiooniprojektides, sealhulgas TERA Next Generation ja Fritt Fram.",
+    "item2_title": "Avalik sektor",
+    "item2_body": "Omavalitsused, piirkonnad ja heaolu-tehnoloogia organisatsioonid. Kui teil on digitaalne teenus, saame aidata muuta selle täielikult ligipääsetavaks – otsast otsani.",
+    "item3_title": "Üritused ja haridus",
+    "item3_body": "Korraldame iga-aastaseid konverentse ja tootetutvustusi. Alates 2018. aastast oleme koostöös Lidoliga kaasrahastanud avatud konverentsi teemal Komplett Kommunikation.",
+    "cta": "Kas soovite koostööd teha?"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Me asume Malmös.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, korrus 3",
+    "address2": "211 55 Malmö, Rootsi",
+    "org": "Reg. nr 556464-0323",
+    "noProduct": "Europeal ei ole avalikku toodet. Ligipääsetavuse küsimustes külastage EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Reg. nr 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Jäta peamine sisu vahele"
+  }
+}

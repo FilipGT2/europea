@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import { motion, useInView, useMotionValue, useTransform, animate } from "framer-motion"
 import { FloatingBlob } from "@/components/ui/floating-blob"
+import { useTranslation } from "react-i18next"
 
 interface StatProps {
   value: number
@@ -43,13 +44,15 @@ function StatItem({ value, suffix, label, index }: StatProps) {
   )
 }
 
-const stats = [
-  { value: 25, suffix: "+", label: "Years building accessible technology" },
-  { value: 50, suffix: "+", label: "Engineers & developers" },
-  { value: 90, suffix: "M", label: "Europeans living with a disability" },
-]
-
 export default function Stats() {
+  const { t } = useTranslation()
+
+  const stats = [
+    { value: 25, suffix: '+', label: t('stats.years_label') },
+    { value: 50, suffix: '+', label: t('stats.engineers_label') },
+    { value: 90, suffix: 'M', label: t('stats.europeans_label') },
+  ]
+
   return (
     <section className="relative overflow-hidden border-y border-blue-border bg-bg-surface">
 

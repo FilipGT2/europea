@@ -1,15 +1,21 @@
-"use client"
+'use client'
 
-import { motion } from "framer-motion"
-import { HeroGeometric } from "@/components/ui/shape-landing-hero"
+import { useTranslation } from 'react-i18next'
+import { motion } from 'framer-motion'
+import { HeroGeometric } from '@/components/ui/shape-landing-hero'
 
 export default function Hero() {
+  const { t } = useTranslation()
+
   return (
     <section id="hero" className="relative">
       <HeroGeometric
-        badge="MALMÖ, SWEDEN · EST. 2000 · ACCESSIBILITY GROUP"
-        title1="Technology that brings people"
-        title2="closer."
+        badge={t('hero.badge')}
+        title1={t('hero.title1')}
+        title2={t('hero.title2')}
+        subtitle={t('hero.subtitle')}
+        ctaPrimary={t('hero.cta_primary')}
+        ctaSecondary={t('hero.cta_secondary')}
       />
 
       {/* Scroll indicator */}

@@ -1,8 +1,10 @@
 "use client"
 
 import { FloatingBlob } from "@/components/ui/floating-blob"
+import { useTranslation } from "react-i18next"
 
 export default function Footer() {
+  const { t } = useTranslation()
   return (
     <footer className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-10">
       <FloatingBlob
@@ -10,7 +12,7 @@ export default function Footer() {
         delay={0} breathDuration={12} driftDuration={22} driftX={25} driftY={8}
       />
       <p className="relative z-10 font-sans text-text-tertiary text-xs text-center">
-        © 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö
+        {t('footer.copy')}
       </p>
     </footer>
   )

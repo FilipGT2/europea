@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Om os",
+    "portfolio": "Portefølje",
+    "contact": "Kontakt",
+    "openMenu": "Åbn navigationsmenu",
+    "closeMenu": "Luk navigationsmenu",
+    "home": "Europea Hjem",
+    "switchLight": "Skift til lys tilstand",
+    "switchDark": "Skift til mørk tilstand",
+    "languageSwitcher": "Vælg sprog"
+  },
+  "hero": {
+    "badge": "MALMÖ, SVERIGE · ETABL. 2000 · TILGÆNGELIGHEDSGRUPPE",
+    "title1": "Teknologi der bringer mennesker",
+    "title2": "tættere på.",
+    "subtitle": "Vi tror på et socialt bæredygtigt samfund bygget på lighed og mangfoldighed. Europas virksomheder giver folk værktøjerne til at deltage fuldt ud – og til at leve rigere liv.",
+    "cta_primary": "Opdag Vores Virksomheder",
+    "cta_secondary": "Kontakt Os"
+  },
+  "mission": {
+    "label": "Vores Mission",
+    "heading": "Kommunikation på lige vilkår – for ethvert individ.",
+    "body1": "Når vi designer med de mest krævende behov i tankerne, skaber vi produkter, der gavner alle. Det handler ikke kun om retfærdighed og menneskerettigheder – det handler om inkluderende, universelt design. Det er fremtidens tænkning.",
+    "body2": "Alene i Sverige har næsten to millioner mennesker høretab. For mange – inklusive dem der er døve – har det historisk været svært at få direkte adgang til tjenester som en bank, sundhedsudbyder eller offentlig myndighed. Vi har brugt over femogtyve år på at lukke det hul. I dag gør vores teknologi det muligt for en døvblind person at arbejde i kundeservice og assistere enhver opkaldstager.",
+    "tag1": "Kundefokus",
+    "tag2": "Langsigtet Tænkning",
+    "tag3": "Innovation",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Komplet Kommunikation – Europas grundlæggende koncept. Alle bør kunne nå og blive nået af hvem som helst, ved hjælp af de værktøjer de har ved hånden.",
+    "quoteAttribution": "Max & Faruk Tairi, stiftere"
+  },
+  "stats": {
+    "years_label": "År på at bygge tilgængelig teknologi",
+    "engineers_label": "Ingeniører & udviklere",
+    "europeans_label": "Europæere der lever med en handicap"
+  },
+  "values": {
+    "label": "Værdier",
+    "heading": "Hvordan vi tænker og bygger.",
+    "item1_title": "Inklusion gennem design",
+    "item1_heading": "Vi tilføjer ikke tilgængelighed efterfølgende.",
+    "item1_body": "Ethvert produkt begynder med spørgsmålet: hvem bliver udelukket? Når vi designer med de mest krævende behov i tankerne, skaber vi løsninger, der gavner alle.",
+    "item2_title": "Teknologi med menneskelighed",
+    "item2_heading": "Bag hver linje kode er et menneske.",
+    "item2_body": "Vores værktøjer løser reelle menneskelige problemer. Al vores kode er udviklet internt af et team, der inkluderer ph.d.-forskere inden for systemudvikling. Vi lytter til vores brugere og bygger det, de rent faktisk har brug for.",
+    "item3_title": "Byg for at holde",
+    "item3_heading": "Vi tager den svære vej.",
+    "item3_body": "Kortsigtede løsninger er ikke vores forretning. Når standarder mangler, sætter vi dem. Når en løsning ikke eksisterer, bygger vi den. Vores produkter passes som vores egne børn."
+  },
+  "partnership": {
+    "label": "Partnerskab",
+    "heading": "Vi er stærkere sammen.",
+    "body": "Med en omfattende produktfamilie bygget over femogtyve år er Europea og dets virksomheder stolte af at samarbejde om større projekter, der driver tilgængelig digitalisering. Vi afholder produktpræsentationer, holder foredrag og udvikler løsninger i fællesskab med offentlige og private organisationer i hele Skandinavien og Europa.",
+    "item1_title": "Forskning & Udvikling",
+    "item1_body": "Vi har samarbejdet med PTS (Post- og telestyrelsen) om flere innovationsprojekter, herunder TERA Next Generation og Fritt Fram.",
+    "item2_title": "Offentlig Sektor",
+    "item2_body": "Kommuner, regioner og velfærdsteknologiske organisationer. Hvis du har en digital tjeneste, kan vi hjælpe med at gøre den fuldt tilgængelig – fra start til slut.",
+    "item3_title": "Arrangementer & Uddannelse",
+    "item3_body": "Vi arrangerer årlige konferencer og produktpræsentationer. Siden 2018 har vi, i partnerskab med Lidol, været med til at sponsorere en åben konference om Komplett Kommunikation.",
+    "cta": "Interesseret i et samarbejde?"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Vi holder til i Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Sverige",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea har ikke et offentligt produkt. For henvendelser om tilgængelighed, besøg EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Spring til hovedindhold"
+  }
+}

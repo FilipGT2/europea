@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Apie mus",
+    "portfolio": "Portfolio",
+    "contact": "Susisiekite",
+    "openMenu": "Atidaryti naršymo meniu",
+    "closeMenu": "Uždaryti naršymo meniu",
+    "home": "Europos namai",
+    "switchLight": "Perjungti į šviesųjį režimą",
+    "switchDark": "Perjungti į tamsųjį režimą",
+    "languageSwitcher": "Pasirinkite kalbą"
+  },
+  "hero": {
+    "badge": "MALMÖ, ŠVEDIJA · ĮK. 2000 M. · PRIEINAMUMO GRUPĖ",
+    "title1": "Technologija, kuri suartina žmones",
+    "title2": ".",
+    "subtitle": "Tikime socialiai tvaria visuomene, kuriančia lygybę ir įvairovę. „Europea“ įmonės suteikia žmonėms įrankius visapusiškai dalyvauti ir gyventi turiningiau.",
+    "cta_primary": "Atraskite mūsų įmones",
+    "cta_secondary": "Susisiekite su mumis"
+  },
+  "mission": {
+    "label": "Mūsų misija",
+    "heading": "Bendravimas lygiavertėmis sąlygomis – kiekvienam asmeniui.",
+    "body1": "Kai projektuojame atsižvelgdami į reikliausius poreikius, kuriame produktus, kurie naudingi visiems. Tai ne tik teisingumas ir žmogaus teisės – tai įtraukiantis, universalus dizainas. Toks yra ateities mąstymas.",
+    "body2": "Vien Švedijoje beveik du milijonai žmonių turi klausos sutrikimų. Daugeliui, įskaitant kurčiuosius, istoriškai buvo sunku tiesiogiai pasiekti tokias paslaugas kaip bankas, sveikatos priežiūros paslaugų teikėjas ar vyriausybės įstaiga. Per dvidešimt penkerius metus mes panaikinome šį skirtumą. Šiandien mūsų technologija leidžia neprigirdintiems ir akliesiems dirbti klientų aptarnavimo srityje ir padėti kiekvienam skambinančiajam.",
+    "tag1": "Klientų dėmesys",
+    "tag2": "Ilgalaikis mąstymas",
+    "tag3": "Inovacijos",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Visapusis bendravimas – „Europea“ steigiamasis principas. Kiekvienas turėtų galėti pasiekti ir būti pasiektas bet ko, naudojantis turimais įrankiais.",
+    "quoteAttribution": "Max ir Faruk Tairi, įkūrėjai"
+  },
+  "stats": {
+    "years_label": "Metų, kuriant prieinamą technologiją",
+    "engineers_label": "Inžinieriai ir programuotojai",
+    "europeans_label": "Europos gyventojai, turintys negalią"
+  },
+  "values": {
+    "label": "Vertybės",
+    "heading": "Kaip mes mąstome ir kuriame.",
+    "item1_title": "Įtrauktis per dizainą",
+    "item1_heading": "Mes nepridedame prieinamumo vėliau.",
+    "item1_body": "Kiekvienas produktas prasideda nuo klausimo: kas yra išskiriamas? Kai projektuojame atsižvelgdami į reikliausius poreikius, kuriame sprendimus, kurie naudingi visiems.",
+    "item2_title": "Technologija su žmogiškumu",
+    "item2_heading": "Už kiekvienos kodo eilutės slypi žmogus.",
+    "item2_body": "Mūsų įrankiai sprendžia realias žmonių problemas. Visas mūsų kodas sukurtas viduje, komandos, kurioje dirba sistemų plėtros daktarai mokslininkai. Mes klausomės savo vartotojų ir kuriame tai, ko jiems iš tikrųjų reikia.",
+    "item3_title": "Statyti ilgam",
+    "item3_heading": "Mes pasirenkame sunkesnį kelią.",
+    "item3_body": "Trumpalaikiai pataisymai nėra mūsų verslas. Kai trūksta standartų, mes juos nustatome. Kai sprendimo nėra, mes jį kuriame. Mūsų produktais rūpinamės kaip savo vaikais."
+  },
+  "partnership": {
+    "label": "Partnerystė",
+    "heading": "Kartu esame stipresni.",
+    "body": "Su 25 metus kuriamu išsamiu produktų šeima „Europea“ ir jos įmonės didžiuojasi galėdamos bendradarbiauti didesniuose projektuose, skatinančiuose prieinamą skaitmenizaciją. Mes rengiame produktų demonstracijas, pristatome pranešimus konferencijose ir kartu kuriame sprendimus su viešosiomis bei privačiomis organizacijomis visoje Skandinavijoje ir Europoje.",
+    "item1_title": "Tyrimai ir plėtra",
+    "item1_body": "Mes bendradarbiavome su Švedijos pašto ir telekomunikacijų tarnyba (PTS) vykdydami kelis inovacijų projektus, įskaitant TERA Next Generation ir Fritt Fram.",
+    "item2_title": "Viešasis sektorius",
+    "item2_body": "Savivaldybės, regionai ir gerovės technologijų organizacijos. Jei turite skaitmeninę paslaugą, mes galime padėti padaryti ją visiškai prieinamą – nuo pradžios iki galo.",
+    "item3_title": "Renginiai ir švietimas",
+    "item3_body": "Mes organizuojame metines konferencijas ir produktų demonstracijas. Nuo 2018 m., bendradarbiaudami su „Lidol“, mes kartu remiame atvirą konferenciją „Komplett Kommunikation“.",
+    "cta": "Domina bendradarbiavimas?"
+  },
+  "contact": {
+    "label": "Susisiekite",
+    "heading": "Mes esame Malmėje.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, 3 aukštas",
+    "address2": "211 55 Malmė, Švedija",
+    "org": "Įm. kodas 556464-0323",
+    "noProduct": "Europea neturi viešai prieinamo produkto. Dėl pritaikomumo neįgaliesiems klausimų apsilankykite EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Įm. kodas 556464-0323 · Amiralsgatan 20, 211 55 Malmė"
+  },
+  "a11y": {
+    "skipToMain": "Peršokti prie pagrindinio turinio"
+  }
+}

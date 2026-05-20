@@ -55,12 +55,18 @@ interface HeroGeometricProps {
   badge?: string
   title1?: string
   title2?: string
+  subtitle?: string
+  ctaPrimary?: string
+  ctaSecondary?: string
 }
 
 export function HeroGeometric({
   badge = "MALMÖ, SWEDEN · EST. 2000",
   title1 = "Technology that brings people",
   title2 = "closer.",
+  subtitle = '',
+  ctaPrimary = 'Discover Our Companies',
+  ctaSecondary = 'Contact Us',
 }: HeroGeometricProps) {
   return (
     <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-bg-base">
@@ -167,8 +173,7 @@ export function HeroGeometric({
 
           <motion.div custom={2} variants={fadeUpVariants} initial="hidden" animate="visible">
             <p className="font-sans text-text-secondary text-lg md:text-xl max-w-2xl leading-relaxed mb-10">
-              We believe in a socially sustainable society built on equality and diversity.
-              Europea&apos;s companies give people the tools to participate fully — and to live richer lives.
+              {subtitle}
             </p>
           </motion.div>
 
@@ -183,13 +188,13 @@ export function HeroGeometric({
               href="#portfolio"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-white text-sm transition-all duration-200 bg-brand-gradient shadow-cta hover:shadow-[0_6px_28px_rgba(37,99,235,0.5)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
-              Discover Our Companies
+              {ctaPrimary}
             </a>
             <a
               href="#contact"
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-text-secondary text-sm border border-blue-border transition-all duration-200 hover:border-blue-DEFAULT hover:text-text-primary hover:bg-blue-subtle focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
-              Contact Us
+              {ctaSecondary}
             </a>
           </motion.div>
 

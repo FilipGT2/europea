@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "O nas",
+    "portfolio": "Portfelj",
+    "contact": "Kontakt",
+    "openMenu": "Odpri meni za navigacijo",
+    "closeMenu": "Zapri meni za navigacijo",
+    "home": "Evropski dom",
+    "switchLight": "Preklopi na svetel način",
+    "switchDark": "Preklopi na temen način",
+    "languageSwitcher": "Izberite jezik"
+  },
+  "hero": {
+    "badge": "MALMÖ, ŠVEDSKA · USTANOVLJENO 2000 · SKUPINA ZA DOSTOPNOST",
+    "title1": "Tehnologija, ki ljudi",
+    "title2": "približuje.",
+    "subtitle": "Verjamemo v socialno trajnostno družbo, zgrajeno na enakosti in raznolikosti. Podjetja Europea dajejo ljudem orodja za polno sodelovanje – in za bogatejše življenje.",
+    "cta_primary": "Odkrijte naša podjetja",
+    "cta_secondary": "Kontaktirajte nas"
+  },
+  "mission": {
+    "label": "Naše poslanstvo",
+    "heading": "Komuniciranje na enakopravni ravni – za vsakega posameznika.",
+    "body1": "Ko načrtujemo z upoštevanjem najzahtevnejših potreb, ustvarimo izdelke, ki koristijo vsem. To ni samo pravica in človekove pravice – gre za vključujoče, univerzalno oblikovanje. To je razmišljanje prihodnosti.",
+    "body2": "Samo na Švedskem skoraj dva milijona ljudi trpi za okvaro sluha. Za mnoge – vključno s tistimi, ki so gluhi – je bilo v preteklosti težko neposredno dostopati do storitev, kot so banka, zdravstveni izvajalec ali vladna pisarna. Več kot petindvajset let smo posvečali zmanjševanju te vrzeli. Danes naša tehnologija gluhoslepemu omogoča delo v podpori strankam in pomoč vsakemu klicatelju.",
+    "tag1": "Osredotočenost na stranke",
+    "tag2": "Dolgoročno razmišljanje",
+    "tag3": "Inovacije",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Popolna komunikacija – temeljni koncept Europea. Vsakdo bi moral imeti možnost doseči in biti dosežen s strani kogarkoli, z uporabo orodij, ki jih ima pri roki.",
+    "quoteAttribution": "Max in Faruk Tairi, ustanovitelja"
+  },
+  "stats": {
+    "years_label": "Let gradimo dostopno tehnologijo",
+    "engineers_label": "Inženirji in razvijalci",
+    "europeans_label": "Evropejci, ki živijo z invalidnostjo"
+  },
+  "values": {
+    "label": "Vrednote",
+    "heading": "Kako razmišljamo in gradimo.",
+    "item1_title": "Vključenost z oblikovanjem",
+    "item1_heading": "Dostopnosti ne dodajamo naknadno.",
+    "item1_body": "Vsak izdelek se začne z vprašanjem: kdo je izključen? Ko načrtujemo z upoštevanjem najzahtevnejših potreb, ustvarimo rešitve, ki koristijo vsem.",
+    "item2_title": "Tehnologija s človečnostjo",
+    "item2_heading": "Za vsako vrstico kode stoji oseba.",
+    "item2_body": "Naša orodja rešujejo resnične človeške težave. Vso našo kodo razvija ekipa, ki vključuje doktorante sistemskega razvoja. Poslušamo naše uporabnike in gradimo tisto, kar dejansko potrebujejo.",
+    "item3_title": "Zgrajeno za trajanje",
+    "item3_heading": "Izberemo težjo pot.",
+    "item3_body": "Kratkoročne rešitve niso naš posel. Ko standardov ni, jih postavimo. Ko rešitev ne obstaja, jo zgradimo. Za naše izdelke skrbimo kot za lastne otroke."
+  },
+  "partnership": {
+    "label": "Partnerstvo",
+    "heading": "Skupaj smo močnejši.",
+    "body": "Z obsežno družino izdelkov, ki smo jo gradili petindvajset let, Europea in njena podjetja s ponosom sodelujejo pri večjih projektih za spodbujanje dostopne digitalizacije. Izvajamo predstavitve izdelkov, predavamo na konferencah in so-razvijamo rešitve z javnimi in zasebnimi organizacijami po vsej Skandinaviji in Evropi.",
+    "item1_title": "Raziskave in razvoj",
+    "item1_body": "Sodelovali smo s PTS (Švedski organ za pošto in telekomunikacije) pri več inovacijskih projektih, vključno s TERA Next Generation in Fritt Fram.",
+    "item2_title": "Javni sektor",
+    "item2_body": "Občine, regije in organizacije s področja socialnih tehnologij. Če imate digitalno storitev, vam lahko pomagamo, da bo popolnoma dostopna – od začetka do konca.",
+    "item3_title": "Dogodki in izobraževanje",
+    "item3_body": "Vsako leto organiziramo konference in predstavitve izdelkov. Od leta 2018, v partnerstvu z Lidol, skupaj sponzoriramo odprto konferenco o Komplett Kommunikation.",
+    "cta": "Zanimajo vas sodelovanja?"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Nahajamo se v Malmöju.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, 3. nadstropje",
+    "address2": "211 55 Malmö, Švedska",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea nima javno dostopnega izdelka. Za vprašanja glede dostopnosti obiščite EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Preskoči na glavno vsebino"
+  }
+}

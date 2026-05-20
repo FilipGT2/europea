@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "home": "Europea home",
+    "switchLight": "Switch to light mode",
+    "switchDark": "Switch to dark mode",
+    "languageSwitcher": "Select language"
+  },
+  "hero": {
+    "badge": "MALMÖ, SWEDEN · EST. 2000 · ACCESSIBILITY GROUP",
+    "title1": "Technology that brings people",
+    "title2": "closer.",
+    "subtitle": "We believe in a socially sustainable society built on equality and diversity. Europea's companies give people the tools to participate fully — and to live richer lives.",
+    "cta_primary": "Discover Our Companies",
+    "cta_secondary": "Contact Us"
+  },
+  "mission": {
+    "label": "Our Mission",
+    "heading": "Communication on equal terms — for every individual.",
+    "body1": "When we design with the most demanding needs in mind, we create products that benefit everyone. This is not only about justice and human rights — it is about inclusive, universal design. That is the thinking of the future.",
+    "body2": "In Sweden alone, nearly two million people have hearing impairments. For many — including those who are deaf — it has historically been difficult to directly reach services like a bank, healthcare provider, or government office. We have spent over twenty-five years closing that gap. Today, our technology makes it possible for a deafblind person to work in customer service and assist every caller.",
+    "tag1": "Customer Focus",
+    "tag2": "Long-term Thinking",
+    "tag3": "Innovation",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Complete Communication — the founding concept of Europea. Everyone should be able to reach and be reached by anyone, using the tools they have at hand.",
+    "quoteAttribution": "Max & Faruk Tairi, founders"
+  },
+  "stats": {
+    "years_label": "Years building accessible technology",
+    "engineers_label": "Engineers & developers",
+    "europeans_label": "Europeans living with a disability"
+  },
+  "values": {
+    "label": "Values",
+    "heading": "How we think and build.",
+    "item1_title": "Inclusion by design",
+    "item1_heading": "We don't add accessibility after the fact.",
+    "item1_body": "Every product begins with the question: who is being excluded? When we design with the most demanding needs in mind, we create solutions that benefit everyone.",
+    "item2_title": "Technology with humanity",
+    "item2_heading": "Behind every line of code is a person.",
+    "item2_body": "Our tools solve real human problems. All our code is developed in-house, by a team that includes doctoral researchers in systems development. We listen to our users and build what they actually need.",
+    "item3_title": "Build to last",
+    "item3_heading": "We take the harder path.",
+    "item3_body": "Short-term fixes are not our business. When standards are missing, we set them. When a solution doesn't exist, we build it. Our products are cared for like our own children."
+  },
+  "partnership": {
+    "label": "Partnership",
+    "heading": "We are stronger together.",
+    "body": "With a comprehensive product family built over twenty-five years, Europea and its companies are proud to partner on larger projects driving accessible digitalisation. We hold product demonstrations, deliver conference talks, and co-develop solutions with public and private organisations across Scandinavia and Europe.",
+    "item1_title": "Research & Development",
+    "item1_body": "We have partnered with PTS (Sweden's Post and Telecom Authority) on multiple innovation projects including TERA Next Generation and Fritt Fram.",
+    "item2_title": "Public Sector",
+    "item2_body": "Municipalities, regions, and welfare-tech organisations. If you have a digital service, we can help make it fully accessible — end to end.",
+    "item3_title": "Events & Education",
+    "item3_body": "We arrange annual conferences and product demonstrations. Since 2018, in partnership with Lidol, we co-sponsor an open conference on Komplett Kommunikation.",
+    "cta": "Interested in collaborating?"
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "We're in Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Sweden",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea does not have a public-facing product. For accessibility enquiries, visit EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content"
+  }
+}

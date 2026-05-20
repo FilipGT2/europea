@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Rreth nesh",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt",
+    "openMenu": "Hap menynë e navigimit",
+    "closeMenu": "Mbyll menynë e navigimit",
+    "home": "Europaea home",
+    "switchLight": "Kalo në modalitetin e ndritshëm",
+    "switchDark": "Kalo në modalitetin e errët",
+    "languageSwitcher": "Zgjidh gjuhën"
+  },
+  "hero": {
+    "badge": "MALMÖ, SUEDË · THEMELUAR 2000 · GROUP ACCESSIBILITY",
+    "title1": "Teknologjia që afron njerëzit",
+    "title2": "më shumë.",
+    "subtitle": "Ne besojmë në një shoqëri të qëndrueshme socialisht të ndërtuar mbi barazinë dhe diversitetin. Kompanitë e Europaea-s u ofrojnë njerëzve mjetet për të marrë pjesë plotësisht — dhe për të jetuar jetë më të pasura.",
+    "cta_primary": "Zbuloni Kompanitë Tona",
+    "cta_secondary": "Na Kontaktoni"
+  },
+  "mission": {
+    "label": "Misioni Ynë",
+    "heading": "Komunikim me kushte të barabarta — për çdo individ.",
+    "body1": "Kur dizenjojmë duke pasur parasysh nevojat më kërkuese, ne krijojmë produkte që përfitojnë të gjithë. Kjo nuk ka të bëjë vetëm me drejtësinë dhe të drejtat e njeriut — bëhet fjalë për dizajn gjithëpërfshirës, universal. Ky është mendimi i së ardhmes.",
+    "body2": "Vetëm në Suedi, pothuajse dy milionë njerëz kanë dëmtime të dëgjimit. Për shumë — përfshirë ata që janë të shurdhër — historikisht ka qenë e vështirë të arrini drejtpërdrejt shërbime si banka, ofruesi i kujdesit shëndetësor ose zyra e qeverisë. Ne kemi kaluar mbi pesëmbëdhjetë vjet duke mbyllur atë boshllëk. Sot, teknologjia jonë e bën të mundur që një person i shurdhër-memec të punojë në shërbimin ndaj klientit dhe të ndihmojë çdo telefonues.",
+    "tag1": "Fokus te Klienti",
+    "tag2": "Mendim afatgjatë",
+    "tag3": "Inovacioni",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Komunikim i plotë — koncepti themelues i Europaea. Të gjithë duhet të jenë në gjendje të arrijnë dhe të arrihen nga kushdo, duke përdorur mjetet që kanë në dorë.",
+    "quoteAttribution": "Max & Faruk Tairi, themelues"
+  },
+  "stats": {
+    "years_label": "Vite duke krijuar teknologji të aksesueshme",
+    "engineers_label": "Inxhinierë & zhvillues",
+    "europeans_label": "Europianë që jetojnë me një aftësi të kufizuar"
+  },
+  "values": {
+    "label": "Vlerat",
+    "heading": "Si mendojmë dhe ndërtojmë.",
+    "item1_title": "Përfshirje përmes dizajnit",
+    "item1_heading": "Ne nuk shtojmë aksesueshmërinë pas faktit.",
+    "item1_body": "Çdo produkt fillon me pyetjen: kush po përjashtohet? Kur dizenjojmë duke pasur parasysh nevojat më kërkuese, ne krijojmë zgjidhje që përfitojnë të gjithë.",
+    "item2_title": "Teknologji me njerëzillëk",
+    "item2_heading": "Pas çdo rreshti kodi është një person.",
+    "item2_body": "Mjetet tona zgjidhin probleme reale njerëzore. Të gjithë kodin tonë e zhvillojmë në shtëpi, nga një ekip që përfshin studiues doktoraturash në zhvillimin e sistemeve. Ne dëgjojmë përdoruesit tanë dhe ndërtojmë atë që ata kanë në të vërtetë nevojë.",
+    "item3_title": "Ndërtuar për të zgjatur",
+    "item3_heading": "Ne marrim rrugën më të vështirë.",
+    "item3_body": "Zgjidhjet afatshkurtra nuk janë biznesi ynë. Kur mungojnë standardet, ne i vendosim ato. Kur një zgjidhje nuk ekziston, ne e ndërtojmë atë. Produktet tona kujdesen si fëmijët tanë."
+  },
+  "partnership": {
+    "label": "Partneritet",
+    "heading": "Jemi më të fortë së bashku.",
+    "body": "Me një familje gjithëpërfshirëse produktesh të ndërtuar mbi pesëmbëdhjetë vjet, Europea dhe kompanitë e saj janë krenare që janë partner në projekte më të mëdha që nxisin dixhitalizimin e aksesueshëm. Ne mbajmë demonstrime produktesh, mbajmë ligjërata konferencash dhe bashkëzhvillojmë zgjidhje me organizata publike dhe private në të gjithë Skandinavinë dhe Evropën.",
+    "item1_title": "Kërkim & Zhvillim",
+    "item1_body": "Ne kemi bashkëpunuar me PTS (Autoriteti Postar dhe Telekomunikacionit i Suedisë) në projekte të shumta inovative duke përfshirë TERA Next Generation dhe Fritt Fram.",
+    "item2_title": "Sektori Publik",
+    "item2_body": "Komuna, rajone dhe organizata të teknologjisë sociale. Nëse keni një shërbim dixhital, ne mund të ndihmojmë ta bëjmë plotësisht të aksesueshëm — nga fillimi deri në fund.",
+    "item3_title": "Ngjarje & Arsim",
+    "item3_body": "Ne organizojmë konferenca vjetore dhe demonstrime produktesh. Që nga viti 2018, në partneritet me Lidol, ne bashkë-sponsorizojmë një konferencë të hapur mbi Komplett Kommunikation.",
+    "cta": "Të interesuar për bashkëpunim?"
+  },
+  "contact": {
+    "label": "Kontakt",
+    "heading": "Jemi në Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Kati 3",
+    "address2": "211 55 Malmö, Suedi",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europea nuk ka një produkt të ekspozuar publikisht. Për kërkesa lidhur me aksesueshmërinë, vizitoni EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Kalo te përmbajtja kryesore"
+  }
+}

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { FloatingBlob } from "@/components/ui/floating-blob"
+import { useTranslation } from "react-i18next"
 
 const revealLeft = {
   hidden: { opacity: 0, x: -20 },
@@ -13,6 +14,7 @@ const revealRight = {
 }
 
 export default function Mission() {
+  const { t } = useTranslation()
   return (
     <section id="mission" className="relative overflow-hidden border-t border-blue-border bg-bg-base py-28 md:py-36">
 
@@ -36,29 +38,23 @@ export default function Mission() {
             viewport={{ once: true, margin: "-80px" }}
           >
             <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-6">
-              Our Mission
+              {t('mission.label')}
             </p>
             <h2 className="font-display text-display-md text-text-primary mb-6 leading-tight">
-              Communication on equal terms — for every individual.
+              {t('mission.heading')}
             </h2>
             <p className="font-sans text-text-secondary leading-relaxed mb-5">
-              When we design with the most demanding needs in mind, we create products that benefit everyone.
-              This is not only about justice and human rights — it is about inclusive, universal design.
-              That is the thinking of the future.
+              {t('mission.body1')}
             </p>
             <p className="font-sans text-text-secondary leading-relaxed mb-10">
-              In Sweden alone, nearly two million people have hearing impairments. For many — including those
-              who are deaf — it has historically been difficult to directly reach services like a bank,
-              healthcare provider, or government office. We have spent over twenty-five years closing that gap.
-              Today, our technology makes it possible for a deafblind person to work in customer service and
-              assist every caller.
+              {t('mission.body2')}
             </p>
             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 font-sans font-medium text-sm text-text-secondary">
-              <span className="text-text-primary">Customer Focus</span>
+              <span className="text-text-primary">{t('mission.tag1')}</span>
               <span aria-hidden="true" className="text-text-secondary">·</span>
-              <span className="text-text-primary">Long-term Thinking</span>
+              <span className="text-text-primary">{t('mission.tag2')}</span>
               <span aria-hidden="true" className="text-text-secondary">·</span>
-              <span className="text-text-primary">Innovation</span>
+              <span className="text-text-primary">{t('mission.tag3')}</span>
             </div>
           </motion.div>
 
@@ -71,13 +67,12 @@ export default function Mission() {
           >
             <div className="bg-brand-gradient rounded-2xl p-8 md:p-10 shadow-cta transition-transform duration-500 hover:scale-[1.02]">
               <blockquote className="font-display text-display-lg text-white italic leading-tight mb-6">
-                &ldquo;Komplett<br />Kommunikation.&rdquo;
+                {t('mission.quoteText')}
               </blockquote>
               <p className="font-sans text-white/[0.85] text-sm leading-relaxed mb-6">
-                Complete Communication — the founding concept of Europea. Everyone should be able to reach
-                and be reached by anyone, using the tools they have at hand.
+                {t('mission.quoteBody')}
               </p>
-              <p className="font-sans text-white/80 text-sm">Max &amp; Faruk Tairi, founders</p>
+              <p className="font-sans text-white/80 text-sm">{t('mission.quoteAttribution')}</p>
             </div>
           </motion.div>
         </div>

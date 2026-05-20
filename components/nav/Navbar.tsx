@@ -5,15 +5,12 @@ import Image from "next/image"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence, useScroll, useTransform } from "framer-motion"
 import { Sun, Moon } from "lucide-react"
-
-const links = [
-  { label: "About", href: "#mission" },
-  { label: "Portfolio", href: "#portfolio" },
-  { label: "Contact", href: "#contact" },
-]
+import { useTranslation } from "react-i18next"
+import { LanguageSwitcher } from "@/components/nav/LanguageSwitcher"
 
 function ThemeToggle() {
   const { theme, setTheme } = useTheme()
+  const { t } = useTranslation()
   const [mounted, setMounted] = React.useState(false)
   React.useEffect(() => setMounted(true), [])
 
@@ -25,7 +22,7 @@ function ThemeToggle() {
     <button
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="relative w-9 h-9 flex items-center justify-center rounded-lg border border-blue-border text-text-secondary hover:text-text-primary hover:border-blue-DEFAULT hover:bg-blue-subtle transition-all duration-200"
-      aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+      aria-label={isDark ? t('nav.switchLight') : t('nav.switchDark')}
     >
       <AnimatePresence mode="wait" initial={false}>
         {isDark ? (
@@ -55,6 +52,12 @@ function ThemeToggle() {
 }
 
 export default function Navbar() {
+  const { t } = useTranslation()
+  const links = [
+    { label: t('nav.about'),     href: '#mission'   },
+    { label: t('nav.portfolio'), href: '#portfolio' },
+    { label: t('nav.contact'),   href: '#contact'   },
+  ]
   const [mobileOpen, setMobileOpen] = React.useState(false)
   const { scrollY } = useScroll()
   const bgOpacity = useTransform(scrollY, [0, 80], [0, 1])
@@ -78,7 +81,7 @@ export default function Navbar() {
         />
 
         <div className="relative z-10 flex items-center justify-between max-w-7xl mx-auto">
-          <a href="#" aria-label="Europea home">
+          <a href="#" aria-label={t('nav.home')}>
             {/* Light theme logo */}
             <Image
               src="/europea-logo.png"
@@ -113,11 +116,12 @@ export default function Navbar() {
             </nav>
 
             <ThemeToggle />
+            <LanguageSwitcher />
 
             <button
               className="md:hidden flex flex-col gap-1.5 w-10 h-10 items-center justify-center rounded"
               onClick={() => setMobileOpen(true)}
-              aria-label="Open navigation menu"
+              aria-label={t('nav.openMenu')}
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
             >
@@ -145,7 +149,7 @@ export default function Navbar() {
             <button
               onClick={() => setMobileOpen(false)}
               className="absolute top-5 right-6 w-10 h-10 flex items-center justify-center text-text-secondary hover:text-text-primary transition-colors rounded"
-              aria-label="Close navigation menu"
+              aria-label={t('nav.closeMenu')}
             >
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
                 <path d="M18 6 6 18M6 6l12 12" />
@@ -167,6 +171,9 @@ export default function Navbar() {
                 </motion.a>
               ))}
             </nav>
+            <div className="mt-8">
+              <LanguageSwitcher />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>

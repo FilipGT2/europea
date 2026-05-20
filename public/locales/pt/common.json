@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "portfolio": "Portfólio",
+    "contact": "Contato",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação",
+    "home": "Europea Home",
+    "switchLight": "Mudar para modo claro",
+    "switchDark": "Mudar para modo escuro",
+    "languageSwitcher": "Selecionar idioma"
+  },
+  "hero": {
+    "badge": "MALMÖ, SUÉCIA · FUNDADA EM 2000 · GRUPO DE ACESSIBILIDADE",
+    "title1": "Tecnologia que aproxima as pessoas",
+    "title2": "e as conecta.",
+    "subtitle": "Acreditamos em uma sociedade socialmente sustentável construída sobre igualdade e diversidade. As empresas da Europea fornecem às pessoas as ferramentas para participar plenamente — e para viver vidas mais ricas.",
+    "cta_primary": "Descubra Nossas Empresas",
+    "cta_secondary": "Contate-nos"
+  },
+  "mission": {
+    "label": "Nossa Missão",
+    "heading": "Comunicação em igualdade de condições — para cada indivíduo.",
+    "body1": "Quando projetamos com as necessidades mais exigentes em mente, criamos produtos que beneficiam a todos. Isso não é apenas sobre justiça e direitos humanos — é sobre design inclusivo e universal. Esse é o pensamento do futuro.",
+    "body2": "Somente na Suécia, quase dois milhões de pessoas têm deficiência auditiva. Para muitos — incluindo aqueles que são surdos — tem sido historicamente difícil alcançar diretamente serviços como um banco, provedor de saúde ou escritório governamental. Passamos mais de vinte e cinco anos fechando essa lacuna. Hoje, nossa tecnologia permite que uma pessoa surdocega trabalhe no atendimento ao cliente e assista a cada chamada.",
+    "tag1": "Foco no Cliente",
+    "tag2": "Pensamento a Longo Prazo",
+    "tag3": "Inovação",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Comunicação Completa — o conceito fundador da Europea. Todos devem ser capazes de alcançar e ser alcançados por qualquer pessoa, usando as ferramentas que têm à mão.",
+    "quoteAttribution": "Max & Faruk Tairi, fundadores"
+  },
+  "stats": {
+    "years_label": "Anos construindo tecnologia acessível",
+    "engineers_label": "Engenheiros e desenvolvedores",
+    "europeans_label": "Europeus vivendo com uma deficiência"
+  },
+  "values": {
+    "label": "Valores",
+    "heading": "Como pensamos e construímos.",
+    "item1_title": "Inclusão por design",
+    "item1_heading": "Não adicionamos acessibilidade depois do fato.",
+    "item1_body": "Todo produto começa com a pergunta: quem está sendo excluído? Quando projetamos com as necessidades mais exigentes em mente, criamos soluções que beneficiam a todos.",
+    "item2_title": "Tecnologia com humanidade",
+    "item2_heading": "Por trás de cada linha de código há uma pessoa.",
+    "item2_body": "Nossas ferramentas resolvem problemas humanos reais. Todo o nosso código é desenvolvido internamente, por uma equipe que inclui pesquisadores de doutorado em desenvolvimento de sistemas. Ouvimos nossos usuários e construímos o que eles realmente precisam.",
+    "item3_title": "Construir para durar",
+    "item3_heading": "Nós escolhemos o caminho mais difícil.",
+    "item3_body": "Soluções de curto prazo não são o nosso negócio. Quando faltam padrões, nós os estabelecemos. Quando uma solução não existe, nós a construímos. Nossos produtos são cuidados como nossos próprios filhos."
+  },
+  "partnership": {
+    "label": "Parceria",
+    "heading": "Juntos somos mais fortes.",
+    "body": "Com uma família abrangente de produtos construída ao longo de vinte e cinco anos, a Europea e suas empresas têm orgulho de fazer parceria em projetos maiores que impulsionam a digitalização acessível. Realizamos demonstrações de produtos, palestras em conferências e cocriamos soluções com organizações públicas e privadas em toda a Escandinândia e Europa.",
+    "item1_title": "Pesquisa e Desenvolvimento",
+    "item1_body": "Fizemos parceria com a PTS (Autoridade Sueca de Correios e Telecomunicações) em múltiplos projetos de inovação, incluindo TERA Next Generation e Fritt Fram.",
+    "item2_title": "Setor Público",
+    "item2_body": "Municípios, regiões e organizações de tecnologia de bem-estar. Se você tem um serviço digital, podemos ajudar a torná-lo totalmente acessível — do início ao fim.",
+    "item3_title": "Eventos e Educação",
+    "item3_body": "Organizamos conferências anuais e demonstrações de produtos. Desde 2018, em parceria com a Lidol, copatrocinamos uma conferência aberta sobre Komplett Kommunikation.",
+    "cta": "Interessado em colaborar?"
+  },
+  "contact": {
+    "label": "Contato",
+    "heading": "Estamos em Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plano 3",
+    "address2": "211 55 Malmö, Suécia",
+    "org": "Org. 556464-0323",
+    "noProduct": "A Europea não tem um produto voltado para o público. Para questões de acessibilidade, visite EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Saltar para o conteúdo principal"
+  }
+}

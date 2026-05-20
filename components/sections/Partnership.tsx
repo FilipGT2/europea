@@ -2,21 +2,7 @@
 
 import { motion } from "framer-motion"
 import { HoverButton } from "@/components/ui/hover-button"
-
-const formats = [
-  {
-    title: "Research & Development",
-    body: "We have partnered with PTS (Sweden's Post and Telecom Authority) on multiple innovation projects including TERA Next Generation and Fritt Fram.",
-  },
-  {
-    title: "Public Sector",
-    body: "Municipalities, regions, and welfare-tech organisations. If you have a digital service, we can help make it fully accessible — end to end.",
-  },
-  {
-    title: "Events & Education",
-    body: "We arrange annual conferences and product demonstrations. Since 2018, in partnership with Lidol, we co-sponsor an open conference on Komplett Kommunikation.",
-  },
-]
+import { useTranslation } from "react-i18next"
 
 const container = {
   hidden: {},
@@ -28,6 +14,23 @@ const item = {
 }
 
 export default function Partnership() {
+  const { t } = useTranslation()
+
+  const formats = [
+    {
+      title: t('partnership.item1_title'),
+      body: t('partnership.item1_body'),
+    },
+    {
+      title: t('partnership.item2_title'),
+      body: t('partnership.item2_body'),
+    },
+    {
+      title: t('partnership.item3_title'),
+      body: t('partnership.item3_body'),
+    },
+  ]
+
   return (
     <section id="partnership" className="border-y border-blue-border bg-bg-surface py-28 md:py-36">
       <div className="max-w-4xl mx-auto px-6 md:px-10 text-center">
@@ -38,15 +41,12 @@ export default function Partnership() {
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
           className="mb-12"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-DEFAULT mb-5">Partnership</p>
+          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-DEFAULT mb-5">{t('partnership.label')}</p>
           <h2 className="font-display text-display-md text-text-primary leading-tight mb-6">
-            We are stronger together.
+            {t('partnership.heading')}
           </h2>
           <p className="font-sans text-text-secondary leading-relaxed text-base md:text-lg max-w-2xl mx-auto">
-            With a comprehensive product family built over twenty-five years, Europea and its companies are
-            proud to partner on larger projects driving accessible digitalisation. We hold product demonstrations,
-            deliver conference talks, and co-develop solutions with public and private organisations across
-            Scandinavia and Europe.
+            {t('partnership.body')}
           </p>
         </motion.div>
 
@@ -76,7 +76,7 @@ export default function Partnership() {
           transition={{ duration: 0.6, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
         >
           <HoverButton href="mailto:mail@tmeeting.se" className="text-white">
-            Interested in collaborating?
+            {t('partnership.cta')}
           </HoverButton>
         </motion.div>
       </div>

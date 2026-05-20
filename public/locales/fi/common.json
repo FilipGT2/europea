@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Tietoja",
+    "portfolio": "Portfolio",
+    "contact": "Yhteystiedot",
+    "openMenu": "Avaa navigointivalikko",
+    "closeMenu": "Sulje navigointivalikko",
+    "home": "Europea kotisivu",
+    "switchLight": "Vaihda vaaleaan tilaan",
+    "switchDark": "Vaihda tummaan tilaan",
+    "languageSwitcher": "Valitse kieli"
+  },
+  "hero": {
+    "badge": "MALMÖ, RUOTSI · PERUSTETTU 2000 · ACCESSIBILITY GROUP",
+    "title1": "Teknologia, joka tuo ihmiset",
+    "title2": "lähemmäksi.",
+    "subtitle": "Uskomme sosiaalisesti kestävään yhteiskuntaan, joka perustuu tasa-arvoon ja monimuotoisuuteen. Europen yritykset antavat ihmisille työkalut osallistua täysimääräisesti – ja elää rikkaampaa elämää.",
+    "cta_primary": "Tutustu yrityksiimme",
+    "cta_secondary": "Ota yhteyttä"
+  },
+  "mission": {
+    "label": "Missiomme",
+    "heading": "Viestintä tasavertaisesti – jokaiselle yksilölle.",
+    "body1": "Kun suunnittelemme vaativimmat tarpeet mielessä, luomme tuotteita, joista hyötyvät kaikki. Kyse ei ole vain oikeudenmukaisuudesta ja ihmisoikeuksista – kyse on inklusiivisesta, universaalista suunnittelusta. Se on tulevaisuuden ajattelua.",
+    "body2": "Pelkästään Ruotsissa lähes kaksi miljoonaa ihmistä kärsii kuulovammoista. Monille – myös kuuroille – on historiallisesti ollut vaikeaa päästä suoraan palveluihin, kuten pankkiin, terveydenhuollon tarjoajaan tai virastoon. Olemme käyttäneet yli kaksikymmentäviisi vuotta kuromme tätä kuilua umpeen. Nykyään teknologiamme mahdollistaa sen, että kuuro-sokea henkilö voi työskennellä asiakaspalvelussa ja auttaa jokaista soittajaa.",
+    "tag1": "Asiakaskeskeisyys",
+    "tag2": "Pitkäaikainen ajattelu",
+    "tag3": "Innovaatio",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Täydellinen viestintä – Europen perustamisajatus. Jokaisen tulisi pystyä tavoittamaan ja tulemaan tavoitetuksi keneltä tahansa, käyttämällä käsillä olevia työkaluja.",
+    "quoteAttribution": "Max & Faruk Tairi, perustajat"
+  },
+  "stats": {
+    "years_label": "Vuosia esteettömän teknologian rakentamista",
+    "engineers_label": "Insinöörejä & kehittäjiä",
+    "europeans_label": "Eurooppalaisia, jotka elävät vamman kanssa"
+  },
+  "values": {
+    "label": "Arvot",
+    "heading": "Miten ajattelemme ja rakennamme.",
+    "item1_title": "Inklusiivisuus suunnittelussa",
+    "item1_heading": "Emme lisää esteettömyyttä jälkikäteen.",
+    "item1_body": "Jokainen tuote alkaa kysymyksestä: ketä jätetään ulkopuolelle? Kun suunnittelemme vaativimmat tarpeet mielessä, luomme ratkaisuja, joista hyötyvät kaikki.",
+    "item2_title": "Teknologia inhimillisyydellä",
+    "item2_heading": "Jokaisen koodirivin takana on ihminen.",
+    "item2_body": "Työkalumme ratkaisevat todellisia inhimillisiä ongelmia. Kaikki koodimme on kehitetty talon sisällä, tohtorintutkijoita järjestelmäkehityksessä sisältävän tiimin toimesta. Kuuntelemme käyttäjiämme ja rakennamme sitä, mitä he todella tarvitsevat.",
+    "item3_title": "Rakennetaan kestämään",
+    "item3_heading": "Valitsemme vaikeamman tien.",
+    "item3_body": "Lyhytaikaiset korjaukset eivät ole meidän alaamme. Kun standardeja puuttuu, me asetamme ne. Kun ratkaisua ei ole, me rakennamme sen. Tuotteistamme huolehditaan kuin omista lapsistamme."
+  },
+  "partnership": {
+    "label": "Kumppanuus",
+    "heading": "Olemme yhdessä vahvempia.",
+    "body": "Kaksikymmentäviisi vuoden aikana rakennetun kattavan tuoteperheen myötä Europea ja sen yritykset ovat ylpeitä voidessaan tehdä yhteistyötä suuremmissa projekteissa, jotka edistävät esteetöntä digitalisaatiota. Järjestämme tuotedemoja, pidämme esitelmiä konferensseissa ja kehitämme ratkaisuja yhdessä julkisten ja yksityisten organisaatioiden kanssa Skandinaviassa ja Euroopassa.",
+    "item1_title": "Tutkimus & Kehitys",
+    "item1_body": "Olemme tehneet yhteistyötä PTS:n (Ruotsin posti- ja telehallitus) kanssa useissa innovaatioprojekteissa, mukaan lukien TERA Next Generation ja Fritt Fram.",
+    "item2_title": "Julkinen sektori",
+    "item2_body": "Kuntia, alueita ja hyvinvointiteknologiaorganisaatioita. Jos sinulla on digitaalinen palvelu, voimme auttaa tekemään siitä täysin saavutettavan – päästä päähän.",
+    "item3_title": "Tapahtumat & Koulutus",
+    "item3_body": "Järjestämme vuosittaisia konferensseja ja tuotedemoja. Vuodesta 2018 lähtien, yhteistyössä Lidolin kanssa, olemme yhdessä sponsoroineet avointa konferenssia 'Komplett Kommunikation' -teemasta.",
+    "cta": "Kiinnostunut yhteistyöstä?"
+  },
+  "contact": {
+    "label": "Yhteystiedot",
+    "heading": "Olemme Malmössa.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Plan 3",
+    "address2": "211 55 Malmö, Ruotsi",
+    "org": "Org. 556464-0323",
+    "noProduct": "Europealla ei ole julkisesti saatavilla olevaa tuotetta. Saavutettavuuskysymyksissä vieraile osoitteessa EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Siirry pääsisältöön"
+  }
+}

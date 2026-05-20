@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "Ku saabsan",
+    "portfolio": "Portofolio",
+    "contact": "Xiriir",
+    "openMenu": "Fur menu-ka navigation-ka",
+    "closeMenu": "Xir menu-ka navigation-ka",
+    "home": "Guriga Yurub",
+    "switchLight": "U beddel qaabka iftiinka",
+    "switchDark": "U beddel qaabka madow",
+    "languageSwitcher": "Xulo luqadda"
+  },
+  "hero": {
+    "badge": "MALMÖ, SWEDEN · LA AASAASAY 2000 · KOOXDA HELISTA",
+    "title1": "Tignoolajiyad dadka keenta",
+    "title2": "si dhow.",
+    "subtitle": "Waxaan rumaysanahay bulsho si bulsho ah oo waarta oo ku dhisan sinnaan iyo kala duwanaan. Shirkadaha Europea waxay siiyaan dadka qalab ay si buuxda uga qayb qaataan — iyo inay noolaadaan nolol hodan ah.",
+    "cta_primary": "Ogow Shirkadahayaga",
+    "cta_secondary": "Nala soo xiriir"
+  },
+  "mission": {
+    "label": "Hadafkayaga",
+    "heading": "Isgaarsiin si siman — qof kasta.",
+    "body1": "Marka aanu naqshadayno iyadoo maskaxda lagu hayo baahiyaha ugu adag, waxaanu samaynaa alaabooyin faa'iido u leh qof kasta. Tani ma aha oo kaliya arrin ku saabsan cadaalada iyo xuquuqda aadanaha — waa ku saabsan naqshad dhammaystiran oo caalami ah. Taasi waa fikirka mustaqbalka.",
+    "body2": "Iswiidhan oo kaliya, ku dhawaad laba milyan oo qof ayaa qaba dhibaatooyin maqalka ah. Kuwo badan — oo ay ku jiraan kuwa dhegaha la' — waxay si taariikhi ah u adkaatay inay si toos ah u gaaraan adeegyo sida bangi, bixiye daryeel caafimaad, ama xafiis dawladeed. Waxaanu ku qaatay in ka badan shan iyo labaatan sano oo buuxinayna farqigaas. Maanta, tignoolajiyadayadu waxay suurtogal ka dhigaysaa qof curyaan ah oo dhegaha iyo indhaha la' inuu ka shaqeeyo adeegga macaamiisha oo uu caawiyo dhammaan wicitaanada.",
+    "tag1": "Diirada Macaamiilka",
+    "tag2": "Fikirka Muddada Dheer",
+    "tag3": "Hal-abuurnimo",
+    "quoteText": "\"Komplett Kommunikation.\"",
+    "quoteBody": "Isgaarsiin Buuxda — fikradda aasaasiga ah ee Europea. Qof kasta waa inuu awoodaa inuu gaaro oo uu gaaro cid kasta, isagoo isticmaalaya qalabka gacanta ugu jira.",
+    "quoteAttribution": "Max & Faruk Tairi, aasaasayaal"
+  },
+  "stats": {
+    "years_label": "Sannado la dhisay tignoolajiyad la heli karo",
+    "engineers_label": "Injineero & horumarinta",
+    "europeans_label": "Dadka Yurub ee la nool naafo"
+  },
+  "values": {
+    "label": "Qiimaha",
+    "heading": "Sida aan u fikirno oo u dhisno.",
+    "item1_title": "Qof walba ka qaybqaadasho iyada oo loo naqshadaynayo",
+    "item1_heading": "Ma aha inaan helista ku darno wax ka dib.",
+    "item1_body": "Alaab kasta waxay ku bilaabataa su'aal: yaa la eryayaa? Marka aanu naqshadayno iyadoo maskaxda lagu hayo baahiyaha ugu adag, waxaanu samaynaa xal faa'iido u leh qof kasta.",
+    "item2_title": "Tignoolajiyad leh bani'aadannimo",
+    "item2_heading": "Wax kasta oo code ah gadaashiisa waa qof.",
+    "item2_body": "Qalabkayagu wuxuu xalliyaa dhibaatooyinka dhabta ah ee bani'aadanka. Dhammaan koodkayaga waxaa lagu horumariyaa gudaha, koox ay ku jiraan cilmi-baarayaal takhasus leh oo ku takhasusay horumarinta nidaamyada. Waxaanu dhageysanaa isticmaalayaashayada oo waxaanu dhisnaa waxa ay runtii u baahan yihiin.",
+    "item3_title": "Dhis si aad u sii jirto",
+    "item3_heading": "Waxaan qaadanaa dariiqa adag.",
+    "item3_body": "Xalka degdegga ah ma aha ganacsigeena. Marka heerarka ay maqan yihiin, waan dejinnaa. Marka xal aan jirin, waan samaynaa. Alaabtayada waxaa loo daryeelaa sida carruurteena."
+  },
+  "partnership": {
+    "label": "Wada-shaqayn",
+    "heading": "Si wadajir ah ayaan u xoog badan nahay.",
+    "body": "Iyada oo leh qoys alaab dhammaystiran oo la dhisay shan iyo labaatan sano, Europea iyo shirkadaheeda waxay ku faanayaan inay la wada shaqeeyaan mashruucyo waaweyn oo kicinaya dijitalaynta la heli karo. Waxaanu qabanaa bandhigyo alaab, bixinnaa hadal-kooxeed shirarka, waxaanu si wadajir ah u horumarinnaa xal gudaha dawladda iyo ururada gaarka ah ee ka gudba Scandinavia iyo Yurub.",
+    "item1_title": "Cilmi-baaris & Horumarinta",
+    "item1_body": "Waxaan la wada shaqaynay PTS (Maamulka Boostada iyo Telecom-ka Iswiidhan) mashruucyo hal-abuurnimo oo badan oo ay ku jiraan TERA Next Generation iyo Fritt Fram.",
+    "item2_title": "Qaybta Dawliga ah",
+    "item2_body": "Gobollada, gobollada, iyo ururada caafimaadka bulshada. Haddii aad haysato adeeg dijital ah, waxaanu kaa caawin karnaa inaanu ka dhigno mid la heli karo dhammaan — dhammaad ilaa dhammaad.",
+    "item3_title": "Munaasabado & Waxbarasho",
+    "item3_body": "Waxaanu abaabulnaa shirarka sannadlaha ah iyo bandhigyada alaabta. Tan iyo 2018, iyadoo la wada shaqaynayo Lidol, waxaanu si wadajir ah u kafaala-qaadnaa shir furan oo ku saabsan Komplett Kommunikation.",
+    "cta": "Ma xiisaynaysaa inaad iskaashi samaysaan?"
+  },
+  "contact": {
+    "label": "Xiriir",
+    "heading": "Waxaanu joognaa Malmö.",
+    "company": "Europea i Malmö AB",
+    "address1": "Amiralsgatan 20, Dabaqa 3aad",
+    "address2": "211 55 Malmö, Sweden",
+    "org": "Ururka. 556464-0323",
+    "noProduct": "Europea ma laha alaab dadweynaha u furan. Wixii su'aalo ku saabsan helitaanka, booqo EaseAccess24.com.",
+    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
+    "link_ease": "EaseAccess24 · easeaccess24.com"
+  },
+  "footer": {
+    "copy": "© 2025 Europea i Malmö AB · Ururka. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+  },
+  "a11y": {
+    "skipToMain": "Ka bood waxa ku jira ee ugu muhiimsan"
+  }
+}
