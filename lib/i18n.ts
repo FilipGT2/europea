@@ -41,12 +41,12 @@ export const LANGUAGES = [
 const SUPPORTED_CODES = LANGUAGES.map((l) => l.code);
 
 function getInitialLanguage(): string {
-  if (typeof window === "undefined") return "en";
+  if (typeof window === "undefined") return "sv";
   const stored = localStorage.getItem("europea_lang");
   if (stored && SUPPORTED_CODES.includes(stored)) return stored;
   const browser = navigator.language.split("-")[0];
   if (SUPPORTED_CODES.includes(browser)) return browser;
-  return "en";
+  return "sv";
 }
 
 if (!i18n.isInitialized) {
