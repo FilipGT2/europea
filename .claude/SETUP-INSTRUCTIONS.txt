@@ -1,0 +1,64 @@
+SETUP INSTRUCTIONS
+==================
+
+1. RENAME THIS FOLDER
+
+   Rename this folder from:   claude-config
+   to:                        .claude
+
+   On macOS/Linux:   mv claude-config .claude
+   On Windows:       rename it in Explorer (you may need to enable
+                     "show hidden files" afterwards, since .claude
+                     starts with a dot).
+
+   The folder MUST be named .claude and live at the ROOT of the
+   europea project (the same folder that contains package.json,
+   next.config.js, app/, components/, etc.).
+
+2. RESULTING LAYOUT
+
+   europea/
+     .claude/
+       README-FOR-CLAUDE.md
+       context/
+         00-project-overview.md
+         01-tech-stack.md
+         02-architecture.md
+         03-conventions.md
+         04-constraints.md
+         05-content-and-i18n.md
+         06-new-sections.md
+         07-future-roadmap.md
+         locale-sv.json        <- final Swedish copy (authoritative)
+         locale-en.json        <- final English copy (translation source of truth)
+       prompts/
+         01-locale-schema-and-sv.md
+         02-portfolio-dehardcode-and-infiniuum.md
+         03-new-sections.md
+         04-facts-nav-metadata-qa.md
+     app/
+     components/
+     ...
+
+3. START CLAUDE CODE
+
+   - Open a terminal in the europea/ project root.
+   - Start a fresh Claude Code session.
+   - Paste the PRIMARY STARTING PROMPT (provided separately in the
+     chat, not in this ZIP) into plan mode.
+   - Let Claude Code read all context files and produce a PLAN first.
+   - Do NOT approve the plan until it has been reviewed in the chat.
+
+4. MODEL + SESSION HYGIENE
+
+   - Default model: claude-sonnet-4-6
+   - Between each prompt phase, start a fresh session and run /compact.
+   - Run the phase prompts in order (01 -> 02 -> 03 -> 04).
+
+5. IMPORTANT
+
+   - locale-sv.json and locale-en.json in context/ are the FINAL,
+     authoritative text. Copy them verbatim into the project's
+     public/locales/sv/common.json and public/locales/en/common.json.
+   - Do NOT edit any other language folder (mk, de, fr, ...). A
+     separate program translates from the English file.

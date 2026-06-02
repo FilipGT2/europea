@@ -7,9 +7,8 @@ import { useTranslation } from "react-i18next"
 export default function Contact() {
   const { t } = useTranslation()
   return (
-    <section id="contact" className="relative overflow-hidden bg-bg-base border-t border-blue-border py-28 md:py-36">
+    <section id="kontakt" className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-28 md:py-36">
 
-      {/* Atmospheric blobs */}
       <FloatingBlob
         className="top-0 right-0 w-[520px] h-[460px] bg-gradient-to-bl from-blue-500/14 to-indigo-700/10 blur-[125px]"
         delay={0} breathDuration={12} driftDuration={24} driftX={-40} driftY={32}
@@ -33,49 +32,58 @@ export default function Contact() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-5">{t('contact.label')}</p>
-            <h2 className="font-display text-display-md text-text-primary leading-tight mb-8">
+            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-5">
+              {t('contact.label')}
+            </p>
+            <h2 className="font-display text-display-md text-text-primary leading-tight mb-5">
               {t('contact.heading')}
             </h2>
-            <address className="not-italic font-sans text-text-secondary leading-loose text-sm mb-6">
-              <p className="text-text-primary font-medium mb-1">{t('contact.company')}</p>
-              <p>{t('contact.address1')}</p>
-              <p>{t('contact.address2')}</p>
-              <p className="mt-3">
-                <a href="tel:+46406614180" className="hover:text-text-primary transition-colors underline underline-offset-2">
-                  +46 (0)40 661 41 80
-                </a>
-              </p>
-              <p>
-                <a href="mailto:mail@tmeeting.se" className="hover:text-text-primary transition-colors underline underline-offset-2">
-                  mail@tmeeting.se
-                </a>
-              </p>
-            </address>
-            <p className="font-sans text-text-tertiary text-xs mb-8">{t('contact.org')}</p>
-
-            <div className="flex flex-col gap-3 mb-8">
-              <a
-                href="https://tmeeting.se"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border border-blue-border bg-blue-subtle rounded-lg px-4 py-2.5 font-sans text-xs text-text-secondary hover:border-blue-DEFAULT hover:text-text-primary transition-all duration-200 w-fit min-h-[44px]"
-              >
-                <span aria-hidden="true">→</span> {t('contact.link_tmeeting')}
-              </a>
-              <a
-                href="https://easeaccess24.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 border border-blue-border bg-blue-subtle rounded-lg px-4 py-2.5 font-sans text-xs text-text-secondary hover:border-blue-DEFAULT hover:text-text-primary transition-all duration-200 w-fit min-h-[44px]"
-              >
-                <span aria-hidden="true">→</span> {t('contact.link_ease')}
-              </a>
-            </div>
-
-            <p className="font-sans text-text-tertiary text-xs leading-relaxed max-w-xs">
-              {t('contact.noProduct')}
+            <p className="font-sans text-text-secondary leading-relaxed mb-8 text-sm">
+              {t('contact.lead')}
             </p>
+
+            <address className="not-italic font-sans text-text-secondary text-sm leading-loose">
+              <dl className="flex flex-col gap-3">
+                <div className="flex flex-col sm:flex-row sm:gap-3">
+                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                    {t('contact.address_label')}
+                  </dt>
+                  <dd>{t('contact.address_value')}</dd>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:gap-3">
+                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                    {t('contact.phone_label')}
+                  </dt>
+                  <dd>
+                    <a
+                      href={`tel:${t('contact.phone_value').replace(/[\s()]/g, '')}`}
+                      className="hover:text-text-primary transition-colors underline underline-offset-2"
+                    >
+                      {t('contact.phone_value')}
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:gap-3">
+                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                    {t('contact.email_label')}
+                  </dt>
+                  <dd>
+                    <a
+                      href={`mailto:${t('contact.email_value')}`}
+                      className="hover:text-text-primary transition-colors underline underline-offset-2"
+                    >
+                      {t('contact.email_value')}
+                    </a>
+                  </dd>
+                </div>
+                <div className="flex flex-col sm:flex-row sm:gap-3">
+                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                    {t('contact.org_label')}
+                  </dt>
+                  <dd>{t('contact.org_value')}</dd>
+                </div>
+              </dl>
+            </address>
           </motion.div>
 
           {/* Right — decorative coordinates */}

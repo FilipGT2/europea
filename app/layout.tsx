@@ -19,14 +19,14 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Europea i Malmö AB — Technology that brings people closer',
+  title: 'Europea i Malmö AB — En stark aktör inom tillgänglighet sedan 1993',
   description:
-    'Europea is a Malmö-based holding group building a more inclusive world through technology. Parent company of T-Meeting Global AB and EaseAccess24.',
+    'Europea i Malmö AB utvecklar och driver verksamheter inom tillgänglig kommunikation, digital tillgänglighet och användarnära tekniklösningar. Grundat 1993. Tre varumärken: T-Meeting, EaseAccess24 och Infiniuum.',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="sv" suppressHydrationWarning>
       <body
         className={`${cormorant.variable} ${dmSans.variable} bg-bg-base text-text-primary font-sans antialiased`}
       >

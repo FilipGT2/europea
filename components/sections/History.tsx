@@ -1,0 +1,117 @@
+"use client"
+
+import { motion } from "framer-motion"
+import { useTranslation } from "react-i18next"
+import { FloatingBlob } from "@/components/ui/floating-blob"
+
+const ITEMS = [1, 2, 3, 4, 5] as const
+
+export default function History() {
+  const { t } = useTranslation()
+
+  return (
+    <section
+      id="historia"
+      className="relative overflow-hidden bg-bg-base border-t border-blue-border py-28 md:py-36"
+    >
+      <FloatingBlob
+        className="top-0 left-0 w-[460px] h-[360px] bg-gradient-to-br from-blue-500/10 to-indigo-600/7 blur-[115px]"
+        delay={0} breathDuration={12} driftDuration={24} driftX={38} driftY={30}
+      />
+      <FloatingBlob
+        className="bottom-0 right-0 w-[380px] h-[320px] bg-gradient-to-tl from-sky-400/10 to-blue-500/6 blur-[100px]"
+        delay={2.5} breathDuration={14} driftDuration={26} driftX={-30} driftY={-26}
+      />
+      <FloatingBlob
+        className="top-[40%] right-[20%] w-[260px] h-[260px] bg-gradient-to-br from-indigo-400/7 to-blue-500/5 blur-[85px]"
+        delay={4} breathDuration={9} driftDuration={20} driftX={20} driftY={28}
+      />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
+        <motion.div
+          initial={{ opacity: 0, y: 24 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          className="mb-6"
+        >
+          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">
+            {t("history.label")}
+          </p>
+          <h2 className="font-display text-display-md text-text-primary leading-tight">
+            {t("history.heading")}
+          </h2>
+        </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
+          className="font-sans text-text-secondary leading-relaxed max-w-2xl mb-16"
+        >
+          {t("history.lead")}
+        </motion.p>
+
+        {/* Image placeholder */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.7, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
+          className="mb-16 border border-blue-border rounded-xl bg-bg-card overflow-hidden"
+          role="img"
+          aria-label={t("history.image_note_title")}
+        >
+          <div className="flex flex-col sm:flex-row items-stretch">
+            {/* Placeholder visual area */}
+            <div
+              className="sm:w-64 flex-shrink-0 bg-gradient-to-br from-blue-500/10 to-indigo-600/8 flex items-center justify-center py-14 sm:py-0"
+              aria-hidden="true"
+            >
+              <span className="font-display text-[3rem] text-blue-DEFAULT/30 select-none">
+                1993
+              </span>
+            </div>
+            <div className="flex-1 border-t sm:border-t-0 sm:border-l border-blue-border px-8 py-7">
+              <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-2">
+                {t("history.image_note_title")}
+              </p>
+              <p className="font-sans text-text-secondary text-sm leading-relaxed">
+                {t("history.image_note_body")}
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Timeline */}
+        <div className="flex flex-col">
+          {ITEMS.map((n, i) => (
+            <motion.div
+              key={n}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+              className={`grid grid-cols-1 md:grid-cols-[160px_1fr] gap-4 md:gap-10 py-8 ${i > 0 ? "border-t border-blue-border" : ""}`}
+            >
+              <div>
+                <span className="font-display text-display-md text-blue-DEFAULT/60 leading-none">
+                  {t(`history.item${n}_year`)}
+                </span>
+              </div>
+              <div>
+                <h3 className="font-sans font-medium text-text-primary mb-2 leading-snug">
+                  {t(`history.item${n}_title`)}
+                </h3>
+                <p className="font-sans text-text-secondary text-sm leading-relaxed">
+                  {t(`history.item${n}_body`)}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

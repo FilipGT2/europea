@@ -78,20 +78,26 @@ function HeroBlob({
 
 interface HeroGeometricProps {
   badge?: string;
+  titleNode?: React.ReactNode;
   title1?: string;
   title2?: string;
   subtitle?: string;
   ctaPrimary?: string;
   ctaSecondary?: string;
+  ctaPrimaryHref?: string;
+  ctaSecondaryHref?: string;
 }
 
 export function HeroGeometric({
   badge = "MALMÖ, SWEDEN · EST. 1993",
+  titleNode,
   title1 = "Technology that brings people",
   title2 = "closer.",
   subtitle = "",
   ctaPrimary = "Discover Our Companies",
   ctaSecondary = "Contact Us",
+  ctaPrimaryHref = "#varumarken",
+  ctaSecondaryHref = "#kontakt",
 }: HeroGeometricProps) {
   return (
     <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-bg-base">
@@ -253,10 +259,14 @@ export function HeroGeometric({
             animate="visible"
           >
             <h1 className="font-display text-display-xl leading-[1.0] mb-6 break-words">
-              <span className="text-text-primary">{title1} </span>
-              <span className="bg-clip-text text-transparent bg-gradient-to-r dark:from-blue-DEFAULT dark:via-blue-400 dark:to-sky-400 from-blue-700 via-blue-DEFAULT to-blue-600 italic">
-                {title2}
-              </span>
+              {titleNode ?? (
+                <>
+                  <span className="text-text-primary">{title1} </span>
+                  <span className="bg-clip-text text-transparent bg-gradient-to-r dark:from-blue-DEFAULT dark:via-blue-400 dark:to-sky-400 from-blue-700 via-blue-DEFAULT to-blue-600 italic">
+                    {title2}
+                  </span>
+                </>
+              )}
             </h1>
           </motion.div>
 
@@ -279,13 +289,13 @@ export function HeroGeometric({
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
             <a
-              href="#portfolio"
+              href={ctaPrimaryHref}
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-white text-sm transition-all duration-200 bg-brand-gradient shadow-cta hover:shadow-[0_6px_28px_rgba(37,99,235,0.5)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
               {ctaPrimary}
             </a>
             <a
-              href="#contact"
+              href={ctaSecondaryHref}
               className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-text-secondary text-sm border border-blue-border transition-all duration-200 hover:border-blue-DEFAULT hover:text-text-primary hover:bg-blue-subtle focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
               {ctaSecondary}
