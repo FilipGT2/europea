@@ -1,63 +1,60 @@
-# Europea — Content Remaster (Master Brief for Claude Code)
+# Europea — Design Refinement Pass (Master Brief for Claude Code)
 
-Read this file first, then read every file in `context/` before doing anything.
+Read this first, then read every file in `context/` before doing anything.
 
-## What this project is
+## What this engagement is
 
-`europea` is an existing, finished **Next.js 14 (App Router)** marketing site for
-**Europea i Malmö AB**, a Malmö-based accessibility group. The site is fully built:
-design system, animations, dark/light mode, and accessibility are all done and must
-be preserved exactly.
+The `europea` Next.js 14 site already has its final content (Swedish default, three
+brands — T-Meeting, EaseAccess24, Infiniuum — and all new sections). That work is done
+and committed. This engagement is a **design-system refinement pass**: make the UI
+look more modern, fix the typography scale (some text reads too big, some too small),
+and standardize card/component sizing, spacing, and hierarchy. Plus one specific
+navbar fix.
 
-## What we are doing
+This is a **refinement, not a redesign**. Decisions already locked with the client:
 
-This is a **content remaster**, not a redesign.
+- KEEP the blue brand identity (adjust tones/contrast only, no new color direction).
+- KEEP the font pairing: Cormorant Garamond (display) + DM Sans (body). Fix sizes and
+  weights, do not swap fonts.
+- KEEP all content, copy, section order, and all 33 languages. Do NOT touch locale files.
+- KEEP all accessibility features (focus rings, skip link, 44px targets, contrast,
+  HtmlLangSync, semantic structure).
+- Target aesthetic: clean and modern. Calmer type scale, consistent cards, more
+  generous and consistent spacing, clearer hierarchy.
 
-1. The site's current copy describes Europea as a "holding group with no public
-   product" and lists two brands. The new positioning is **"a strong force in
-   accessibility since 1993"** with **three brands** (T-Meeting, EaseAccess24,
-   **Infiniuum** — new) and several new narrative sections.
-2. The authoritative new copy is captured in `context/locale-sv.json` (Swedish) and
-   `context/locale-en.json` (English). These are FINAL. Use them verbatim.
-3. Swedish becomes the site's default language. English is the **source of truth**
-   that a separate program will translate into the other 32 languages.
+## The two headline problems to solve
 
-## The single most important architectural fact
+1. **Type scale is too extreme.** `display-xl` clamps up to 8rem and the hero "since"
+   number is hardcoded at 4.5–5.5rem, while labels sit at 11px. The gap between
+   biggest and smallest is too wide, which is what "some too big, some too small"
+   means. Fix: a recalibrated, modern type scale (see context/01).
+2. **Cards/components are inconsistently sized.** Padding, radius, min-heights, and
+   internal spacing vary section to section. Fix: a single set of card/button/section
+   standards (see context/02) applied everywhere.
 
-**All visible text lives in `public/locales/{lang}/common.json`.** Components never
-hardcode user-facing strings; they call `t('section.key')` via `react-i18next`.
-So "changing the text" mostly means **rewriting the locale JSON and the key schema**,
-then making components consume the new keys. The exception is `Portfolio.tsx`, which
-currently has hardcoded English strings that must be moved into locale keys.
+## Plus one specific bug
 
-## Hard rules (see context/04-constraints.md for the full list)
+3. **The header has two contact controls** both pointing to `#kontakt`: a plain nav
+   text link "Kontakt" AND a filled CTA button "Kontakta oss". Remove the redundancy:
+   keep the filled CTA button, remove the plain "Kontakt" link from the desktop nav
+   (and from the mobile menu link list, since the mobile menu also has the CTA button).
+   See context/04.
 
-- Preserve all existing UX/UI, design tokens, Framer Motion animations, dark/light
-  theming, and accessibility features. New sections must match the existing visual
-  language (fonts, colors, blobs, reveal animations, spacing rhythm).
-- Only touch the **sv** and **en** locale files. Never edit other language folders.
-- New sections need new components in the SAME style as the existing ones.
-- Keep WCAG-level accessibility: skip link, ARIA, 44px targets, documented contrast,
-  `HtmlLangSync` updating `<html lang>`.
-- Never put size limits or server config in `next.config.js`; handle in route handlers.
-- Default Claude Code model: `claude-sonnet-4-6`.
+## Work order (fresh session + /compact per phase, commit after each)
 
-## Work order (one fresh session + /compact per phase)
-
-1. `prompts/01-locale-schema-and-sv.md` — install the new key schema; write sv + en
-   locale files; switch default language to sv.
-2. `prompts/02-portfolio-dehardcode-and-infiniuum.md` — move Portfolio strings into
-   locales; add the third brand (Infiniuum).
-3. `prompts/03-new-sections.md` — build the new sections (Core competence, Evolution,
-   History/timeline, Company, Vision, European presence, Founders, Industry) and
-   reorder the page.
-4. `prompts/04-facts-nav-metadata-qa.md` — expand the navbar to 6 links, update
-   contact facts / footer / metadata, then QA + `next build`.
+1. `prompts/01-design-tokens.md` — install the new type scale, spacing, and radius
+   tokens in `tailwind.config.ts` + `globals.css`. Foundation for everything else.
+2. `prompts/02-navbar-and-hero.md` — fix the navbar duplicate control; rebuild the
+   hero type + stat cluster on the new scale.
+3. `prompts/03-cards-and-sections.md` — apply the component standards across all
+   sections (cards, headings, eyebrows, spacing rhythm).
+4. `prompts/04-qa-and-polish.md` — responsive + dark-mode + a11y QA, final polish,
+   `pnpm build`.
 
 ## Definition of done
 
-- Site loads in Swedish by default; all 33 languages still selectable.
-- Every section from the how-to is present, in order, in the existing design language.
-- Three brand cards render (T-Meeting, EaseAccess24, Infiniuum).
-- No hardcoded user-facing English remains in components.
-- `next build` passes; light + dark + keyboard nav all verified.
+- A calmer, modern, consistent type scale; no single element feels oversized or tiny.
+- All cards share consistent padding, radius, and internal rhythm.
+- Exactly ONE contact control in the header.
+- Blue identity and font pairing unchanged; content unchanged; a11y intact.
+- `pnpm build` passes; verified in light + dark at mobile/tablet/desktop widths.

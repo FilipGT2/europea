@@ -51,7 +51,7 @@ export default function Hero() {
 
       {/* Since-card + stat cards cluster */}
       <div className="relative bg-bg-base py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-6 md:px-10">
+        <div className="max-w-6xl mx-auto px-6 md:px-10">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Since-card */}
             <motion.div
@@ -59,12 +59,12 @@ export default function Hero() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-              className="relative overflow-hidden rounded-xl bg-brand-gradient shadow-cta p-8 md:p-10 flex flex-col justify-between min-h-[160px]"
+              className="relative overflow-hidden rounded-2xl bg-brand-gradient shadow-cta p-7 md:p-8 flex flex-col justify-between"
             >
-              <p className="font-display text-[4.5rem] md:text-[5.5rem] leading-none text-white/90 font-bold select-none">
+              <p className="font-display text-display-xl leading-none text-white/90 select-none">
                 {t('hero.since_year')}
               </p>
-              <p className="font-sans text-sm text-white/80 leading-relaxed mt-3">
+              <p className="font-sans text-body-sm text-white/80 leading-relaxed mt-3">
                 {t('hero.since_label')}
               </p>
             </motion.div>
@@ -78,12 +78,12 @@ export default function Hero() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true, margin: "-40px" }}
                   transition={{ duration: 0.7, delay: 0.05 + i * 0.07, ease: [0.16, 1, 0.3, 1] }}
-                  className="bg-bg-card border border-blue-border rounded-xl p-5 md:p-6 flex flex-col justify-between"
+                  className="bg-bg-card border border-blue-border rounded-2xl p-6 flex flex-col justify-between"
                 >
-                  <p className="font-display text-display-md text-text-primary leading-none mb-2">
+                  <p className="font-display text-display-sm text-text-primary leading-none mb-2">
                     {s.number}
                   </p>
-                  <p className="font-sans text-[11px] uppercase tracking-[0.15em] text-text-secondary leading-snug">
+                  <p className="font-sans text-eyebrow uppercase text-text-secondary leading-snug">
                     {s.label}
                   </p>
                 </motion.div>

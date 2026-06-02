@@ -64,7 +64,6 @@ export default function Navbar() {
     { label: t("nav.evolution"), href: "#utveckling" },
     { label: t("nav.vision"), href: "#vision" },
     { label: t("nav.europe"), href: "#europa" },
-    { label: t("nav.contact"), href: "#kontakt" },
   ];
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const { scrollY } = useScroll();
@@ -113,13 +112,13 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <nav
               aria-label="Primary"
-              className="hidden lg:flex items-center gap-5 xl:gap-7"
+              className="hidden lg:flex items-center gap-6 xl:gap-8"
             >
               {links.map((l) => (
                 <a
                   key={l.href}
                   href={l.href}
-                  className="font-sans text-sm font-medium text-text-secondary hover:text-text-primary transition-colors duration-200 tracking-wide rounded"
+                  className="font-sans text-body-sm font-medium text-text-secondary hover:text-text-primary transition-colors duration-200 tracking-wide rounded"
                 >
                   {l.label}
                 </a>
@@ -129,7 +128,7 @@ export default function Navbar() {
             {/* Desktop CTA */}
             <a
               href="#kontakt"
-              className="hidden lg:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg font-sans text-sm font-medium text-white bg-brand-gradient shadow-cta hover:shadow-[0_4px_20px_rgba(37,99,235,0.45)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 min-h-[44px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT"
+              className="hidden lg:inline-flex items-center gap-1.5 px-4 py-2 rounded-lg font-sans text-body-sm font-medium text-white bg-brand-gradient shadow-cta hover:shadow-[0_4px_20px_rgba(37,99,235,0.45)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 min-h-[44px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT"
             >
               {t("nav.cta")}
             </a>
@@ -218,7 +217,7 @@ export default function Navbar() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-              className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg font-sans font-medium text-white text-sm bg-brand-gradient shadow-cta min-h-[44px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT"
+              className="mt-8 inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-lg font-sans font-medium text-white text-body-sm bg-brand-gradient shadow-cta min-h-[44px] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT"
               onClick={() => setMobileOpen(false)}
             >
               {t("nav.cta")}

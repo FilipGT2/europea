@@ -10,7 +10,7 @@ export default function Europe() {
   return (
     <section
       id="europa"
-      className="relative overflow-hidden bg-bg-base border-t border-blue-border py-28 md:py-36"
+      className="relative overflow-hidden bg-bg-base border-t border-blue-border py-20 md:py-28"
     >
       <FloatingBlob
         className="top-0 left-0 w-[400px] h-[320px] bg-gradient-to-br from-blue-500/10 to-indigo-600/7 blur-[110px]"
@@ -27,37 +27,30 @@ export default function Europe() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-6"
+          className="mb-12 md:mb-16"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">
+          <p className="font-sans text-eyebrow uppercase text-blue-label mb-4">
             {t("europe.label")}
           </p>
-          <h2 className="font-display text-display-md text-text-primary leading-tight">
+          <h2 className="font-display text-display-md text-text-primary mb-5">
             {t("europe.heading")}
           </h2>
+          <p className="font-sans text-body-lg text-text-secondary max-w-2xl">
+            {t("europe.lead")}
+          </p>
         </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-sans text-text-secondary leading-relaxed mb-10"
-        >
-          {t("europe.lead")}
-        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          className="bg-bg-card border border-blue-border rounded-xl px-8 py-8 md:px-10 md:py-10 flex flex-col gap-5"
+          className="bg-bg-card border border-blue-border rounded-2xl p-7 md:p-8 flex flex-col gap-4"
         >
-          <p className="font-sans text-text-secondary leading-relaxed">
+          <p className="font-sans text-body text-text-secondary">
             {t("europe.body1")}
           </p>
-          <p className="font-sans text-text-secondary leading-relaxed">
+          <p className="font-sans text-body text-text-secondary">
             {t("europe.body2")}
           </p>
         </motion.div>

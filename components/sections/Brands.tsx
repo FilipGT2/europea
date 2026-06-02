@@ -38,27 +38,27 @@ function BrandCard({
         delay: index * 0.12,
         ease: [0.16, 1, 0.3, 1],
       }}
-      className="relative border border-blue-border bg-bg-card rounded-xl overflow-hidden transition-all duration-300 hover:border-blue-DEFAULT/70 hover:shadow-[0_8px_40px_rgba(37,99,235,0.12)]"
+      className="relative border border-blue-border bg-bg-card rounded-2xl overflow-hidden transition-all duration-300 hover:border-blue-DEFAULT/40 hover:-translate-y-0.5 hover:shadow-card-hover"
     >
       <div className="grid grid-cols-1 md:grid-cols-[1fr_280px] lg:grid-cols-[1fr_320px]">
         {/* Main content */}
-        <div className="px-8 md:px-10 py-10 md:py-12">
-          <span className="inline-flex items-center px-2.5 py-1 rounded border border-blue-border font-sans text-[10px] uppercase tracking-[0.18em] text-text-secondary mb-6 bg-blue-subtle">
+        <div className="p-7 md:p-8">
+          <span className="inline-flex items-center px-2.5 py-1 rounded-lg border border-blue-border font-sans text-eyebrow uppercase text-blue-label mb-4 bg-blue-subtle">
             {tag}
           </span>
-          <h3 className="font-display text-display-md text-text-primary mb-5 leading-tight">
+          <h3 className="font-display text-display-sm text-text-primary mb-3">
             {name}
           </h3>
-          <p className="font-sans text-text-secondary leading-relaxed mb-7 text-sm md:text-base max-w-xl">
+          <p className="font-sans text-body-sm text-text-secondary mb-7 max-w-xl">
             {desc}
           </p>
 
           {rttTitle && rttBody && (
-            <div className="border-l-2 border-blue-DEFAULT bg-blue-subtle rounded-r-lg px-5 py-4 mb-7">
-              <p className="font-sans text-[11px] uppercase tracking-[0.18em] text-blue-label mb-1.5">
+            <div className="border-l-2 border-blue-DEFAULT bg-blue-subtle rounded-lg px-5 py-4 mb-7">
+              <p className="font-sans text-caption uppercase tracking-[0.14em] text-blue-label mb-1.5">
                 {rttTitle}
               </p>
-              <p className="font-sans text-sm text-text-secondary leading-relaxed">
+              <p className="font-sans text-body-sm text-text-secondary">
                 {rttBody}
               </p>
             </div>
@@ -68,7 +68,7 @@ function BrandCard({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 font-sans text-sm text-text-secondary hover:text-text-primary border border-blue-border hover:border-blue-DEFAULT rounded-lg px-4 py-2.5 transition-all duration-200 min-h-[44px] group/link"
+            className="inline-flex items-center gap-2 font-sans text-body-sm text-text-secondary hover:text-text-primary border border-blue-border hover:border-blue-DEFAULT rounded-lg px-4 py-2.5 transition-all duration-200 min-h-[44px] group/link"
           >
             <span
               className="transition-transform duration-200 group-hover/link:translate-x-0.5"
@@ -101,7 +101,7 @@ export default function Brands() {
   return (
     <section
       id="varumarken"
-      className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-28 md:py-36"
+      className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-20 md:py-28"
     >
       <FloatingBlob
         className="top-0 right-0 w-[520px] h-[380px] bg-gradient-to-bl from-blue-500/12 to-indigo-600/8 blur-[120px]"
@@ -119,40 +119,25 @@ export default function Brands() {
         driftX={32}
         driftY={-28}
       />
-      <FloatingBlob
-        className="top-[45%] left-[30%] w-[300px] h-[300px] bg-gradient-to-br from-indigo-400/7 to-blue-500/5 blur-[90px]"
-        delay={4.5}
-        breathDuration={9}
-        driftDuration={20}
-        driftX={-25}
-        driftY={30}
-      />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-6"
+          className="mb-12 md:mb-16"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">
+          <p className="font-sans text-eyebrow uppercase text-blue-label mb-4">
             {t("brands.label")}
           </p>
-          <h2 className="font-display text-display-md text-text-primary leading-tight">
+          <h2 className="font-display text-display-md text-text-primary mb-5">
             {t("brands.heading")}
           </h2>
+          <p className="font-sans text-body-lg text-text-secondary max-w-2xl">
+            {t("brands.lead")}
+          </p>
         </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-sans text-text-secondary leading-relaxed max-w-2xl mb-16"
-        >
-          {t("brands.lead")}
-        </motion.p>
 
         <div className="flex flex-col gap-6">
           <BrandCard

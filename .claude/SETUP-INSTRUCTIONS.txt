@@ -1,64 +1,65 @@
-SETUP INSTRUCTIONS
-==================
+SETUP INSTRUCTIONS — DESIGN REFINEMENT PASS
+============================================
+
+This pack is the SECOND engagement on the `europea` project. The content remaster
+(Swedish default, three brands, new sections) is already done and committed. This
+pack covers a DESIGN-SYSTEM REFINEMENT pass only — no content changes.
 
 1. RENAME THIS FOLDER
 
-   Rename this folder from:   claude-config
-   to:                        .claude
+   The project already has a .claude folder from the first engagement. You have
+   two options:
 
-   On macOS/Linux:   mv claude-config .claude
-   On Windows:       rename it in Explorer (you may need to enable
-                     "show hidden files" afterwards, since .claude
-                     starts with a dot).
+   OPTION A (recommended — merge):
+     Copy the CONTENTS of this claude-config/ into the existing .claude/ folder,
+     overwriting README-FOR-CLAUDE.md and adding the new context/ and prompts/
+     files. The old content-remaster prompts can stay for reference.
 
-   The folder MUST be named .claude and live at the ROOT of the
-   europea project (the same folder that contains package.json,
-   next.config.js, app/, components/, etc.).
+   OPTION B (replace):
+     Back up the existing .claude/ (e.g. rename to .claude-content), then rename
+     this folder from claude-config to .claude.
 
-2. RESULTING LAYOUT
+   Either way, the folder Claude Code reads MUST be named .claude at the project
+   root (next to package.json).
+
+2. RESULTING LAYOUT (the files this pack adds/updates)
 
    europea/
      .claude/
-       README-FOR-CLAUDE.md
+       README-FOR-CLAUDE.md            <- updated for the design pass
        context/
-         00-project-overview.md
-         01-tech-stack.md
-         02-architecture.md
-         03-conventions.md
-         04-constraints.md
-         05-content-and-i18n.md
-         06-new-sections.md
-         07-future-roadmap.md
-         locale-sv.json        <- final Swedish copy (authoritative)
-         locale-en.json        <- final English copy (translation source of truth)
+         00-design-overview.md
+         01-design-tokens.md            <- the new type scale + spacing + radius spec
+         02-component-standards.md      <- card / button / section standards
+         03-section-by-section.md       <- per-section sizing fixes
+         04-navbar-fix.md               <- remove the duplicate contact control
+         05-constraints.md
        prompts/
-         01-locale-schema-and-sv.md
-         02-portfolio-dehardcode-and-infiniuum.md
-         03-new-sections.md
-         04-facts-nav-metadata-qa.md
-     app/
-     components/
-     ...
+         01-design-tokens.md
+         02-navbar-and-hero.md
+         03-cards-and-sections.md
+         04-qa-and-polish.md
+     app/ components/ ...
 
 3. START CLAUDE CODE
 
-   - Open a terminal in the europea/ project root.
-   - Start a fresh Claude Code session.
-   - Paste the PRIMARY STARTING PROMPT (provided separately in the
-     chat, not in this ZIP) into plan mode.
-   - Let Claude Code read all context files and produce a PLAN first.
-   - Do NOT approve the plan until it has been reviewed in the chat.
+   - Fresh session at the project root.
+   - Paste the PRIMARY STARTING PROMPT (given in chat, not in this ZIP) into plan mode.
+   - Let Claude Code read all context files and produce a PLAN first. Do not approve
+     until it has been reviewed in the chat.
 
 4. MODEL + SESSION HYGIENE
 
-   - Default model: claude-sonnet-4-6
-   - Between each prompt phase, start a fresh session and run /compact.
-   - Run the phase prompts in order (01 -> 02 -> 03 -> 04).
+   - Default model: claude-sonnet-4-6.
+   - Fresh session + /compact between each prompt phase.
+   - Run phases in order: 01 -> 02 -> 03 -> 04.
+   - Commit after each phase (clean rollback points).
 
-5. IMPORTANT
+5. GROUND RULES
 
-   - locale-sv.json and locale-en.json in context/ are the FINAL,
-     authoritative text. Copy them verbatim into the project's
-     public/locales/sv/common.json and public/locales/en/common.json.
-   - Do NOT edit any other language folder (mk, de, fr, ...). A
-     separate program translates from the English file.
+   - This is a REFINEMENT, not a redesign: keep the blue identity, keep the
+     Cormorant Garamond + DM Sans pairing, keep all content and section order,
+     keep all accessibility features.
+   - Do NOT touch any locale file. Content is frozen.
+   - Verify visually with `pnpm dev` — the build passing does not prove the design
+     looks right.

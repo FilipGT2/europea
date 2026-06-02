@@ -7,7 +7,7 @@ import { useTranslation } from "react-i18next"
 export default function Contact() {
   const { t } = useTranslation()
   return (
-    <section id="kontakt" className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-28 md:py-36">
+    <section id="kontakt" className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-20 md:py-28">
 
       <FloatingBlob
         className="top-0 right-0 w-[520px] h-[460px] bg-gradient-to-bl from-blue-500/14 to-indigo-700/10 blur-[125px]"
@@ -17,12 +17,8 @@ export default function Contact() {
         className="bottom-0 left-0 w-[420px] h-[320px] bg-gradient-to-tr from-sky-400/12 to-blue-600/8 blur-[105px]"
         delay={2.2} breathDuration={15} driftDuration={28} driftX={36} driftY={-26}
       />
-      <FloatingBlob
-        className="top-[35%] left-[35%] w-[260px] h-[260px] bg-gradient-to-br from-indigo-400/8 to-blue-400/6 blur-[85px]"
-        delay={4} breathDuration={10} driftDuration={20} driftX={22} driftY={22}
-      />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 lg:grid-cols-[40fr_60fr] gap-16 items-center">
 
           {/* Left */}
@@ -32,61 +28,61 @@ export default function Contact() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
-            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-5">
+            <p className="font-sans text-eyebrow uppercase text-blue-label mb-4">
               {t('contact.label')}
             </p>
-            <h2 className="font-display text-display-md text-text-primary leading-tight mb-5">
+            <h2 className="font-display text-display-md text-text-primary mb-5">
               {t('contact.heading')}
             </h2>
-            <p className="font-sans text-text-secondary leading-relaxed mb-8 text-sm">
+            <p className="font-sans text-body-lg text-text-secondary mb-8 max-w-2xl">
               {t('contact.lead')}
             </p>
 
-            <address className="not-italic font-sans text-text-secondary text-sm leading-loose">
+            <address className="not-italic font-sans text-text-secondary">
               <dl className="flex flex-col gap-3">
                 <div className="flex flex-col sm:flex-row sm:gap-3">
-                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                  <dt className="font-sans text-eyebrow uppercase text-text-secondary min-w-[80px] pt-0.5">
                     {t('contact.address_label')}
                   </dt>
-                  <dd>{t('contact.address_value')}</dd>
+                  <dd className="text-body">{t('contact.address_value')}</dd>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:gap-3">
-                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                  <dt className="font-sans text-eyebrow uppercase text-text-secondary min-w-[80px] pt-0.5">
                     {t('contact.phone_label')}
                   </dt>
                   <dd>
                     <a
                       href={`tel:${t('contact.phone_value').replace(/[\s()]/g, '')}`}
-                      className="hover:text-text-primary transition-colors underline underline-offset-2"
+                      className="text-body hover:text-text-primary transition-colors underline underline-offset-2 min-h-[44px] inline-flex items-center"
                     >
                       {t('contact.phone_value')}
                     </a>
                   </dd>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:gap-3">
-                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                  <dt className="font-sans text-eyebrow uppercase text-text-secondary min-w-[80px] pt-0.5">
                     {t('contact.email_label')}
                   </dt>
                   <dd>
                     <a
                       href={`mailto:${t('contact.email_value')}`}
-                      className="hover:text-text-primary transition-colors underline underline-offset-2"
+                      className="text-body hover:text-text-primary transition-colors underline underline-offset-2 min-h-[44px] inline-flex items-center"
                     >
                       {t('contact.email_value')}
                     </a>
                   </dd>
                 </div>
                 <div className="flex flex-col sm:flex-row sm:gap-3">
-                  <dt className="font-sans text-[10px] uppercase tracking-[0.18em] text-text-tertiary min-w-[80px] pt-0.5">
+                  <dt className="font-sans text-eyebrow uppercase text-text-secondary min-w-[80px] pt-0.5">
                     {t('contact.org_label')}
                   </dt>
-                  <dd>{t('contact.org_value')}</dd>
+                  <dd className="text-body">{t('contact.org_value')}</dd>
                 </div>
               </dl>
             </address>
           </motion.div>
 
-          {/* Right — decorative coordinates */}
+          {/* Right — decorative coordinates (aria-hidden) */}
           <motion.div
             initial={{ opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}

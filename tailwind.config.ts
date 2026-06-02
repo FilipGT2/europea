@@ -35,9 +35,18 @@ const config: Config = {
         sans:    ['var(--font-dm-sans)',   'system-ui', 'sans-serif'],
       },
       fontSize: {
-        'display-xl': ['clamp(3.5rem, 8vw, 8rem)',  { lineHeight: '1.0',  letterSpacing: '-0.02em' }],
-        'display-lg': ['clamp(2.5rem, 5vw, 5rem)',  { lineHeight: '1.05', letterSpacing: '-0.02em' }],
-        'display-md': ['clamp(1.75rem, 3vw, 3rem)', { lineHeight: '1.1',  letterSpacing: '-0.01em' }],
+        // Display (Cormorant Garamond) — headings only
+        'display-xl': ['clamp(2.75rem, 5.5vw, 4.5rem)', { lineHeight: '1.05', letterSpacing: '-0.02em' }],
+        'display-lg': ['clamp(2rem, 4vw, 3.25rem)',     { lineHeight: '1.1',  letterSpacing: '-0.015em' }],
+        'display-md': ['clamp(1.6rem, 2.6vw, 2.25rem)', { lineHeight: '1.15', letterSpacing: '-0.01em' }],
+        'display-sm': ['clamp(1.3rem, 2vw, 1.6rem)',    { lineHeight: '1.2',  letterSpacing: '-0.01em' }],
+        // Body (DM Sans)
+        'body-lg':    ['1.125rem',   { lineHeight: '1.7' }],
+        'body':       ['1rem',       { lineHeight: '1.7' }],
+        'body-sm':    ['0.9375rem',  { lineHeight: '1.6' }],
+        'caption':    ['0.8125rem',  { lineHeight: '1.5' }],
+        // Eyebrow / label
+        'eyebrow':    ['0.75rem',    { lineHeight: '1.4', letterSpacing: '0.14em' }],
       },
       backgroundImage: {
         'grain':          "url(\"data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E\")",
@@ -54,7 +63,8 @@ const config: Config = {
         lineGrow: { from: { scaleX: '0' }, to: { scaleX: '1' } },
       },
       boxShadow: {
-        'cta': '0 4px 20px rgba(37,99,235,0.4)',
+        'cta':        '0 4px 20px rgba(37,99,235,0.4)',
+        'card-hover': '0 8px 30px rgba(37,99,235,0.10)',
       },
     },
   },

@@ -247,7 +247,7 @@ export function HeroGeometric({
             initial="hidden"
             animate="visible"
           >
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded text-[11px] sm:text-xs tracking-[0.1em] uppercase font-sans font-medium text-text-secondary border border-blue-border bg-blue-subtle mb-8 whitespace-nowrap">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-lg text-eyebrow uppercase font-sans font-medium text-text-secondary border border-blue-border bg-blue-subtle mb-8 whitespace-nowrap">
               {badge}
             </span>
           </motion.div>
@@ -276,7 +276,7 @@ export function HeroGeometric({
             initial="hidden"
             animate="visible"
           >
-            <p className="font-sans text-text-secondary text-lg md:text-xl max-w-2xl leading-relaxed mb-10">
+            <p className="font-sans text-body-lg text-text-secondary max-w-2xl leading-relaxed mb-10">
               {subtitle}
             </p>
           </motion.div>
@@ -290,13 +290,13 @@ export function HeroGeometric({
           >
             <a
               href={ctaPrimaryHref}
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-white text-sm transition-all duration-200 bg-brand-gradient shadow-cta hover:shadow-[0_6px_28px_rgba(37,99,235,0.5)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-white text-body-sm transition-all duration-200 bg-brand-gradient shadow-cta hover:shadow-[0_6px_28px_rgba(37,99,235,0.5)] hover:scale-[1.02] active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
               {ctaPrimary}
             </a>
             <a
               href={ctaSecondaryHref}
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-text-secondary text-sm border border-blue-border transition-all duration-200 hover:border-blue-DEFAULT hover:text-text-primary hover:bg-blue-subtle focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-lg font-sans font-medium text-text-secondary text-body-sm border border-blue-border transition-all duration-200 hover:border-blue-DEFAULT hover:text-text-primary hover:bg-blue-subtle focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-DEFAULT min-h-[44px]"
             >
               {ctaSecondary}
             </a>

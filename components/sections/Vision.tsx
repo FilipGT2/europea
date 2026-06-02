@@ -14,7 +14,7 @@ export default function Vision() {
   return (
     <section
       id="vision"
-      className="relative overflow-hidden bg-bg-base border-t border-blue-border py-28 md:py-36"
+      className="relative overflow-hidden bg-bg-base border-t border-blue-border py-20 md:py-28"
     >
       <FloatingBlob
         className="top-0 right-0 w-[420px] h-[380px] bg-gradient-to-bl from-blue-500/12 to-indigo-600/8 blur-[110px]"
@@ -31,25 +31,18 @@ export default function Vision() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-6"
+          className="mb-12 md:mb-16"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">
+          <p className="font-sans text-eyebrow uppercase text-blue-label mb-4">
             {t("vision.label")}
           </p>
-          <h2 className="font-display text-display-md text-text-primary leading-tight">
+          <h2 className="font-display text-display-md text-text-primary mb-5">
             {t("vision.heading")}
           </h2>
+          <p className="font-sans text-body-lg text-text-secondary max-w-2xl">
+            {t("vision.lead")}
+          </p>
         </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-sans text-text-secondary leading-relaxed mb-12"
-        >
-          {t("vision.lead")}
-        </motion.p>
 
         {/* Vision + Conviction card */}
         <motion.div
@@ -57,9 +50,9 @@ export default function Vision() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.8, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
-          className="bg-brand-gradient rounded-2xl p-8 md:p-10 shadow-cta mb-6"
+          className="bg-brand-gradient rounded-2xl p-7 md:p-8 shadow-cta mb-6"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-white/70 mb-3">
+          <p className="font-sans text-eyebrow uppercase text-white/70 mb-3">
             {t("vision.vision_label")}
           </p>
           <p className="font-display text-display-lg text-white italic leading-tight mb-8">
@@ -67,13 +60,13 @@ export default function Vision() {
           </p>
 
           <div className="border-t border-white/20 pt-7">
-            <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-white/70 mb-3">
+            <p className="font-sans text-eyebrow uppercase text-white/70 mb-3">
               {t("vision.belief_label")}
             </p>
-            <p className="font-sans text-white/90 leading-relaxed mb-3">
+            <p className="font-sans text-body text-white/90 mb-3">
               {t("vision.belief_body1")}
             </p>
-            <p className="font-sans text-white/90 leading-relaxed">
+            <p className="font-sans text-body text-white/90">
               {t("vision.belief_body2")}
             </p>
           </div>
@@ -85,12 +78,12 @@ export default function Vision() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, delay: 0.25, ease: [0.16, 1, 0.3, 1] }}
-          className="bg-bg-card border border-blue-border rounded-xl px-8 py-7"
+          className="bg-bg-card border border-blue-border rounded-2xl p-7 md:p-8"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-3">
+          <p className="font-sans text-eyebrow uppercase text-blue-label mb-3">
             {t("vision.practice_label")}
           </p>
-          <p className="font-sans text-text-secondary leading-relaxed">
+          <p className="font-sans text-body-sm text-text-secondary">
             {parts.length === 2 ? (
               <>
                 {parts[0]}

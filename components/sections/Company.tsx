@@ -28,7 +28,7 @@ export default function Company() {
   return (
     <section
       id="foretaget"
-      className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-28 md:py-36"
+      className="relative overflow-hidden bg-bg-surface border-t border-blue-border py-20 md:py-28"
     >
       <FloatingBlob
         className="top-0 right-0 w-[400px] h-[320px] bg-gradient-to-bl from-blue-500/10 to-indigo-600/7 blur-[110px]"
@@ -39,33 +39,26 @@ export default function Company() {
         delay={2} breathDuration={13} driftDuration={25} driftX={26} driftY={-20}
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-10">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-10">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-          className="mb-6"
+          className="mb-12 md:mb-16"
         >
-          <p className="font-sans text-[11px] uppercase tracking-[0.2em] text-blue-label mb-4">
+          <p className="font-sans text-eyebrow uppercase text-blue-label mb-4">
             {t("company.label")}
           </p>
-          <h2 className="font-display text-display-md text-text-primary leading-tight">
+          <h2 className="font-display text-display-md text-text-primary mb-5">
             {t("company.heading")}
           </h2>
+          <p className="font-sans text-body-lg text-text-secondary max-w-2xl">
+            {t("company.lead")}
+          </p>
         </motion.div>
 
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-          className="font-sans text-text-secondary leading-relaxed max-w-2xl mb-16"
-        >
-          {t("company.lead")}
-        </motion.p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
           {cards.map((card, i) => (
             <motion.div
               key={card.name}
@@ -73,15 +66,15 @@ export default function Company() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
-              className="relative pt-8 border-t border-blue-border group"
+              className="relative bg-bg-card border border-blue-border rounded-2xl p-7 md:p-8 h-full"
             >
-              <span className="inline-flex items-center px-2.5 py-1 rounded border border-blue-border font-sans text-[10px] uppercase tracking-[0.18em] text-blue-label mb-4 bg-blue-subtle">
+              <span className="inline-flex items-center px-2.5 py-1 rounded-lg border border-blue-border font-sans text-eyebrow uppercase text-blue-label mb-4 bg-blue-subtle">
                 {card.tag}
               </span>
-              <h3 className="font-sans font-medium text-text-primary mb-3 leading-snug text-base">
+              <h3 className="font-display text-display-sm text-text-primary mb-3">
                 {card.name}
               </h3>
-              <p className="font-sans text-text-secondary text-sm leading-relaxed">
+              <p className="font-sans text-body-sm text-text-secondary">
                 {card.desc}
               </p>
             </motion.div>

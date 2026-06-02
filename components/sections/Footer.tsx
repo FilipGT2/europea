@@ -11,7 +11,7 @@ export default function Footer() {
         className="top-0 left-[20%] w-[400px] h-[80px] bg-gradient-to-r from-blue-500/8 to-indigo-500/5 blur-[70px]"
         delay={0} breathDuration={12} driftDuration={22} driftX={25} driftY={8}
       />
-      <p className="relative z-10 font-sans text-text-tertiary text-xs text-center">
+      <p className="relative z-10 font-sans text-caption text-text-tertiary text-center">
         {t('footer.copy')}
       </p>
     </footer>
