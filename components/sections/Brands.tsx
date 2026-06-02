@@ -183,12 +183,13 @@ export default function Brands() {
             link="https://infiniuum.com"
             linkLabel={t("brands.infiniuum_url")}
             logo={
-              <span
-                className="font-display text-display-md leading-none bg-brand-gradient bg-clip-text text-transparent select-none"
-                aria-label={t("brands.infiniuum_name")}
-              >
-                {t("brands.infiniuum_name")}
-              </span>
+              <Image
+                src="/infiniuum-logo.png"
+                alt={t("brands.infiniuum_name")}
+                width={180}
+                height={80}
+                className="w-full h-auto object-contain dark:brightness-0 dark:invert"
+              />
             }
             index={2}
           />

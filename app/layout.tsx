@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Sans } from 'next/font/google'
+import Script from 'next/script'
 import { ThemeProvider } from '@/components/providers/ThemeProvider'
 import { I18nProvider } from '@/components/providers/I18nProvider'
 import { HtmlLangSync } from '@/components/ui/HtmlLangSync'
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </ThemeProvider>
         </I18nProvider>
+        <Script src="https://widget.easeaccess24.com/sdk.js?key=vfSYfCsUTp" strategy="afterInteractive" />
       </body>
     </html>
   )
