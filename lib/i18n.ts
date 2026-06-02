@@ -44,8 +44,10 @@ function getInitialLanguage(): string {
   if (typeof window === "undefined") return "sv";
   const stored = localStorage.getItem("europea_lang");
   if (stored && SUPPORTED_CODES.includes(stored)) return stored;
-  const browser = navigator.language.split("-")[0];
-  if (SUPPORTED_CODES.includes(browser)) return browser;
+  // No stored preference -> always default to Swedish. Browser-language
+  // auto-detection intentionally removed so the site has a single,
+  // predictable default regardless of visitor locale. Language only changes
+  // when the user explicitly selects one (persisted to localStorage).
   return "sv";
 }
 
