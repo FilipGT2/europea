@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "Par mums",
-    "portfolio": "Portfolio",
+    "brands": "Zīmoli",
+    "evolution": "Evolūcija",
+    "vision": "Vīzija",
+    "europe": "Eiropa",
     "contact": "Kontakti",
     "openMenu": "Atvērt navigācijas izvēlni",
     "closeMenu": "Aizvērt navigācijas izvēlni",
-    "home": "Eiropas sākumlapa",
-    "switchLight": "Pārslēgties uz gaišo režīmu",
-    "switchDark": "Pārslēgties uz tumšo režīmu",
-    "languageSwitcher": "Izvēlēties valodu"
+    "home": "Eiropas sākums",
+    "switchLight": "Pārslēgties uz dienas režīmu",
+    "switchDark": "Pārslēgties uz nakts režīmu",
+    "languageSwitcher": "Izvēlēties valodu",
+    "cta": "Sazinieties ar mums"
   },
   "hero": {
-    "badge": "MALME, ZVIEDRIJA · NODIBINĀTS 1993. GADĀ · PIEEJAMĪBAS GRUPA",
-    "title1": "Tehnoloģija, kas saved cilvēkus",
-    "title2": "kopā.",
-    "subtitle": "Mēs ticam sociāli ilgtspējīgai sabiedrībai, kas balstīta uz līdztiesību un daudzveidību. Eiropas uzņēmumi sniedz cilvēkiem rīkus, lai viņi varētu pilnvērtīgi piedalīties — un dzīvot bagātāku dzīvi.",
-    "cta_primary": "Atklājiet mūsu uzņēmumus",
-    "cta_secondary": "Sazinieties ar mums"
+    "eyebrow": "Pieejamība · komunikācija · digitālā iekļaušana",
+    "title1": "Spēcīgs spēks ",
+    "titleEm": "pieejamībā",
+    "title2": " kopš 1993. gada",
+    "subtitle": "Europea i Malmö AB izstrādā un vada uzņēmumus pieejamas komunikācijas, digitālās pieejamības un uz lietotāju vērstu tehnoloģiju risinājumu jomā. Kopš 1993. gada mēs strādājam, lai mazinātu komunikācijas barjeras un radītu risinājumus, kas vairāk cilvēkiem nodrošina pieejamu komunikāciju, informāciju un digitālo vidi.",
+    "cta_primary": "Mūsu zīmoli",
+    "cta_secondary": "Sazinieties ar mums",
+    "since_year": "1993",
+    "since_label": "Dibināts Malmē – aktīvs kopš dibināšanas",
+    "stat1_number": "30+",
+    "stat1_label": "Gadi nozarē",
+    "stat2_number": "3",
+    "stat2_label": "Mūsu zīmoli",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Aktīvi tirgi",
+    "stat4_number": "WCAG",
+    "stat4_label": "Digitālā pieejamība"
   },
-  "mission": {
-    "label": "Mūsu misija",
-    "heading": "Komunikācija vienlīdzīgos noteikumos — ikvienam indivīdam.",
-    "body1": "Kad mēs projektējam, ņemot vērā visprasīgākās vajadzības, mēs radām produktus, kas nāk par labu visiem. Tas ir ne tikai par taisnīgumu un cilvēktiesībām — tas ir par iekļaujošu, universālu dizainu. Tāda ir nākotnes domāšana.",
-    "body2": "Tikai Zviedrijā gandrīz diviem miljoniem cilvēku ir dzirdes traucējumi. Daudziem — arī nedzirdīgiem — vēsturiski ir bijis grūti tieši piekļūt tādiem pakalpojumiem kā banka, veselības aprūpes sniedzējs vai valdības birojs. Mēs esam pavadījuši vairāk nekā divdesmit piecus gadus, aizpildot šo plaisu. Šodien mūsu tehnoloģija ļauj cilvēkam ar dzirdes un redzes traucējumiem strādāt klientu apkalpošanas jomā un palīdzēt ikvienam zvanītājam.",
-    "tag1": "Klientu fokuss",
-    "tag2": "Ilgtermiņa domāšana",
-    "tag3": "Inovācija",
-    "quoteText": "\"Komplett Kommunikation.\"",
-    "quoteBody": "Pilnīga komunikācija — Eiropas pamatkonceptija. Ikvienam vajadzētu būt iespējai sazināties ar jebkuru un saņemt atbildi, izmantojot pie rokas esošos rīkus.",
-    "quoteAttribution": "Max & Faruk Tairi, dibinātāji"
+  "coreCompetence": {
+    "label": "Europea pozīcija",
+    "heading": "Pieejamība kā pamatkompetence",
+    "lead": "Pieejamība nav Europea otršķirīga problēma – tā ir mūsu pamatkompetence. Izmantojot speciālistu zināšanas, inovācijas un ilggadēju pieredzi, mēs izstrādājam risinājumus, kas stiprina līdzdalību, izpratni un vienlīdzīgu komunikāciju.",
+    "card1_tag": "Komunikācija",
+    "card1_name": "Pieejami sarunas",
+    "card1_desc": "Balss, teksta, video un attālinātās komunikācijas risinājumi, kas ļauj vairāk cilvēku piedalīties savos noteikumos.",
+    "card2_tag": "Digitālā iekļaušana",
+    "card2_name": "Tīmeklis un pieejamība",
+    "card2_desc": "Zināšanas par WCAG, lietojamību un digitālo pieejamību – ar fokusu uz praktisko vērtību lietotājiem un organizācijām.",
+    "card3_tag": "Inovācija",
+    "card3_name": "Atvērti standarti",
+    "card3_desc": "Tehnoloģijas un pakalpojumi, kas izstrādāti, ņemot vērā ilgmūžību, savietojamību un nākotnes komunikācijas risinājumus."
   },
-  "stats": {
-    "years_label": "Gadi, veidojot pieejamas tehnoloģijas",
-    "engineers_label": "Inženieri un izstrādātāji",
-    "europeans_label": "Eiropieši, kas dzīvo ar invaliditāti"
+  "evolution": {
+    "label": "Mūsu evolūcija",
+    "heading": "No pieejamas komunikācijas līdz plašākai pieejamībai",
+    "lead": "Europea darbs sākās pieejamas komunikācijas jomā, izmantojot T-Meeting un risinājumus cilvēkiem ar dzirdes un komunikācijas problēmām. Pēdējos gados šis darbs ir paplašinājies – no komunikācijas līdz digitālajai pieejamībai un iekļaujošiem digitālajiem pakalpojumiem.",
+    "body1": "No pieejamas komunikācijas gūtā pieredze radīja dabisku ceļu uz digitālo pieejamību, lietojamību un jaunām iekļaujošu tehnoloģiju formām.",
+    "body2": "Šī evolūcija skaidri atspoguļojas tādās iniciatīvās kā EaseAccess24 – kur saglabājas tāda paša pamatā esošā pārliecība: ka pieejamībai nevajadzētu būt papildu opcijai, bet gan pašsaprotamai daļai no tehnoloģiju, komunikācijas un digitālo pakalpojumu dizaina."
   },
-  "values": {
-    "label": "Vērtības",
-    "heading": "Kā mēs domājam un būvējam.",
-    "item1_title": "Iekļaušana dizainā",
-    "item1_heading": "Mēs nepievienojam pieejamību pēc faktiem.",
-    "item1_body": "Katrs produkts sākas ar jautājumu: kas tiek izslēgts? Kad mēs projektējam, ņemot vērā visprasīgākās vajadzības, mēs radām risinājumus, kas nāk par labu visiem.",
-    "item2_title": "Tehnoloģija ar cilvēcību",
-    "item2_heading": "Aiz katras koda rindas ir cilvēks.",
-    "item2_body": "Mūsu rīki risina reālas cilvēku problēmas. Viss mūsu kods tiek izstrādāts iekšēji, komandā, kurā ietilpst doktorantūras pētnieki sistēmu izstrādē. Mēs klausāmies mūsu lietotājus un veidojam to, kas viņiem patiešām ir nepieciešams.",
-    "item3_title": "Būvēt, lai izturētu",
-    "item3_heading": "Mēs izvēlamies grūtāko ceļu.",
-    "item3_body": "Īstermiņa labojumi nav mūsu bizness. Kad trūkst standartu, mēs tos nosakām. Kad risinājums nepastāv, mēs to izveidojam. Mūsu produkti tiek kopti kā mūsu pašu bērni."
+  "brands": {
+    "label": "Mūsu zīmoli",
+    "heading": "Europea uzņēmumi",
+    "lead": "Europea ir uzņēmums, kas aizvien vairākiem specializētiem uzņēmumiem un zīmoliem. Kopā tie parāda mūsu pieredzes plašumu pieejamas komunikācijas, digitālās pieejamības un uz lietotāju vērstas tehnoloģijas jomā.",
+    "tmeeting_tag": "Pieejama komunikācija",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Pieejama saziņa – veidota dalībai. T-Meeting izstrādā risinājumus, kuros balss, video un reāllaika teksts darbojas kopā, lai nodrošinātu drošu, iekļaujošu un nākotnei atbilstošu saziņu. Mūsu risinājumi ir balstīti uz atklātajiem standartiem un izstrādāti publiskajam sektoram, organizācijām un privātpersonām.",
+    "tmeeting_rtt_title": "RTT un standartizācija",
+    "tmeeting_rtt_body": "T-Meeting ir izskatījis un sniedzis konsultācijas saistībā ar darbu pie RTT/reāllaika teksta standartizācijas. Šī pieredze stiprina mūsu darbu ar atklātajiem standartiem, sadarbspēju un nākotnei atbilstošiem risinājumiem pieejamai saziņai.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Meitasuzņēmums",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 ir Europea’s specializētais uzņēmums digitālās pieejamības jomā. Koncentrējoties uz WCAG, lietojamību un iekļaujošiem digitālajiem pakalpojumiem, uzņēmums palīdz organizācijām veidot tīmekļa vietnes un digitālās vides, kas darbojas vairāk cilvēkiem.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Europea’s zīmols",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum apvieno Europea’s centienus papildinošu uztveres produktu jomā. Produkti balstās uz Europea’s izstrādes darbu un tiek piedāvāti patēriņa tirgum, savukārt attiecīgos risinājumus, izmantojot T-Meeting, bieži vien nodrošina publiskais sektors un iepirkumi.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Partnerība",
-    "heading": "Kopā mēs esam stiprāki.",
-    "body": "Ar visaptverošu produktu saimi, kas veidota vairāk nekā divdesmit piecus gadus, Eiropas un tās uzņēmumi lepojas, sadarbojoties lielākos projektos, kas veicina pieejamu digitalizāciju. Mēs rīkojam produktu demonstrācijas, uzstājamies konferencēs un kopīgi izstrādājam risinājumus ar publiskām un privātām organizācijām visā Skandināvijā un Eiropā.",
-    "item1_title": "Pētniecība un attīstība",
-    "item1_body": "Mēs sadarbojāmies ar PTS (Zviedrijas Pasta un telekomunikāciju pārvaldi) vairākos inovāciju projektos, tostarp TERA Next Generation un Fritt Fram.",
-    "item2_title": "Publiskais sektors",
-    "item2_body": "Pašvaldības, reģioni un labklājības tehnoloģiju organizācijas. Ja jums ir digitālais pakalpojums, mēs varam palīdzēt padarīt to pilnībā pieejamu — no sākuma līdz beigām.",
-    "item3_title": "Pasākumi un izglītība",
-    "item3_body": "Mēs organizējam ikgadējas konferences un produktu demonstrācijas. Kopš 2018. gada sadarbībā ar Lidol mēs kopīgi sponsorējam atklātu konferenci par Komplett Kommunikation.",
-    "cta": "Interesē sadarbība?"
+  "history": {
+    "label": "Vēsture",
+    "heading": "Trīs gadu desmiti attīstībā pieejamības jomā",
+    "lead": "Kopš 1993. gada Europea ir attīstījusies no saziņas palīglīdzekļiem un video tālruņiem līdz pieejamai saziņai, digitālajai iekļaušanai un specializētiem uzņēmumiem pieejamības jomā.",
+    "image_note_title": "Inovatīvs vēsturisks ceļojums",
+    "image_note_body": "Šeit var ievietot vēsturisku attēlu no Europea’s digitālo un mobilo video telefonu izstrādes, lai vizualizētu inovāciju ceļojumu no 1993. līdz 2010. gadam.",
+    "item1_year": "1993",
+    "item1_title": "Dibināts Malmē",
+    "item1_body": "Europea i Malmö AB tiek dibināts ar uzsvaru uz saziņas palīglīdzekļiem un pieejamiem risinājumiem cilvēkiem ar dzirdes traucējumiem un komunikācijas grūtībām.",
+    "item2_year": "1993–2010",
+    "item2_title": "Digitālie un mobilie video telefoni",
+    "item2_body": "Pirmās desmitgadēs Europea izstrādā un piegādā digitālos un mobilos video telefonus, kā arī saziņas palīglīdzekļus, kas stiprina neatkarību un pieejamu saziņu.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting pašreizējā formā",
+    "item3_body": "T-Meeting tiek izveidots pašreizējā formā ar uzsvaru uz pieejamu saziņu, atklātajiem standartiem un risinājumiem audio, video un reāllaika tekstam.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produkti bagātākai dzīvei",
+    "item4_body": "Infiniuum tiek izveidots, lai nodrošinātu klientiem piekļuvi labākajiem produktiem – un kalpo kā grupas e-komercijas platforma.",
+    "item5_year": "2025",
+    "item5_title": "Digitālā pieejamība",
+    "item5_body": "EaseAccess24 tiek izveidots ar uzsvaru uz digitālo pieejamību un WCAG – dabisks nākamais solis Europea’s darbā, lai panāktu lielāku līdzdalību un iekļaujošus digitālos pakalpojumus."
+  },
+  "company": {
+    "label": "Par Europea",
+    "heading": "Uzņēmums, kas aiz mūsu uzņēmumiem",
+    "lead": "Europea i Malmö AB ir mūsu uzņēmumu stratēģiskā bāze. Mēs apvienojam pieredzi, tehnoloģijas un zīmolus pieejamības jomā – un virzām attīstību uz risinājumiem, kas padara saziņu un digitālās vides iekļaujošākas.",
+    "tmeeting_tag": "Pieejama saziņa",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "T-Meeting ir Europea’s specializētais zīmols pieejamas saziņas jomā. Izmantojot audio, video un reāllaika tekstu, tas izstrādā risinājumus, kas nodrošina drošu, iekļaujošu un nākotnei atbilstošu saziņu – balstoties uz atklātajiem standartiem un ilggadēju pieredzi šajā jomā.",
+    "ease_tag": "Digitālā pieejamība",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 ir Europea’s specializētais uzņēmums digitālās pieejamības jomā. Koncentrējoties uz WCAG, lietojamību un iekļaujošiem digitālajiem pakalpojumiem, uzņēmums palīdz organizācijām veidot tīmekļa vietnes un digitālās vides, kas darbojas vairāk cilvēkiem.",
+    "infiniuum_tag": "Inovācija un produkti",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum apvieno Europea’s centienus papildinošu uztveres produktu jomā. Produkti balstās uz Europea’s izstrādes darbu un tiek piedāvāti patēriņa tirgum, savukārt attiecīgos risinājumus, izmantojot T-Meeting, bieži vien nodrošina publiskais sektors un iepirkumi."
+  },
+  "vision": {
+    "label": "Vīzija",
+    "heading": "Virzošais spēks pieejamības jomā Eiropā",
+    "lead": "Europea strādā sabiedrības virzienā, kur pieejamība nav papildu iespēja vai izņēmums – bet gan pašsaprotama daļa no saziņas, tehnoloģiju un digitālo pakalpojumu projektēšanas.",
+    "vision_label": "Vīzija",
+    "vision_body": "Mūsu ambīcijas ir būt vadošajam Eiropas spēkam pieejamības jomā, izmantojot mūsu zināšanas, pieredzi un inovāciju spējas, lai samazinātu šķēršļus un radītu reālu līdzdalību – valodu, sabiedrības sistēmu un valstu robežu mērogā.",
+    "belief_label": "Mūsu pārliecība",
+    "belief_body1": "Mēs ticam, ka risinājumi, kas izstrādāti, ņemot vērā visprasīgākās vajadzības, rada labākus risinājumus visiem.",
+    "belief_body2": "Tāpēc mēs uzskatām pieejamību ne tikai par vienlīdzības un cilvēktiesību jautājumu – bet arī par inovāciju, universālā dizaina un nākotnes sabiedrības virzošo spēku.",
+    "practice_label": "Mūsu vīzija praksē",
+    "practice_body": "T-Meeting ietver Europea vīziju par pieejamu saziņu, balstoties uz Komplett Kommunikation ideju – koncepciju, ko ieviesuši Faruks un Maks Tairi, un kas raksturo vienlīdzīgu piekļuvi saziņai visiem.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Eiropas klātbūtne",
+    "heading": "No Ziemeļvalstīm – ar Eiropas ambīcijām",
+    "lead": "Europea saknes meklējamas Malmē, un šodien tā aktīvi darbojas Zviedrijā un Norvēģijā. Caur mūsu uzņēmumiem un sadarbību mēs darbojamies arī starptautiski – ar meitasuzņēmuma klātbūtni Ziemeļmaķedonijā un nepārtrauktu iestādes izveides darbu Francijā.",
+    "body1": "Mūsu ambīcija ir skaidra: kļūt par Eiropas spēku pieejamības jomā, kur zināšanas, inovācijas un praktiskā pieredze tiek izmantotas, lai radītu iekļaujošāku saziņu un digitālo vidi.",
+    "body2": "Mēs uzskatām pieejamību par kopīgu Eiropas problēmu un vēlamies veicināt tādu risinājumu attīstību, kas darbojas starp valodām, robežām un sabiedrības sistēmām."
+  },
+  "founders": {
+    "label": "Dibinātāji",
+    "heading": "Uzņēmums, kas balstīts uz reālu izpratni par pieejamību",
+    "lead": "Europea i Malmö AB dibināja 1993. gadā Faruks un Maks Tairi, kuriem abiem bija pieredze valodu tulku darbā. Strādājot pie tulkotām sarunām, viņi no pirmavotiem redzēja, kā saziņas barjeras ietekmē cilvēku spēju saprast, piedalīties un pieņemt savus lēmumus.",
+    "body1": "Šī pieredze kļuva par pamatu Europea virzienam un pozīcijai: būt par praktisku, zinošu un ilgtermiņa spēku pieejamības jomā.",
+    "body2": "Kopš dibināšanas uzņēmums ir audzis, pateicoties speciālistu zināšanām, inovācijām un ilgtermiņa apņemšanai nodrošināt pieejamību – un šodien tas ietver vairākus uzņēmumus un zīmolus ar kopīgu uzmanību saziņai, līdzdalībai un digitālajai iekļaušanai.",
+    "body3": "Dibinātāju pieredze tulkošanā, uzņēmējdarbībā un augstas veiktspējas vidēs ir veidojusi uzņēmuma kultūru: ilgtermiņa domāšanu, disciplīnu un praktisku problēmu risināšanu.",
+    "quote": "Saziņai nevajadzētu būt šķērslim līdzdalībai – tai vajadzētu būt iespējai."
+  },
+  "industry": {
+    "label": "Nozare un sadarbība",
+    "heading": "Iesakņojies pieejamības attīstībā",
+    "lead": "Europea ilgtermiņā strādā pie pieejamības un līdzdalības – ciešā saskarē ar nozari, lietotāju vajadzībām un nākotnes pieejamo risinājumu attīstību.",
+    "membership_tag": "Dalība",
+    "membership_name": "Nozares asociācija Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "Europea i Malmö AB ir nozares asociācijas Branschorganisationen Svensk Tillgänglighet biedrs un atbalsta organizācijas darbu, lai veicinātu lielāku līdzdalību, zināšanas un attīstību pieejamības jomā."
   },
   "contact": {
     "label": "Kontakti",
-    "heading": "Mēs atrodamies Malmē.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, 3. stāvs",
-    "address2": "211 55 Malmē, Zviedrija",
-    "org": "Org. 556464-0323",
-    "noProduct": "Europea nav publiski pieejama produkta. Lai saņemtu palīdzību saistībā ar pieejamību, apmeklējiet vietni EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Vēlaties uzzināt vairāk par Europea?",
+    "lead": "Sazinieties ar mums, ja vēlaties uzzināt vairāk par Europea, mūsu uzņēmumiem vai mūsu darbu pieejamas saziņas, digitālās pieejamības un iekļaujošu tehnoloģiju jomā.",
+    "address_label": "Adrese",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Tālrunis",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "E-pasts",
+    "email_value": "info@europea.se",
+    "org_label": "Uzņēmums",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmē"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Pāriet uz galveno saturu"
+    "skipToMain": "Izlaist uz galveno saturu"
   }
 }

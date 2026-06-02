@@ -247,7 +247,7 @@ export function HeroGeometric({
             initial="hidden"
             animate="visible"
           >
-            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-lg text-eyebrow uppercase font-sans font-medium text-text-secondary border border-blue-border bg-blue-subtle mb-8 whitespace-nowrap">
+            <span className="inline-flex items-center gap-2 px-3 py-1 rounded-lg text-eyebrow uppercase font-sans font-medium text-text-secondary border border-blue-border bg-blue-subtle mb-8 text-center sm:whitespace-nowrap">
               {badge}
             </span>
           </motion.div>

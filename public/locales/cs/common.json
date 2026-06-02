@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "O nás",
-    "portfolio": "Portfolio",
+    "brands": "Značky",
+    "evolution": "Vývoj",
+    "vision": "Vize",
+    "europe": "Evropa",
     "contact": "Kontakt",
     "openMenu": "Otevřít navigační menu",
     "closeMenu": "Zavřít navigační menu",
-    "home": "Evropské hlavní stránky",
+    "home": "Domovská stránka Europea",
     "switchLight": "Přepnout na světlý režim",
     "switchDark": "Přepnout na tmavý režim",
-    "languageSwitcher": "Vybrat jazyk"
+    "languageSwitcher": "Vybrat jazyk",
+    "cta": "Kontaktujte nás"
   },
   "hero": {
-    "badge": "MALMÖ, ŠVÉDSKO · ZALOŽENO 1993 · SKUPINA PRO PŘÍSTUPNOST",
-    "title1": "Technologie, která sbližuje",
-    "title2": "lidi.",
-    "subtitle": "Věříme v sociálně udržitelnou společnost založenou na rovnosti a rozmanitosti. Společnosti Europea poskytují lidem nástroje, aby se mohli plně zapojit – a žít plnější životy.",
-    "cta_primary": "Objevte naše společnosti",
-    "cta_secondary": "Kontaktujte nás"
+    "eyebrow": "Přístupnost · komunikace · digitální začlenění",
+    "title1": "Silný pilíř v oblasti ",
+    "titleEm": "přístupnosti",
+    "title2": " od roku 1993",
+    "subtitle": "Europea i Malmö AB vyvíjí a provozuje podniky v oblasti přístupné komunikace, digitální přístupnosti a uživatelsky orientovaných technologických řešení. Od roku 1993 pracujeme na odstraňování komunikačních bariér a vytváření řešení, která umožňují většímu počtu lidí přístupnou komunikaci, informace a digitální prostředí.",
+    "cta_primary": "Naše značky",
+    "cta_secondary": "Kontaktujte nás",
+    "since_year": "1993",
+    "since_label": "Založeno v Malmö – aktivní od té doby",
+    "stat1_number": "30+",
+    "stat1_label": "Let v oboru",
+    "stat2_number": "3",
+    "stat2_label": "Naše značky",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Aktivní trhy",
+    "stat4_number": "WCAG",
+    "stat4_label": "Digitální přístupnost"
   },
-  "mission": {
-    "label": "Naše poslání",
-    "heading": "Komunikace za rovných podmínek – pro každého jednotlivce.",
-    "body1": "Když navrhujeme s ohledem na nejnáročnější potřeby, vytváříme produkty, které prospívají všem. Nejde jen o spravedlnost a lidská práva – jde o inkluzivní, univerzální design. To je myšlení budoucnosti.",
-    "body2": "Jen ve Švédsku má téměř dva miliony lidí problémy se sluchem. Pro mnohé – včetně neslyšících – bylo historicky obtížné přímo dosáhnout na služby, jako je banka, poskytovatel zdravotní péče nebo vládní úřad. Tuto mezeru jsme uzavírali přes dvacet pět let. Dnes naše technologie umožňuje neslyšícím a nevidomým pracovat v zákaznickém servisu a asistovat každému volajícímu.",
-    "tag1": "Zaměření na zákazníka",
-    "tag2": "Dlouhodobé myšlení",
-    "tag3": "Inovace",
-    "quoteText": "\"Kompletní komunikace.\"",
-    "quoteBody": "Kompletní komunikace – zakládající koncept Europea. Každý by měl mít možnost dosáhnout a být osloven kýmkoli, pomocí nástrojů, které má po ruce.",
-    "quoteAttribution": "Max & Faruk Tairi, zakladatelé"
+  "coreCompetence": {
+    "label": "Pozice společnosti Europea",
+    "heading": "Přístupnost jako klíčová kompetence",
+    "lead": "Přístupnost není pro společnost Europea vedlejší – je to naše klíčová kompetence. Prostřednictvím odborných znalostí, inovací a dlouholetých zkušeností vyvíjíme řešení, která posilují účast, porozumění a rovnocennou komunikaci.",
+    "card1_tag": "Komunikace",
+    "card1_name": "Přístupné konverzace",
+    "card1_desc": "Řešení pro hlasovou, textovou, video a dálkovou komunikaci, která umožňují většímu počtu lidí zapojit se za jejich vlastních podmínek.",
+    "card2_tag": "Digitální začlenění",
+    "card2_name": "Web a přístupnost",
+    "card2_desc": "Odborné znalosti v oblasti WCAG, použitelnosti a digitální přístupnosti – se zaměřením na praktický přínos pro uživatele a organizace.",
+    "card3_tag": "Inovace",
+    "card3_name": "Otevřené standardy",
+    "card3_desc": "Technologie a služby vyvinuté s ohledem na dlouhou životnost, interoperabilitu a budoucí komunikační řešení."
   },
-  "stats": {
-    "years_label": "Roky budování přístupné technologie",
-    "engineers_label": "Inženýři a vývojáři",
-    "europeans_label": "Evropané žijící s postižením"
+  "evolution": {
+    "label": "Náš vývoj",
+    "heading": "Od přístupné komunikace k širší přístupnosti",
+    "lead": "Práce společnosti Europea začala v oblasti přístupné komunikace prostřednictvím T-Meeting a řešení pro osoby se sluchovým a komunikačním postižením. V posledních letech se tato práce rozšířila – od komunikace k digitální přístupnosti a inkluzivním digitálním službám.",
+    "body1": "Zkušenosti získané z přístupné komunikace vytvořily přirozenou cestu k digitální přístupnosti, použitelnosti a novým formám inkluzivních technologií.",
+    "body2": "Tento vývoj se jasně odráží v iniciativách, jako je EaseAccess24 – kde žije stejné základní přesvědčení: že přístupnost by neměla být volitelným doplňkem, ale samozřejmou součástí toho, jak jsou navrhovány technologie, komunikace a digitální služby."
   },
-  "values": {
-    "label": "Hodnoty",
-    "heading": "Jak přemýšlíme a budujeme.",
-    "item1_title": "Inkluze prostřednictvím designu",
-    "item1_heading": "Nepřidáváme přístupnost zpětně.",
-    "item1_body": "Každý produkt začíná otázkou: kdo je vyloučen? Když navrhujeme s ohledem na nejnáročnější potřeby, vytváříme řešení, která prospívají všem.",
-    "item2_title": "Technologie s lidským přístupem",
-    "item2_heading": "Za každým řádkem kódu je člověk.",
-    "item2_body": "Naše nástroje řeší skutečné lidské problémy. Veškerý náš kód je vyvíjen interně týmem, který zahrnuje doktorandy v oblasti vývoje systémů. Nasloucháme našim uživatelům a budujeme to, co skutečně potřebují.",
-    "item3_title": "Stavíme na věky",
-    "item3_heading": "Volíme těžší cestu.",
-    "item3_body": "Krátkodobá řešení nejsou naším byznysem. Tam, kde chybí standardy, stanovíme je. Kde řešení neexistuje, postavíme ho. O naše produkty pečujeme jako o vlastní děti."
+  "brands": {
+    "label": "Naše značky",
+    "heading": "Podniky v rámci společnosti Europea",
+    "lead": "Europea je společností stojící za několika specializovanými podniky a značkami. Dohromady ukazují šíři naší odbornosti v oblasti přístupné komunikace, digitální přístupnosti a uživatelsky orientovaných technologií.",
+    "tmeeting_tag": "Přístupná komunikace",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Přístupná komunikace – vytvořená pro účast. T-Meeting vyvíjí řešení, kde spolupracuje zvuk, obraz a text v reálném čase k vytvoření bezpečné, inkluzivní a budoucí komunikace. Naše řešení jsou založena na otevřených standardech a vyvinuta pro veřejný sektor, organizace i jednotlivce.",
+    "tmeeting_rtt_title": "RTT a standardizace",
+    "tmeeting_rtt_body": "T-Meeting přezkoumal a poskytl poradní zpětnou vazbu k práci související se standardizací pro RTT/text v reálném čase. Tyto zkušenosti posilují naši práci s otevřenými standardy, interoperabilitou a budoucími řešeními pro přístupnou komunikaci.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Dceřiná společnost",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 je evropský specializovaný projekt v oblasti digitální přístupnosti. Se zaměřením na WCAG, použitelnost a inkluzivní digitální služby projekt pomáhá organizacím vytvářet webové stránky a digitální prostředí, která fungují pro více lidí.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Evropská značka",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum spojuje evropské úsilí v oblasti doplňkových produktů pro vnímání. Produkty vycházejí z vývojové práce společnosti Europea a jsou nabízeny spotřebitelskému trhu, zatímco odpovídající řešení prostřednictvím T-Meeting jsou často poskytována prostřednictvím veřejného sektoru a nákupů.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Partnerství",
-    "heading": "Společně jsme silnější.",
-    "body": "S komplexní rodinou produktů budovanou přes dvacet pět let jsou Europea a její společnosti hrdé na to, že mohou spolupracovat na větších projektech, které pohánějí přístupnou digitalizaci. Pořádáme produktové demonstrace, přednášíme na konferencích a společně vyvíjíme řešení s veřejnými a soukromými organizacemi po celé Skandinávii a Evropě.",
-    "item1_title": "Výzkum a vývoj",
-    "item1_body": "Spolupracovali jsme s PTS (švédským úřadem pro pošty a telekomunikace) na několika inovačních projektech, včetně TERA Next Generation a Fritt Fram.",
-    "item2_title": "Veřejný sektor",
-    "item2_body": "Obce, regiony a organizace zabývající se sociálními technologiemi. Máte-li digitální službu, můžeme vám pomoci zajistit její plnou přístupnost – od začátku do konce.",
-    "item3_title": "Události a vzdělávání",
-    "item3_body": "Pořádáme každoroční konference a produktové demonstrace. Od roku 2018 ve spolupráci s Lidolem spolufinancujeme otevřenou konferenci o Kompletní komunikaci.",
-    "cta": "Zájem o spolupráci?"
+  "history": {
+    "label": "Historie",
+    "heading": "Tři desetiletí vývoje v oblasti přístupnosti",
+    "lead": "Od roku 1993 se společnost Europea vyvinula od komunikačních pomůcek a videotelefonie k přístupné komunikaci, digitální inkluzi a specializovaným projektům v oblasti přístupnosti.",
+    "image_note_title": "Historická cesta inovací",
+    "image_note_body": "Zde může být umístěn historický snímek z vývoje digitálních a mobilních videotelefonů společnosti Europea, který vizualizuje cestu inovací z let 1993–2010.",
+    "item1_year": "1993",
+    "item1_title": "Založeno v Malmö",
+    "item1_body": "Byla založena společnost Europea i Malmö AB se zaměřením na komunikační pomůcky a přístupná řešení pro osoby se sluchovým postižením a komunikačními potížemi.",
+    "item2_year": "1993–2010",
+    "item2_title": "Digitální a mobilní videotelefony",
+    "item2_body": "Během prvních desetiletí vyvíjí a dodává Europea digitální a mobilní videotelefony a komunikační pomůcky, které posilují nezávislost a přístupnou komunikaci.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting v současné podobě",
+    "item3_body": "T-Meeting je zřízen ve své současné podobě se zaměřením na přístupnou komunikaci, otevřené standardy a řešení pro zvuk, obraz a text v reálném čase.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produkty pro bohatší život",
+    "item4_body": "Infiniuum je vytvořen, aby zákazníkům poskytl přístup k nejlepším produktům – a slouží jako e-commerce platforma v rámci skupiny.",
+    "item5_year": "2025",
+    "item5_title": "Digitální přístupnost",
+    "item5_body": "EaseAccess24 je založena se zaměřením na digitální přístupnost a WCAG – přirozený další krok v práci společnosti Europea směrem k větší účasti a inkluzivním digitálním službám."
+  },
+  "company": {
+    "label": "O společnosti Europea",
+    "heading": "Společnost za našimi projekty",
+    "lead": "Europea i Malmö AB je strategickou základnou našich projektů. Spojujeme zkušenosti, technologie a značky v oblasti přístupnosti – a poháníme vývoj směrem k řešením, která činí komunikaci a digitální prostředí inkluzivnější.",
+    "tmeeting_tag": "Přístupná komunikace",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "T-Meeting je specializovaná značka společnosti Europea v oblasti přístupné komunikace. Prostřednictvím zvuku, obrazu a textu v reálném čase vyvíjí řešení, která umožňují bezpečnou, inkluzivní a budoucí komunikaci – založenou na otevřených standardech a dlouholetých zkušenostech v oboru.",
+    "ease_tag": "Digitální přístupnost",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 je evropský specializovaný projekt v oblasti digitální přístupnosti. Se zaměřením na WCAG, použitelnost a inkluzivní digitální služby projekt pomáhá organizacím vytvářet webové stránky a digitální prostředí, která fungují pro více lidí.",
+    "infiniuum_tag": "Inovace a produkty",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum spojuje evropské úsilí v oblasti doplňkových produktů pro vnímání. Produkty vycházejí z vývojové práce společnosti Europea a jsou nabízeny spotřebitelskému trhu, zatímco odpovídající řešení prostřednictvím T-Meeting jsou často poskytována prostřednictvím veřejného sektoru a nákupů."
+  },
+  "vision": {
+    "label": "Vize",
+    "heading": "Motor přístupnosti v Evropě",
+    "lead": "Europea usiluje o společnost, kde přístupnost není volitelným doplňkem nebo výjimkou – ale samozřejmou součástí způsobu, jakým je navrhována komunikace, technologie a digitální služby.",
+    "vision_label": "Vize",
+    "vision_body": "Naší ambicí je být přední evropskou silou v oblasti přístupnosti tím, že využijeme naše znalosti, zkušenosti a inovační kapacitu ke snižování bariér a vytváření skutečné účasti – napříč jazyky, společenskými systémy a národními hranicemi.",
+    "belief_label": "Naše přesvědčení",
+    "belief_body1": "Věříme, že řešení navržená s ohledem na nejnáročnější potřeby vytvářejí lepší řešení pro všechny.",
+    "belief_body2": "Proto vnímáme přístupnost nejen jako otázku rovnosti a lidských práv – ale jako hnací sílu inovací, univerzálního designu a společnosti budoucnosti.",
+    "practice_label": "Naše vize v praxi",
+    "practice_body": "T-Meeting nese vizi Europea v oblasti přístupné komunikace skrze myšlenku Komplett Kommunikation – konceptu představeného Farukem a Maxem Tairi, který popisuje rovný přístup ke komunikaci pro všechny.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Evropská přítomnost",
+    "heading": "Ze Skandinávie – s evropskými ambicemi",
+    "lead": "Společnost Europea má své kořeny v Malmö a dnes aktivně působí ve Švédsku a Norsku. Prostřednictvím našich projektů a spoluprací působíme také mezinárodně – s dceřinou společností v Severní Makedonii a probíhajícími přípravami ve Francii.",
+    "body1": "Naše ambice je jasná: růst jako evropská síla v oblasti přístupnosti, kde se znalosti, inovace a praktické zkušenosti využívají k vytváření inkluzivnější komunikace a digitálního prostředí.",
+    "body2": "Přístupnost vnímáme jako společnou evropskou záležitost a chceme přispívat k vývoji řešení, která fungují napříč jazyky, hranicemi a společenskými systémy."
+  },
+  "founders": {
+    "label": "Zakladatelé",
+    "heading": "Společnost postavená na skutečném porozumění přístupnosti",
+    "lead": "Společnost Europea i Malmö AB byla založena v roce 1993 Farukem a Maxem Tairi, oba s profesní dráhou tlumočníků. Prostřednictvím své práce při tlumočených rozhovorech z první ruky viděli, jak komunikační bariéry ovlivňují schopnost lidí porozumět, podílet se a činit vlastní rozhodnutí.",
+    "body1": "Tato zkušenost se stala základem směřování a pozice společnosti Europea: být praktickou, znalou a dlouhodobou silou v oblasti přístupnosti.",
+    "body2": "Od svého vzniku společnost rostla díky odborným znalostem, inovacím a dlouhodobému závazku k přístupnosti – a dnes zahrnuje několik projektů a značek se společným zaměřením na komunikaci, participaci a digitální inkluzi.",
+    "body3": "Zázemí zakladatelů v tlumočení, podnikání a prostředích s vysokým výkonem formovalo kulturu společnosti: dlouhodobé myšlení, disciplína a praktické řešení problémů.",
+    "quote": "Komunikace by neměla být překážkou účasti – měla by být příležitostí."
+  },
+  "industry": {
+    "label": "Průmysl a přidružení",
+    "heading": "Kořeny ve vývoji přístupnosti",
+    "lead": "Společnost Europea dlouhodobě pracuje na přístupnosti a participaci – v úzkém spojení s průmyslem, potřebami uživatelů a vývojem budoucích přístupných řešení.",
+    "membership_tag": "Členství",
+    "membership_name": "Průmyslová asociace Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "Europea i Malmö AB je členem průmyslové asociace Branschorganisationen Svensk Tillgänglighet a sdílí práci organizace na posílení participace, znalostí a rozvoje v oblasti přístupnosti."
   },
   "contact": {
     "label": "Kontakt",
-    "heading": "Jsme v Malmö.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, 3. patro",
-    "address2": "211 55 Malmö, Švédsko",
-    "org": "Org. 556464-0323",
-    "noProduct": "Společnost Europea nemá veřejně dostupný produkt. Pro dotazy týkající se přístupnosti navštivte EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Chcete se o Europea dozvědět více?",
+    "lead": "Spojte se s námi, pokud se chcete dozvědět více o Europea, našich projektech nebo naší práci v oblasti přístupné komunikace, digitální přístupnosti a inkluzivních technologií.",
+    "address_label": "Adresa",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Telefon",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "Email",
+    "email_value": "info@europea.se",
+    "org_label": "Společnost",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Přejít na hlavní obsah"
+    "skipToMain": "Přeskočit na hlavní obsah"
   }
 }

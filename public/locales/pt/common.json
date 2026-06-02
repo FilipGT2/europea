@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "Sobre",
-    "portfolio": "Portfólio",
+    "brands": "Marcas",
+    "evolution": "Evolução",
+    "vision": "Visão",
+    "europe": "Europa",
     "contact": "Contato",
     "openMenu": "Abrir menu de navegação",
     "closeMenu": "Fechar menu de navegação",
     "home": "Europea Home",
     "switchLight": "Mudar para modo claro",
     "switchDark": "Mudar para modo escuro",
-    "languageSwitcher": "Selecionar idioma"
+    "languageSwitcher": "Selecionar idioma",
+    "cta": "Entre em contato conosco"
   },
   "hero": {
-    "badge": "MALMÖ, SUÉCIA · FUNDADA EM 1993 · GRUPO DE ACESSIBILIDADE",
-    "title1": "Tecnologia que aproxima as pessoas",
-    "title2": "e as conecta.",
-    "subtitle": "Acreditamos em uma sociedade socialmente sustentável construída sobre igualdade e diversidade. As empresas da Europea fornecem às pessoas as ferramentas para participar plenamente — e para viver vidas mais ricas.",
-    "cta_primary": "Descubra Nossas Empresas",
-    "cta_secondary": "Contate-nos"
+    "eyebrow": "Acessibilidade · comunicação · inclusão digital",
+    "title1": "Uma força em ",
+    "titleEm": "acessibilidade",
+    "title2": " desde 1993",
+    "subtitle": "A Europea i Malmö AB desenvolve e opera empreendimentos em comunicação acessível, acessibilidade digital e soluções tecnológicas centradas no usuário. Desde 1993, trabalhamos para reduzir barreiras de comunicação e criar soluções que tornem a comunicação, a informação e os ambientes digitais acessíveis para mais pessoas.",
+    "cta_primary": "Nossas marcas",
+    "cta_secondary": "Entre em contato conosco",
+    "since_year": "1993",
+    "since_label": "Fundada em Malmö – ativa desde então",
+    "stat1_number": "30+",
+    "stat1_label": "Anos na área",
+    "stat2_number": "3",
+    "stat2_label": "Nossas marcas",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Mercados ativos",
+    "stat4_number": "WCAG",
+    "stat4_label": "Acessibilidade digital"
   },
-  "mission": {
-    "label": "Nossa Missão",
-    "heading": "Comunicação em igualdade de condições — para cada indivíduo.",
-    "body1": "Quando projetamos com as necessidades mais exigentes em mente, criamos produtos que beneficiam a todos. Isso não é apenas sobre justiça e direitos humanos — é sobre design inclusivo e universal. Esse é o pensamento do futuro.",
-    "body2": "Somente na Suécia, quase dois milhões de pessoas têm deficiência auditiva. Para muitos — incluindo aqueles que são surdos — tem sido historicamente difícil alcançar diretamente serviços como um banco, provedor de saúde ou escritório governamental. Passamos mais de vinte e cinco anos fechando essa lacuna. Hoje, nossa tecnologia permite que uma pessoa surdocega trabalhe no atendimento ao cliente e assista a cada chamada.",
-    "tag1": "Foco no Cliente",
-    "tag2": "Pensamento a Longo Prazo",
-    "tag3": "Inovação",
-    "quoteText": "\"Komplett Kommunikation.\"",
-    "quoteBody": "Comunicação Completa — o conceito fundador da Europea. Todos devem ser capazes de alcançar e ser alcançados por qualquer pessoa, usando as ferramentas que têm à mão.",
-    "quoteAttribution": "Max & Faruk Tairi, fundadores"
+  "coreCompetence": {
+    "label": "Posição da Europea",
+    "heading": "Acessibilidade como competência principal",
+    "lead": "A acessibilidade não é um caminho secundário na Europea – é a nossa competência principal. Através de conhecimento especializado, inovação e longa experiência, desenvolvemos soluções que fortalecem a participação, o entendimento e a comunicação igualitária.",
+    "card1_tag": "Comunicação",
+    "card1_name": "Conversas acessíveis",
+    "card1_desc": "Soluções para voz, texto, vídeo e comunicação remota que permitem que mais pessoas participem em seus próprios termos.",
+    "card2_tag": "Inclusão digital",
+    "card2_name": "Web & acessibilidade",
+    "card2_desc": "Expertise em WCAG, usabilidade e acessibilidade digital – com foco no valor prático para usuários e organizações.",
+    "card3_tag": "Inovação",
+    "card3_name": "Padrões abertos",
+    "card3_desc": "Tecnologia e serviços desenvolvidos com foco em longevidade, interoperabilidade e soluções de comunicação à prova de futuro."
   },
-  "stats": {
-    "years_label": "Anos construindo tecnologia acessível",
-    "engineers_label": "Engenheiros e desenvolvedores",
-    "europeans_label": "Europeus vivendo com uma deficiência"
+  "evolution": {
+    "label": "Nossa evolução",
+    "heading": "Da comunicação acessível à acessibilidade mais ampla",
+    "lead": "O trabalho da Europea começou na comunicação acessível através do T-Meeting e soluções para pessoas com desafios de audição e comunicação. Nos últimos anos, esse trabalho se expandiu – da comunicação para a acessibilidade digital e serviços digitais inclusivos.",
+    "body1": "A experiência adquirida com a comunicação acessível criou um caminho natural para a acessibilidade digital, usabilidade e novas formas de tecnologia inclusiva.",
+    "body2": "Essa evolução se reflete claramente em iniciativas como a EaseAccess24 – onde a mesma convicção fundamental permanece: que a acessibilidade não deve ser um extra opcional, mas uma parte autoevidente de como a tecnologia, a comunicação e os serviços digitais são projetados."
   },
-  "values": {
-    "label": "Valores",
-    "heading": "Como pensamos e construímos.",
-    "item1_title": "Inclusão por design",
-    "item1_heading": "Não adicionamos acessibilidade depois do fato.",
-    "item1_body": "Todo produto começa com a pergunta: quem está sendo excluído? Quando projetamos com as necessidades mais exigentes em mente, criamos soluções que beneficiam a todos.",
-    "item2_title": "Tecnologia com humanidade",
-    "item2_heading": "Por trás de cada linha de código há uma pessoa.",
-    "item2_body": "Nossas ferramentas resolvem problemas humanos reais. Todo o nosso código é desenvolvido internamente, por uma equipe que inclui pesquisadores de doutorado em desenvolvimento de sistemas. Ouvimos nossos usuários e construímos o que eles realmente precisam.",
-    "item3_title": "Construir para durar",
-    "item3_heading": "Nós escolhemos o caminho mais difícil.",
-    "item3_body": "Soluções de curto prazo não são o nosso negócio. Quando faltam padrões, nós os estabelecemos. Quando uma solução não existe, nós a construímos. Nossos produtos são cuidados como nossos próprios filhos."
+  "brands": {
+    "label": "Nossas marcas",
+    "heading": "Empreendimentos dentro da Europea",
+    "lead": "A Europea é a empresa por trás de vários empreendimentos e marcas especializadas. Juntas, elas mostram a amplitude de nossa expertise em comunicação acessível, acessibilidade digital e tecnologia centrada no usuário.",
+    "tmeeting_tag": "Comunicação acessível",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Comunicação acessível – construída para a participação. A T-Meeting desenvolve soluções onde áudio, vídeo e texto em tempo real funcionam em conjunto para criar comunicação segura, inclusiva e à prova de futuro. As nossas soluções são construídas sobre padrões abertos e desenvolvidas para o setor público, organizações e indivíduos.",
+    "tmeeting_rtt_title": "RTT e padronização",
+    "tmeeting_rtt_body": "A T-Meeting analisou e forneceu feedback consultivo sobre o trabalho relacionado com a padronização de RTT/texto em tempo real. Essa experiência fortalece o nosso trabalho com padrões abertos, interoperabilidade e soluções à prova de futuro para comunicação acessível.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Subsidiária",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "A EaseAccess24 é a empresa especialista da Europea em acessibilidade digital. Com foco em WCAG, usabilidade e serviços digitais inclusivos, a empresa ajuda as organizações a criar websites e ambientes digitais que funcionam para mais pessoas.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Marca da Europea",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "A Infiniuum reúne o esforço da Europea em produtos de perceção complementares. Os produtos baseiam-se no trabalho de desenvolvimento da Europea e são oferecidos ao mercado de consumo, enquanto as soluções correspondentes através da T-Meeting são frequentemente fornecidas através do setor público e de aquisições.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Parceria",
-    "heading": "Juntos somos mais fortes.",
-    "body": "Com uma família abrangente de produtos construída ao longo de vinte e cinco anos, a Europea e suas empresas têm orgulho de fazer parceria em projetos maiores que impulsionam a digitalização acessível. Realizamos demonstrações de produtos, palestras em conferências e cocriamos soluções com organizações públicas e privadas em toda a Escandinândia e Europa.",
-    "item1_title": "Pesquisa e Desenvolvimento",
-    "item1_body": "Fizemos parceria com a PTS (Autoridade Sueca de Correios e Telecomunicações) em múltiplos projetos de inovação, incluindo TERA Next Generation e Fritt Fram.",
-    "item2_title": "Setor Público",
-    "item2_body": "Municípios, regiões e organizações de tecnologia de bem-estar. Se você tem um serviço digital, podemos ajudar a torná-lo totalmente acessível — do início ao fim.",
-    "item3_title": "Eventos e Educação",
-    "item3_body": "Organizamos conferências anuais e demonstrações de produtos. Desde 2018, em parceria com a Lidol, copatrocinamos uma conferência aberta sobre Komplett Kommunikation.",
-    "cta": "Interessado em colaborar?"
+  "history": {
+    "label": "Histórico",
+    "heading": "Três décadas de desenvolvimento em acessibilidade",
+    "lead": "Desde 1993, a Europea evoluiu de ajudas de comunicação e videochamadas para comunicação acessível, inclusão digital e empresas especializadas em acessibilidade.",
+    "image_note_title": "Uma jornada histórica de inovação",
+    "image_note_body": "Uma imagem histórica do desenvolvimento de telefones de vídeo digitais e móveis pela Europea pode ser colocada aqui para visualizar a jornada de inovação de 1993 a 2010.",
+    "item1_year": "1993",
+    "item1_title": "Fundada em Malmö",
+    "item1_body": "A Europea i Malmö AB é fundada com foco em ajudas de comunicação e soluções acessíveis para pessoas com deficiências auditivas e dificuldades de comunicação.",
+    "item2_year": "1993–2010",
+    "item2_title": "Telefones de vídeo digitais e móveis",
+    "item2_body": "Durante as primeiras décadas, a Europea desenvolve e entrega telefones de vídeo digitais e móveis, bem como ajudas de comunicação que fortalecem a independência e a comunicação acessível.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting na sua forma atual",
+    "item3_body": "A T-Meeting é estabelecida na sua forma atual com foco em comunicação acessível, padrões abertos e soluções para áudio, vídeo e texto em tempo real.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produtos para uma vida mais rica",
+    "item4_body": "A Infiniuum é criada para dar aos clientes acesso aos melhores produtos – e serve como plataforma de comércio eletrónico dentro do grupo.",
+    "item5_year": "2025",
+    "item5_title": "Acessibilidade digital",
+    "item5_body": "A EaseAccess24 é estabelecida com foco em acessibilidade digital e WCAG – um próximo passo natural no trabalho da Europea em direção a maior participação e serviços digitais inclusivos."
+  },
+  "company": {
+    "label": "Sobre a Europea",
+    "heading": "A empresa por trás das nossas empresas",
+    "lead": "A Europea i Malmö AB é a base estratégica por trás das nossas empresas. Reunimos experiência, tecnologia e marcas no campo da acessibilidade – e impulsionamos o desenvolvimento de soluções que tornam a comunicação e os ambientes digitais mais inclusivos.",
+    "tmeeting_tag": "Comunicação acessível",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "A T-Meeting é a marca especialista da Europea em comunicação acessível. Através de áudio, vídeo e texto em tempo real, desenvolve soluções que permitem comunicação segura, inclusiva e à prova de futuro – construídas sobre padrões abertos e longa experiência no campo.",
+    "ease_tag": "Acessibilidade digital",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "A EaseAccess24 é a empresa especialista da Europea em acessibilidade digital. Com foco em WCAG, usabilidade e serviços digitais inclusivos, a empresa ajuda as organizações a criar websites e ambientes digitais que funcionam para mais pessoas.",
+    "infiniuum_tag": "Inovação e produtos",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "A Infiniuum reúne o esforço da Europea em produtos de perceção complementares. Os produtos baseiam-se no trabalho de desenvolvimento da Europea e são oferecidos ao mercado de consumo, enquanto as soluções correspondentes através da T-Meeting são frequentemente fornecidas através do setor público e de aquisições."
+  },
+  "vision": {
+    "label": "Visão",
+    "heading": "Uma força motriz para a acessibilidade na Europa",
+    "lead": "A Europea trabalha em direção a uma sociedade onde a acessibilidade não seja um extra opcional ou uma exceção – mas uma parte autoevidente de como a comunicação, a tecnologia e os serviços digitais são concebidos.",
+    "vision_label": "Visão",
+    "vision_body": "A nossa ambição é ser uma força europeia motriz na acessibilidade, utilizando o nosso conhecimento, experiência e capacidade de inovação para reduzir barreiras e criar participação real – através de línguas, sistemas sociais e fronteiras nacionais.",
+    "belief_label": "A nossa convicção",
+    "belief_body1": "Acreditamos que as soluções concebidas com as necessidades mais exigentes em mente criam melhores soluções para todos.",
+    "belief_body2": "É por isso que vemos a acessibilidade não apenas como uma questão de igualdade e direitos humanos – mas como uma força motriz para a inovação, o design universal e a sociedade do futuro.",
+    "practice_label": "A nossa visão na prática",
+    "practice_body": "A T-Meeting carrega a visão europeia dentro da comunicação acessível através da ideia de Komplett Kommunikation – um conceito introduzido por Faruk e Max Tairi que descreve o acesso igualitário à comunicação para todos.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Presença europeia",
+    "heading": "Dos países nórdicos – com ambição europeia",
+    "lead": "A Europea tem suas raízes em Malmö e hoje opera ativamente na Suécia e Noruega. Através de nossos empreendimentos e colaborações, também operamos internacionalmente – com presença de subsidiária na Macedônia do Norte e trabalho contínuo de estabelecimento na França.",
+    "body1": "Nossa ambição é clara: crescer como uma força europeia dentro da acessibilidade, onde conhecimento, inovação e experiência prática são usados para criar ambientes de comunicação e digitais mais inclusivos.",
+    "body2": "Vemos a acessibilidade como uma questão europeia compartilhada e queremos contribuir para o desenvolvimento de soluções que funcionem em diferentes idiomas, fronteiras e sistemas sociais."
+  },
+  "founders": {
+    "label": "Os fundadores",
+    "heading": "Uma empresa construída sobre o entendimento real da acessibilidade",
+    "lead": "A Europea i Malmö AB foi fundada em 1993 por Faruk e Max Tairi, ambos com formação como intérpretes de língua. Através de seu trabalho em conversas interpretadas, eles viram em primeira mão como as barreiras de comunicação afetam a capacidade das pessoas de entender, participar e tomar suas próprias decisões.",
+    "body1": "Essa experiência se tornou a base para a direção e posição da Europea: ser uma força prática, conhecedora e de longo prazo dentro da acessibilidade.",
+    "body2": "Desde o início, o negócio cresceu através de conhecimento especializado, inovação e um compromisso de longo prazo com a acessibilidade – e hoje abrange vários empreendimentos e marcas com um foco compartilhado em comunicação, participação e inclusão digital.",
+    "body3": "O histórico dos fundadores em interpretação, empreendedorismo e ambientes de alto desempenho moldou a cultura da empresa: pensamento de longo prazo, disciplina e resolução prática de problemas.",
+    "quote": "A comunicação não deve ser um obstáculo à participação – deve ser uma oportunidade."
+  },
+  "industry": {
+    "label": "Indústria e afiliação",
+    "heading": "Raízes no desenvolvimento da acessibilidade",
+    "lead": "A Europea trabalha a longo prazo com acessibilidade e participação – em estreita relação com a indústria, as necessidades dos usuários e o desenvolvimento das soluções acessíveis do futuro.",
+    "membership_tag": "Associação",
+    "membership_name": "A associação setorial Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "A Europea i Malmö AB é membro da associação setorial Branschorganisationen Svensk Tillgänglighet e compartilha o trabalho da organização por maior participação, conhecimento e desenvolvimento no campo da acessibilidade."
   },
   "contact": {
     "label": "Contato",
-    "heading": "Estamos em Malmö.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, Plano 3",
-    "address2": "211 55 Malmö, Suécia",
-    "org": "Org. 556464-0323",
-    "noProduct": "A Europea não tem um produto voltado para o público. Para questões de acessibilidade, visite EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Quer saber mais sobre a Europea?",
+    "lead": "Entre em contato se quiser saber mais sobre a Europea, nossos empreendimentos ou nosso trabalho em comunicação acessível, acessibilidade digital e tecnologia inclusiva.",
+    "address_label": "Endereço",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Telefone",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "E-mail",
+    "email_value": "info@europea.se",
+    "org_label": "Empresa",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Saltar para o conteúdo principal"
+    "skipToMain": "Pular para o conteúdo principal"
   }
 }

@@ -1,80 +1,168 @@
 {
   "nav": {
-    "about": "Despre noi",
-    "portfolio": "Portofoliu",
+    "about": "Despre",
+    "brands": "Branduri",
+    "evolution": "Evoluție",
+    "vision": "Viziune",
+    "europe": "Europa",
     "contact": "Contact",
-    "openMenu": "Deschide meniul de navigare",
-    "closeMenu": "Închide meniul de navigare",
-    "home": "Europea acasă",
+    "openMenu": "Deschideți meniul de navigare",
+    "closeMenu": "Închideți meniul de navigare",
+    "home": "Pagina principală Europea",
     "switchLight": "Comutați la modul zi",
     "switchDark": "Comutați la modul noapte",
-    "languageSwitcher": "Selectați limba"
+    "languageSwitcher": "Selectați limba",
+    "cta": "Contactați-ne"
   },
   "hero": {
-    "badge": "MALMÖ, SUEDIA · INF. 1993 · GRUP ACCESIBILITATE",
-    "title1": "Tehnologie care aduce oamenii",
-    "title2": "mai aproape.",
-    "subtitle": "Credem într-o societate social sustenabilă, construită pe egalitate și diversitate. Companiile Europea oferă oamenilor instrumentele necesare pentru a participa pe deplin — și pentru a duce vieți mai bogate.",
-    "cta_primary": "Descoperiți Companiile Noastre",
-    "cta_secondary": "Contactați-ne"
+    "eyebrow": "Accesibilitate · comunicare · incluziune digitală",
+    "title1": "O forță puternică în ",
+    "titleEm": "accesibilitate",
+    "title2": " din 1993",
+    "subtitle": "Europea i Malmö AB dezvoltă și administrează companii în domeniul comunicării accesibile, accesibilității digitale și soluțiilor tehnologice centrate pe utilizator. Încă din 1993, am lucrat pentru a reduce barierele de comunicare și pentru a crea soluții care să facă comunicarea, informația și mediile digitale accesibile mai multor persoane.",
+    "cta_primary": "Brandurile noastre",
+    "cta_secondary": "Contactați-ne",
+    "since_year": "1993",
+    "since_label": "Fondat în Malmö – activ de atunci",
+    "stat1_number": "30+",
+    "stat1_label": "Ani în domeniu",
+    "stat2_number": "3",
+    "stat2_label": "Brandurile noastre",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Piețe active",
+    "stat4_number": "WCAG",
+    "stat4_label": "Accesibilitate digitală"
   },
-  "mission": {
-    "label": "Misiunea Noastră",
-    "heading": "Comunicare în condiții de egalitate — pentru fiecare individ.",
-    "body1": "Când proiectăm având în vedere cele mai exigente nevoi, creăm produse care beneficiază pe toată lumea. Nu este vorba doar de justiție și drepturile omului — este vorba de design incluziv și universal. Acesta este gândirea viitorului.",
-    "body2": "Numai în Suedia, aproape două milioane de oameni au deficiențe de auz. Pentru mulți — inclusiv pentru cei surzi — a fost dificil în mod istoric să acceseze direct servicii precum o bancă, un furnizor de servicii medicale sau un birou guvernamental. Am petrecut peste douăzeci și cinci de ani închizând acest gol. Astăzi, tehnologia noastră permite unei persoane surdo-mute să lucreze în serviciul clienți și să asiste fiecare apelant.",
-    "tag1": "Orientare către client",
-    "tag2": "Gândire pe termen lung",
-    "tag3": "Inovație",
-    "quoteText": "\"Komplett Kommunikation.\"",
-    "quoteBody": "Comunicare completă — conceptul fondator al Europea. Fiecare ar trebui să poată ajunge și să fie contactat de oricine, folosind instrumentele pe care le are la îndemână.",
-    "quoteAttribution": "Max & Faruk Tairi, fondatori"
+  "coreCompetence": {
+    "label": "Poziția Europea",
+    "heading": "Accesibilitatea ca o competență de bază",
+    "lead": "Accesibilitatea nu este o direcție secundară la Europea – este competența noastră de bază. Prin cunoștințe de specialitate, inovație și experiență îndelungată, dezvoltăm soluții care consolidează participarea, înțelegerea și comunicarea egală.",
+    "card1_tag": "Comunicare",
+    "card1_name": "Conversații accesibile",
+    "card1_desc": "Soluții pentru comunicare vocală, text, video și la distanță care permit mai multor persoane să participe în propriii termeni.",
+    "card2_tag": "Incluziune digitală",
+    "card2_name": "Web & accesibilitate",
+    "card2_desc": "Expertiză în WCAG, utilizabilitate și accesibilitate digitală – cu accent pe valoarea practică pentru utilizatori și organizații.",
+    "card3_tag": "Inovație",
+    "card3_name": "Standarde deschise",
+    "card3_desc": "Tehnologie și servicii dezvoltate având în vedere longevitatea, interoperabilitatea și soluțiile de comunicare pregătite pentru viitor."
   },
-  "stats": {
-    "years_label": "Ani de construire a tehnologiei accesibile",
-    "engineers_label": "Ingineri și dezvoltatori",
-    "europeans_label": "Europeni care trăiesc cu un handicap"
+  "evolution": {
+    "label": "Evoluția noastră",
+    "heading": "De la comunicare accesibilă la accesibilitate extinsă",
+    "lead": "Activitatea Europea a început în domeniul comunicării accesibile prin T-Meeting și soluții pentru persoanele cu dificultăți de auz și de comunicare. În ultimii ani, acea activitate s-a extins – de la comunicare la accesibilitate digitală și servicii digitale incluzive.",
+    "body1": "Experiența acumulată din comunicarea accesibilă a creat o cale naturală spre accesibilitatea digitală, utilizabilitate și noi forme de tehnologie incluzivă.",
+    "body2": "Această evoluție se reflectă clar în inițiative precum EaseAccess24 – unde aceeași convingere fundamentală continuă: că accesibilitatea nu ar trebui să fie un extras opțional, ci o parte evidentă a modului în care sunt concepute tehnologia, comunicarea și serviciile digitale."
   },
-  "values": {
-    "label": "Valori",
-    "heading": "Cum gândim și construim.",
-    "item1_title": "Incluziune prin design",
-    "item1_heading": "Nu adăugăm accesibilitatea după fapt.",
-    "item1_body": "Fiecare produs începe cu întrebarea: cine este exclus? Când proiectăm având în vedere cele mai exigente nevoi, creăm soluții care beneficiază pe toată lumea.",
-    "item2_title": "Tehnologie cu umanitate",
-    "item2_heading": "În spatele fiecărei linii de cod se află o persoană.",
-    "item2_body": "Instrumentele noastre rezolvă probleme umane reale. Tot codul nostru este dezvoltat intern, de o echipă care include cercetători doctorali în dezvoltarea sistemelor. Ascultăm utilizatorii noștri și construim ceea ce au nevoie.",
-    "item3_title": "Construiți pentru a dura",
-    "item3_heading": "Alegem calea mai grea.",
-    "item3_body": "Soluțiile pe termen scurt nu sunt afacerea noastră. Când lipsesc standardele, noi le stabilim. Când o soluție nu există, noi o construim. Produsele noastre sunt îngrijite ca și copiii noștri."
+  "brands": {
+    "label": "Brandurile noastre",
+    "heading": "Companii din cadrul Europea",
+    "lead": "Europea este compania din spatele mai multor companii și branduri specializate. Împreună, acestea arată amploarea expertizei noastre în comunicare accesibilă, accesibilitate digitală și tehnologie centrată pe utilizator.",
+    "tmeeting_tag": "Comunicare accesibilă",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Comunicații accesibile – construite pentru participare. T-Meeting dezvoltă soluții unde audio, video și text în timp real funcționează împreună pentru a crea comunicații sigure, incluzive și pregătite pentru viitor. Soluțiile noastre sunt construite pe standarde deschise și dezvoltate pentru sectorul public, organizații și persoane fizice.",
+    "tmeeting_rtt_title": "RTT și standardizare",
+    "tmeeting_rtt_body": "T-Meeting a revizuit și a oferit feedback consultativ privind lucrările legate de standardizarea pentru RTT/text în timp real. Această experiență ne consolidează munca cu standarde deschise, interoperabilitate și soluții pregătite pentru viitor pentru comunicații accesibile.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Filială",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 este specializarea europeană în accesibilitate digitală. Cu accent pe WCAG, utilizabilitate și servicii digitale incluzive, afacerea ajută organizațiile să creeze site-uri web și medii digitale care funcționează pentru mai mulți oameni.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Marca europeană",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum reunește eforturile europene în produse complementare de percepție. Produsele se bazează pe munca de dezvoltare a Europei și sunt oferite pieței de consum, în timp ce soluțiile corespondente prin T-Meeting sunt adesea furnizate prin sectorul public și achiziții publice.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Parteneriat",
-    "heading": "Suntem mai puternici împreună.",
-    "body": "Cu o familie completă de produse construită de-a lungul a douăzeci și cinci de ani, Europea și companiile sale sunt mândre să fie parteneri în proiecte mai mari care stimulează digitalizarea accesibilă. Organizăm demonstrații de produse, susținem prezentări la conferințe și co-dezvoltăm soluții cu organizații publice și private din Scandinavia și Europa.",
-    "item1_title": "Cercetare și Dezvoltare",
-    "item1_body": "Am colaborat cu PTS (Autoritatea Poștală și de Telecomunicații din Suedia) la multiple proiecte de inovare, inclusiv TERA Next Generation și Fritt Fram.",
-    "item2_title": "Sector Public",
-    "item2_body": "Municipalități, regiuni și organizații de tehnologie de asistență socială. Dacă aveți un serviciu digital, vă putem ajuta să îl faceți complet accesibil — de la un capăt la altul.",
-    "item3_title": "Evenimente și Educație",
-    "item3_body": "Organizăm conferințe anuale și demonstrații de produse. Din 2018, în parteneriat cu Lidol, co-sponsorizăm o conferință deschisă pe tema Komplett Kommunikation.",
-    "cta": "Interesat de o colaborare?"
+  "history": {
+    "label": "Istoric",
+    "heading": "Trei decenii de dezvoltare în domeniul accesibilității",
+    "lead": "Din 1993, Europa a evoluat de la ajutoare de comunicare și telefonie video la comunicații accesibile, incluziune digitală și afaceri specializate în accesibilitate.",
+    "image_note_title": "O călătorie istorică de inovație",
+    "image_note_body": "O imagine istorică din dezvoltarea de telefoane video digitale și mobile a Europei poate fi plasată aici pentru a vizualiza parcursul inovației din perioada 1993–2010.",
+    "item1_year": "1993",
+    "item1_title": "Fondat în Malmö",
+    "item1_body": "Europea i Malmö AB este fondată cu un accent pe ajutoare de comunicare și soluții accesibile pentru persoanele cu deficiențe de auz și dificultăți de comunicare.",
+    "item2_year": "1993–2010",
+    "item2_title": "Telefoane video digitale și mobile",
+    "item2_body": "În primele decenii, Europa dezvoltă și livrează telefoane video digitale și mobile, precum și ajutoare de comunicare care consolidează independența și comunicarea accesibilă.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting în forma sa actuală",
+    "item3_body": "T-Meeting este înființat în forma sa actuală, cu accent pe comunicații accesibile, standarde deschise și soluții pentru audio, video și text în timp real.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produse pentru o viață mai bogată",
+    "item4_body": "Infiniuum este creat pentru a oferi clienților acces la cele mai bune produse – și servește drept platformă de comerț electronic în cadrul grupului.",
+    "item5_year": "2025",
+    "item5_title": "Accesibilitate digitală",
+    "item5_body": "EaseAccess24 este înființat cu accent pe accesibilitatea digitală și WCAG – un pas firesc în munca Europei către o mai mare participare și servicii digitale incluzive."
+  },
+  "company": {
+    "label": "Despre Europa",
+    "heading": "Compania din spatele afacerilor noastre",
+    "lead": "Europea i Malmö AB este baza strategică din spatele afacerilor noastre. Reunim experiență, tehnologie și mărci în domeniul accesibilității – și stimulăm dezvoltarea către soluții care fac comunicațiile și mediile digitale mai incluzive.",
+    "tmeeting_tag": "Comunicații accesibile",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "T-Meeting este marca specializată a Europei în comunicații accesibile. Prin audio, video și text în timp real, dezvoltă soluții care permit comunicații sigure, incluzive și pregătite pentru viitor – construite pe standarde deschise și o lungă experiență în domeniu.",
+    "ease_tag": "Accesibilitate digitală",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 este specializarea europeană în accesibilitate digitală. Cu accent pe WCAG, utilizabilitate și servicii digitale incluzive, afacerea ajută organizațiile să creeze site-uri web și medii digitale care funcționează pentru mai mulți oameni.",
+    "infiniuum_tag": "Inovație și produse",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum reunește eforturile europene în produse complementare de percepție. Produsele se bazează pe munca de dezvoltare a Europei și sunt oferite pieței de consum, în timp ce soluțiile corespondente prin T-Meeting sunt adesea furnizate prin sectorul public și achiziții publice."
+  },
+  "vision": {
+    "label": "Viziune",
+    "heading": "O forță motrice pentru accesibilitate în Europa",
+    "lead": "Europa lucrează spre o societate în care accesibilitatea nu este un element opțional sau o excepție – ci o parte evidentă a modului în care sunt proiectate comunicațiile, tehnologia și serviciile digitale.",
+    "vision_label": "Viziune",
+    "vision_body": "Ambiția noastră este să fim o forță europeană motrice în domeniul accesibilității, utilizându-ne cunoștințele, experiența și capacitatea de inovare pentru a reduce barierele și a crea participare reală – în toate limbile, sistemele sociale și granițele naționale.",
+    "belief_label": "Convingerea noastră",
+    "belief_body1": "Credem că soluțiile concepute având în vedere cele mai exigente nevoi creează soluții mai bune pentru toată lumea.",
+    "belief_body2": "De aceea, considerăm accesibilitatea nu doar o problemă de egalitate și drepturi ale omului – ci o forță motrice pentru inovație, design universal și societatea viitorului.",
+    "practice_label": "Viziunea noastră în practică",
+    "practice_body": "T-Meeting poartă viziunea Europea în cadrul comunicării accesibile prin ideea de Komplett Kommunikation – un concept introdus de Faruk și Max Tairi, care descrie accesul egal la comunicare pentru toți.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Prezență europeană",
+    "heading": "Din țările nordice – cu ambiție europeană",
+    "lead": "Europea își are rădăcinile în Malmö și operează activ astăzi în Suedia și Norvegia. Prin intermediul întreprinderilor și colaborărilor noastre, operăm și la nivel internațional – cu o prezență filială în Macedonia de Nord și lucrări continue de stabilire în Franța.",
+    "body1": "Ambiția noastră este clară: să creștem ca o forță europeană în domeniul accesibilității, unde cunoștințele, inovația și experiența practică sunt utilizate pentru a crea medii de comunicare și digitale mai incluzive.",
+    "body2": "Considerăm accesibilitatea o chestiune europeană comună și dorim să contribuim la dezvoltarea de soluții care funcționează peste limbi, granițe și sisteme sociale."
+  },
+  "founders": {
+    "label": "Fondatorii",
+    "heading": "O companie construită pe înțelegerea reală a accesibilității",
+    "lead": "Europea i Malmö AB a fost fondată în 1993 de Faruk și Max Tairi, ambii cu experiență ca interpreți de limbă. Prin munca lor în conversații interpretate, au văzut direct cum barierele de comunicare afectează capacitatea oamenilor de a înțelege, de a participa și de a lua propriile decizii.",
+    "body1": "Această experiență a devenit fundamentul direcției și poziției Europei: de a fi o forță practică, cunoscătoare și pe termen lung în domeniul accesibilității.",
+    "body2": "De la început, afacerea a crescut prin cunoștințe de specialitate, inovație și un angajament pe termen lung față de accesibilitate – și astăzi cuprinde mai multe întreprinderi și mărci cu un accent comun pe comunicare, participare și incluziune digitală.",
+    "body3": "Experiența fondatorilor în interpretare, antreprenoriat și medii de înaltă performanță a modelat cultura companiei: gândire pe termen lung, disciplină și rezolvare practică a problemelor.",
+    "quote": "Comunicarea nu ar trebui să fie un obstacol în calea participării – ar trebui să fie o oportunitate."
+  },
+  "industry": {
+    "label": "Industrie și afiliere",
+    "heading": "Rădăcini în dezvoltarea accesibilității",
+    "lead": "Europa lucrează pe termen lung cu accesibilitatea și participarea – în strânsă legătură cu industria, nevoile utilizatorilor și dezvoltarea soluțiilor accesibile ale viitorului.",
+    "membership_tag": "Afilieri",
+    "membership_name": "Asociația industrială Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "Europea i Malmö AB este membră a asociației industriale Branschorganisationen Svensk Tillgänglighet și împărtășește munca organizației pentru o mai mare participare, cunoaștere și dezvoltare în domeniul accesibilității."
   },
   "contact": {
     "label": "Contact",
-    "heading": "Suntem în Malmö.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, Plan 3",
-    "address2": "211 55 Malmö, Suedia",
-    "org": "Org. 556464-0323",
-    "noProduct": "Europea nu are un produs public. Pentru întrebări legate de accesibilitate, vizitați EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Doriți să aflați mai multe despre Europea?",
+    "lead": "Contactați-ne dacă doriți să aflați mai multe despre Europea, despre întreprinderile noastre sau despre munca noastră în domeniul comunicării accesibile, accesibilității digitale și tehnologiei incluzive.",
+    "address_label": "Adresă",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Telefon",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "Email",
+    "email_value": "info@europea.se",
+    "org_label": "Companie",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Sariți la conținutul principal"
+    "skipToMain": "Săriți la conținutul principal"
   }
 }

@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "Rreth nesh",
-    "portfolio": "Portfolio",
+    "brands": "Markat",
+    "evolution": "Evolucioni",
+    "vision": "Vizioni",
+    "europe": "Evropa",
     "contact": "Kontakt",
     "openMenu": "Hap menynë e navigimit",
     "closeMenu": "Mbyll menynë e navigimit",
-    "home": "Europaea home",
-    "switchLight": "Kalo në modalitetin e ndritshëm",
+    "home": "Faqja kryesore Europea",
+    "switchLight": "Kalo në modalitetin e ndriçuar",
     "switchDark": "Kalo në modalitetin e errët",
-    "languageSwitcher": "Zgjidh gjuhën"
+    "languageSwitcher": "Zgjidh gjuhën",
+    "cta": "Na kontaktoni"
   },
   "hero": {
-    "badge": "MALMÖ, SUEDË · THEMELUAR 1993 · GROUP ACCESSIBILITY",
-    "title1": "Teknologjia që afron njerëzit",
-    "title2": "më shumë.",
-    "subtitle": "Ne besojmë në një shoqëri të qëndrueshme socialisht të ndërtuar mbi barazinë dhe diversitetin. Kompanitë e Europaea-s u ofrojnë njerëzve mjetet për të marrë pjesë plotësisht — dhe për të jetuar jetë më të pasura.",
-    "cta_primary": "Zbuloni Kompanitë Tona",
-    "cta_secondary": "Na Kontaktoni"
+    "eyebrow": "Qasje · komunikim · përfshirje dixhitale",
+    "title1": "Një forcë e fortë në ",
+    "titleEm": "qasjen",
+    "title2": " që nga viti 1993",
+    "subtitle": "Europea i Malmö AB zhvillon dhe drejton sipërmarrje brenda komunikimit të qasshëm, qasjes dixhitale dhe zgjidhjeve të teknologjisë të orientuara drejt përdoruesit. Që nga viti 1993 kemi punuar për të reduktuar barrierat komunikuese dhe për të krijuar zgjidhje që bëjnë të mundur komunikimin e qasshëm, informacionin dhe mjediset dixhitale për më shumë njerëz.",
+    "cta_primary": "Markat tona",
+    "cta_secondary": "Na kontaktoni",
+    "since_year": "1993",
+    "since_label": "Themeluar në Malmö – aktive që atëherë",
+    "stat1_number": "30+",
+    "stat1_label": "Vite në fushë",
+    "stat2_number": "3",
+    "stat2_label": "Markat tona",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Tregjet aktive",
+    "stat4_number": "WCAG",
+    "stat4_label": "Qasja dixhitale"
   },
-  "mission": {
-    "label": "Misioni Ynë",
-    "heading": "Komunikim me kushte të barabarta — për çdo individ.",
-    "body1": "Kur dizenjojmë duke pasur parasysh nevojat më kërkuese, ne krijojmë produkte që përfitojnë të gjithë. Kjo nuk ka të bëjë vetëm me drejtësinë dhe të drejtat e njeriut — bëhet fjalë për dizajn gjithëpërfshirës, universal. Ky është mendimi i së ardhmes.",
-    "body2": "Vetëm në Suedi, pothuajse dy milionë njerëz kanë dëmtime të dëgjimit. Për shumë — përfshirë ata që janë të shurdhër — historikisht ka qenë e vështirë të arrini drejtpërdrejt shërbime si banka, ofruesi i kujdesit shëndetësor ose zyra e qeverisë. Ne kemi kaluar mbi pesëmbëdhjetë vjet duke mbyllur atë boshllëk. Sot, teknologjia jonë e bën të mundur që një person i shurdhër-memec të punojë në shërbimin ndaj klientit dhe të ndihmojë çdo telefonues.",
-    "tag1": "Fokus te Klienti",
-    "tag2": "Mendim afatgjatë",
-    "tag3": "Inovacioni",
-    "quoteText": "\"Komplett Kommunikation.\"",
-    "quoteBody": "Komunikim i plotë — koncepti themelues i Europaea. Të gjithë duhet të jenë në gjendje të arrijnë dhe të arrihen nga kushdo, duke përdorur mjetet që kanë në dorë.",
-    "quoteAttribution": "Max & Faruk Tairi, themelues"
+  "coreCompetence": {
+    "label": "Pozicioni i Europea",
+    "heading": "Qasja si kompetencë kryesore",
+    "lead": "Qasja nuk është një degëzim në Europea – është kompetenca jonë kryesore. Nëpërmjet njohurive specialistike, inovacionit dhe përvojës së gjatë, ne zhvillojmë zgjidhje që forcojnë pjesëmarrjen, mirëkuptimin dhe komunikimin e barabartë.",
+    "card1_tag": "Komunikim",
+    "card1_name": "Biseda të qasshme",
+    "card1_desc": "Zgjidhje për komunikim zanor, me tekst, video dhe në distancë që bëjnë të mundur pjesëmarrjen e më shumë njerëzve në kushtet e tyre.",
+    "card2_tag": "Përfshirje dixhitale",
+    "card2_name": "Web & qasje",
+    "card2_desc": "Ekspertizë në WCAG, përdorshmëri dhe qasje dixhitale – me fokus në vlerën praktike për përdoruesit dhe organizatat.",
+    "card3_tag": "Inovacion",
+    "card3_name": "Standarde të hapura",
+    "card3_desc": "Teknologji dhe shërbime të zhvilluara me fokus në jetëgjatësinë, ndërveprimin dhe zgjidhjet e komunikimit të qëndrueshme."
   },
-  "stats": {
-    "years_label": "Vite duke krijuar teknologji të aksesueshme",
-    "engineers_label": "Inxhinierë & zhvillues",
-    "europeans_label": "Europianë që jetojnë me një aftësi të kufizuar"
+  "evolution": {
+    "label": "Evolucioni ynë",
+    "heading": "Nga komunikimi i qasshëm në qasje më të gjerë",
+    "lead": "Puna e Europea filloi brenda komunikimit të qasshëm përmes T-Meeting dhe zgjidhjeve për njerëzit me sfida dëgjimi dhe komunikimi. Në vitet e fundit, ajo punë është zgjeruar – nga komunikimi në qasjen dixhitale dhe shërbimet dixhitale gjithëpërfshirëse.",
+    "body1": "Përvoja e fituar nga komunikimi i qasshëm krijoi një rrugë të natyrshme drejt qasjes dixhitale, përdorshmërisë dhe formave të reja të teknologjisë gjithëpërfshirëse.",
+    "body2": "Ky evolucion pasqyrohet qartë në iniciativa të tilla si EaseAccess24 – ku e njëjta bindje themelore vazhdon: që qasja nuk duhet të jetë një opsion shtesë, por një pjesë e vetëkuptueshme e mënyrës se si dizajnohen teknologjia, komunikimi dhe shërbimet dixhitale."
   },
-  "values": {
-    "label": "Vlerat",
-    "heading": "Si mendojmë dhe ndërtojmë.",
-    "item1_title": "Përfshirje përmes dizajnit",
-    "item1_heading": "Ne nuk shtojmë aksesueshmërinë pas faktit.",
-    "item1_body": "Çdo produkt fillon me pyetjen: kush po përjashtohet? Kur dizenjojmë duke pasur parasysh nevojat më kërkuese, ne krijojmë zgjidhje që përfitojnë të gjithë.",
-    "item2_title": "Teknologji me njerëzillëk",
-    "item2_heading": "Pas çdo rreshti kodi është një person.",
-    "item2_body": "Mjetet tona zgjidhin probleme reale njerëzore. Të gjithë kodin tonë e zhvillojmë në shtëpi, nga një ekip që përfshin studiues doktoraturash në zhvillimin e sistemeve. Ne dëgjojmë përdoruesit tanë dhe ndërtojmë atë që ata kanë në të vërtetë nevojë.",
-    "item3_title": "Ndërtuar për të zgjatur",
-    "item3_heading": "Ne marrim rrugën më të vështirë.",
-    "item3_body": "Zgjidhjet afatshkurtra nuk janë biznesi ynë. Kur mungojnë standardet, ne i vendosim ato. Kur një zgjidhje nuk ekziston, ne e ndërtojmë atë. Produktet tona kujdesen si fëmijët tanë."
+  "brands": {
+    "label": "Markat tona",
+    "heading": "Sipërmarrje brenda Europea",
+    "lead": "Europea është kompania pas disa sipërmarrjeve dhe markave të specializuara. Së bashku ato tregojnë gjerësinë e ekspertizës sonë brenda komunikimit të qasshëm, qasjes dixhitale dhe teknologjisë së orientuar drejt përdoruesit.",
+    "tmeeting_tag": "Komunikim i qasshëm",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Komunikim i aksesueshëm – i ndërtuar për pjesëmarrje. T-Meeting zhvillon zgjidhje ku audio, video dhe tekst në kohë reale punojnë së bashku për të krijuar komunikim të sigurt, gjithëpërfshirës dhe të qëndrueshëm. Zgjidhjet tona janë ndërtuar mbi standarde të hapura dhe të zhvilluara për sektorin publik, organizatat dhe individët.",
+    "tmeeting_rtt_title": "RTT dhe standardizimi",
+    "tmeeting_rtt_body": "T-Meeting ka shqyrtuar dhe ofruar feedback këshillues mbi punën e lidhur me standardizimin për RTT/tekst në kohë reale. Kjo përvojë forcon punën tonë me standarde të hapura, ndërveprueshmëri dhe zgjidhje të qëndrueshme për komunikim të aksesueshëm.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Nënshkrim",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 është një sipërmarrje specialistësh europianë në aksesueshmërinë digjitale. Me fokus te WCAG, përdorshmëria dhe shërbimet digjitale gjithëpërfshirëse, sipërmarrja ndihmon organizatat të krijojnë uebfaqe dhe mjedise digjitale që funksionojnë për më shumë njerëz.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Marka europiane",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum bashkon përpjekjet europiane në produkte komplementare të perceptimit. Produktet mbështeten në punën e zhvillimit europian dhe ofrohen për tregun e konsumatorëve, ndërsa zgjidhjet përkatëse përmes T-Meeting shpesh ofrohen përmes sektorit publik dhe prokurimeve.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Partneritet",
-    "heading": "Jemi më të fortë së bashku.",
-    "body": "Me një familje gjithëpërfshirëse produktesh të ndërtuar mbi pesëmbëdhjetë vjet, Europea dhe kompanitë e saj janë krenare që janë partner në projekte më të mëdha që nxisin dixhitalizimin e aksesueshëm. Ne mbajmë demonstrime produktesh, mbajmë ligjërata konferencash dhe bashkëzhvillojmë zgjidhje me organizata publike dhe private në të gjithë Skandinavinë dhe Evropën.",
-    "item1_title": "Kërkim & Zhvillim",
-    "item1_body": "Ne kemi bashkëpunuar me PTS (Autoriteti Postar dhe Telekomunikacionit i Suedisë) në projekte të shumta inovative duke përfshirë TERA Next Generation dhe Fritt Fram.",
-    "item2_title": "Sektori Publik",
-    "item2_body": "Komuna, rajone dhe organizata të teknologjisë sociale. Nëse keni një shërbim dixhital, ne mund të ndihmojmë ta bëjmë plotësisht të aksesueshëm — nga fillimi deri në fund.",
-    "item3_title": "Ngjarje & Arsim",
-    "item3_body": "Ne organizojmë konferenca vjetore dhe demonstrime produktesh. Që nga viti 2018, në partneritet me Lidol, ne bashkë-sponsorizojmë një konferencë të hapur mbi Komplett Kommunikation.",
-    "cta": "Të interesuar për bashkëpunim?"
+  "history": {
+    "label": "Histori",
+    "heading": "Tre dekada zhvillim në fushën e aksesueshmërisë",
+    "lead": "Që nga viti 1993, Europea është evoluar nga mjete ndihmëse komunikimi dhe telefoni video drejt komunikimit të aksesueshëm, gjithëpërfshirjes digjitale dhe sipërmarrjeve specialistësh brenda aksesueshmërisë.",
+    "image_note_title": "Një udhëtim historik i inovacionit",
+    "image_note_body": "Një imazh historik nga zhvillimi europian i telefonave video digjitalë dhe mobilë mund të vendoset këtu për të vizualizuar udhëtimin e inovacionit nga viti 1993–2010.",
+    "item1_year": "1993",
+    "item1_title": "E themeluar në Malmö",
+    "item1_body": "Europea i Malmö AB themelohet me fokus te mjetet ndihmëse komunikimi dhe zgjidhjet e aksesueshme për personat me dëmtim dëgjimi dhe vështirësi komunikimi.",
+    "item2_year": "1993–2010",
+    "item2_title": "Telefonat video digjitalë dhe mobilë",
+    "item2_body": "Gjatë dekadave të para, Europea zhvillon dhe ofron telefona video digjitalë dhe mobilë, si dhe mjete ndihmëse komunikimi që forcojnë pavarësinë dhe komunikimin e aksesueshëm.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting në formën e tij aktuale",
+    "item3_body": "T-Meeting themelohet në formën e tij aktuale me fokus te komunikimi i aksesueshëm, standardet e hapura dhe zgjidhjet për audio, video dhe tekst në kohë reale.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produkte për një jetë më të pasur",
+    "item4_body": "Infiniuum krijohet për t'u dhënë klientëve qasje te produktet më të mira – dhe shërben si platforma e-commerce brenda grupit.",
+    "item5_year": "2025",
+    "item5_title": "Aksesueshmëria digjitale",
+    "item5_body": "EaseAccess24 themelohet me fokus te aksesueshmëria digjitale dhe WCAG – një hap natyral i ardhshëm në punën europiane drejt pjesëmarrjes më të madhe dhe shërbimeve digjitale gjithëpërfshirëse."
+  },
+  "company": {
+    "label": "Rreth Europea",
+    "heading": "Kompania pas sipërmarrjeve tona",
+    "lead": "Europea i Malmö AB është baza strategjike pas sipërmarrjeve tona. Ne bashkojmë përvojën, teknologjinë dhe markat brenda aksesueshmërisë – dhe nxisim zhvillimin drejt zgjidhjeve që e bëjnë komunikimin dhe mjediset digjitale më gjithëpërfshirëse.",
+    "tmeeting_tag": "Komunikim i aksesueshëm",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "T-Meeting është marka specialistësh europianë në komunikimin e aksesueshëm. Përmes audios, videos dhe tekstit në kohë reale, ajo zhvillon zgjidhje që mundësojnë komunikim të sigurt, gjithëpërfshirës dhe të qëndrueshëm – të ndërtuar mbi standarde të hapura dhe përvojë të gjatë në fushë.",
+    "ease_tag": "Aksesueshmëria digjitale",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 është sipërmarrja specialistësh europianë në aksesueshmërinë digjitale. Me fokus te WCAG, përdorshmëria dhe shërbimet digjitale gjithëpërfshirëse, sipërmarrja ndihmon organizatat të krijojnë uebfaqe dhe mjedise digjitale që funksionojnë për më shumë njerëz.",
+    "infiniuum_tag": "Inovacion & produkte",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum bashkon përpjekjet europiane në produkte komplementare të perceptimit. Produktet mbështeten në punën e zhvillimit europian dhe ofrohen për tregun e konsumatorëve, ndërsa zgjidhjet përkatëse përmes T-Meeting shpesh ofrohen përmes sektorit publik dhe prokurimeve."
+  },
+  "vision": {
+    "label": "Vizoni",
+    "heading": "Një forcë shtytëse për aksesueshmërinë në Evropë",
+    "lead": "Europea punon drejt një shoqërie ku aksesueshmëria nuk është një opsion shtesë apo një përjashtim – por një pjesë e vetëkuptueshme e mënyrës se si dizajnohen komunikimi, teknologjia dhe shërbimet digjitale.",
+    "vision_label": "Vizoni",
+    "vision_body": "Ambicja jonë është të jemi një forcë evropiane shtytëse brenda aksesueshmërisë duke përdorur njohuritë, përvojën dhe kapacitetin tonë për inovacion për të reduktuar barrierat dhe për të krijuar pjesëmarrje reale – nëpër gjuhë, sisteme shoqërore dhe kufij kombëtarë.",
+    "belief_label": "Bindja jonë",
+    "belief_body1": "Ne besojmë se zgjidhjet e dizajnuara me nevojat më kërkuese në mendje krijojnë zgjidhje më të mira për të gjithë.",
+    "belief_body2": "Kjo është arsyeja pse ne e shohim aksesueshmërinë jo vetëm si një çështje barazie dhe të drejtash njerëzore – por si një forcë shtytëse për inovacion, dizajn universal dhe shoqërinë e së ardhmes.",
+    "practice_label": "Vizioni ynë në praktikë",
+    "practice_body": "T-Meeting bart europian vizionin brenda komunikimit të aksesueshëm përmes idesë së Komplett Kommunikation – një koncept i prezantuar nga Faruk dhe Max Tairi që përshkruan qasje të barabartë në komunikim për të gjithë.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Prania europiane",
+    "heading": "Nga Nordikët – me ambicie europiane",
+    "lead": "Europea i ka rrënjët në Malmö dhe sot operon aktivisht në Suedi dhe Norvegji. Përmes sipërmarrjeve dhe bashkëpunimeve tona, ne operojmë edhe ndërkombëtarisht – me prani të një filiali në Maqedoninë e Veriut dhe punë të vazhdueshme në Francë.",
+    "body1": "Ambicia jonë është e qartë: të rritemi si një forcë europiane brenda aksesueshmërisë, ku njohuritë, inovacioni dhe përvoja praktike përdoren për të krijuar komunikim dhe ambiente digjitale më gjithëpërfshirëse.",
+    "body2": "Ne e shohim aksesueshmërinë si një çështje të përbashkët europiane dhe duam të kontribuojmë në zhvillimin e zgjidhjeve që funksionojnë në gjuhë, kufij dhe sisteme shoqërore."
+  },
+  "founders": {
+    "label": "Themeluesit",
+    "heading": "Një kompani e ndërtuar mbi një kuptim real të aksesueshmërisë",
+    "lead": "Europea i Malmö AB u themelua në vitin 1993 nga Faruk dhe Max Tairi, të dy me sfond si interpretues gjuhësorë. Përmes punës së tyre në biseda të përkthyera, ata panë nga afër se si barrierat e komunikimit prekin aftësinë e njerëzve për të kuptuar, marrë pjesë dhe marrë vendimet e tyre.",
+    "body1": "Kjo përvojë u bë themeli për drejtimin dhe pozicionin e Europea-s: të jesh një forcë praktike, e ditur dhe afatgjatë brenda aksesueshmërisë.",
+    "body2": "Që nga fillimi, biznesi është rritur përmes njohurive specialistike, inovacionit dhe një angazhimi afatgjatë për aksesueshmërinë – dhe sot përfshin disa sipërmarrje dhe marka me një fokus të përbashkët në komunikim, pjesëmarrje dhe përfshirje digjitale.",
+    "body3": "Sfondi i themeluesve në interpretim, sipërmarrje dhe ambiente me performancë të lartë ka formësuar kulturën e kompanisë: të menduarit afatgjatë, disiplinën dhe zgjidhjen praktike të problemeve.",
+    "quote": "Komunikimi nuk duhet të jetë një pengesë për pjesëmarrje – duhet të jetë një mundësi."
+  },
+  "industry": {
+    "label": "Industria & anëtarësimi",
+    "heading": "Rrënjosur në zhvillimin e aksesueshmërisë",
+    "lead": "Europea punon afatgjatë me aksesueshmërinë dhe pjesëmarrjen – në lidhje të ngushtë me industrinë, nevojat e përdoruesve dhe zhvillimin e zgjidhjeve të aksesueshme të së ardhmes.",
+    "membership_tag": "Anëtarësim",
+    "membership_name": "Shoqata e industrisë Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "Europea i Malmö AB është anëtar i shoqatës së industrisë Branschorganisationen Svensk Tillgänglighet dhe ndan punën e organizatës për pjesëmarrje më të madhe, njohuri dhe zhvillim në fushën e aksesueshmërisë."
   },
   "contact": {
     "label": "Kontakt",
-    "heading": "Jemi në Malmö.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, Kati 3",
-    "address2": "211 55 Malmö, Suedi",
-    "org": "Org. 556464-0323",
-    "noProduct": "Europea nuk ka një produkt të ekspozuar publikisht. Për kërkesa lidhur me aksesueshmërinë, vizitoni EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Dëshironi të dini më shumë rreth Europea?",
+    "lead": "Marrim kontakt nëse dëshironi të dini më shumë rreth Europea, sipërmarrjeve tona, ose punës sonë brenda komunikimit të aksesueshëm, aksesueshmërisë digjitale dhe teknologjisë gjithëpërfshirëse.",
+    "address_label": "Adresa",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Telefon",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "Email",
+    "email_value": "info@europea.se",
+    "org_label": "Kompania",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Org. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Kalo te përmbajtja kryesore"
+    "skipToMain": "Kalo në përmbajtjen kryesore"
   }
 }

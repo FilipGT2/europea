@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "Apie mus",
-    "portfolio": "Portfolio",
-    "contact": "Susisiekite",
+    "brands": "Prekių ženklai",
+    "evolution": "Evoliucija",
+    "vision": "Vizija",
+    "europe": "Europa",
+    "contact": "Kontaktai",
     "openMenu": "Atidaryti naršymo meniu",
     "closeMenu": "Uždaryti naršymo meniu",
     "home": "Europos namai",
     "switchLight": "Perjungti į šviesųjį režimą",
     "switchDark": "Perjungti į tamsųjį režimą",
-    "languageSwitcher": "Pasirinkite kalbą"
+    "languageSwitcher": "Pasirinkite kalbą",
+    "cta": "Susisiekite su mumis"
   },
   "hero": {
-    "badge": "MALMÖ, ŠVEDIJA · ĮK. 1993 M. · PRIEINAMUMO GRUPĖ",
-    "title1": "Technologija, kuri suartina žmones",
-    "title2": ".",
-    "subtitle": "Tikime socialiai tvaria visuomene, kuriančia lygybę ir įvairovę. „Europea“ įmonės suteikia žmonėms įrankius visapusiškai dalyvauti ir gyventi turiningiau.",
-    "cta_primary": "Atraskite mūsų įmones",
-    "cta_secondary": "Susisiekite su mumis"
+    "eyebrow": "Prieinamumas · bendravimas · skaitmeninė įtrauktis",
+    "title1": "Stipri jėga ",
+    "titleEm": "prieinamumo srityje",
+    "title2": " nuo 1993 m.",
+    "subtitle": "„Europea i Malmö AB“ kuria ir valdo verslus, susijusius su prieinamu bendravimu, skaitmeniniu prieinamumu ir vartotojo poreikius atitinkančiais technologiniais sprendimais. Nuo 1993 m. siekiame mažinti bendravimo barjerus ir kurti sprendimus, kurie padėtų daugiau žmonių naudotis prieinamu bendravimu, informacija ir skaitmenine aplinka.",
+    "cta_primary": "Mūsų prekių ženklai",
+    "cta_secondary": "Susisiekite su mumis",
+    "since_year": "1993",
+    "since_label": "Įkurta Malmėje – aktyviai veikiame iki šiol",
+    "stat1_number": "30+",
+    "stat1_label": "Metų patirtis",
+    "stat2_number": "3",
+    "stat2_label": "Mūsų prekių ženklai",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Aktyvios rinkos",
+    "stat4_number": "WCAG",
+    "stat4_label": "Skaitmeninis prieinamumas"
   },
-  "mission": {
-    "label": "Mūsų misija",
-    "heading": "Bendravimas lygiavertėmis sąlygomis – kiekvienam asmeniui.",
-    "body1": "Kai projektuojame atsižvelgdami į reikliausius poreikius, kuriame produktus, kurie naudingi visiems. Tai ne tik teisingumas ir žmogaus teisės – tai įtraukiantis, universalus dizainas. Toks yra ateities mąstymas.",
-    "body2": "Vien Švedijoje beveik du milijonai žmonių turi klausos sutrikimų. Daugeliui, įskaitant kurčiuosius, istoriškai buvo sunku tiesiogiai pasiekti tokias paslaugas kaip bankas, sveikatos priežiūros paslaugų teikėjas ar vyriausybės įstaiga. Per dvidešimt penkerius metus mes panaikinome šį skirtumą. Šiandien mūsų technologija leidžia neprigirdintiems ir akliesiems dirbti klientų aptarnavimo srityje ir padėti kiekvienam skambinančiajam.",
-    "tag1": "Klientų dėmesys",
-    "tag2": "Ilgalaikis mąstymas",
-    "tag3": "Inovacijos",
-    "quoteText": "\"Komplett Kommunikation.\"",
-    "quoteBody": "Visapusis bendravimas – „Europea“ steigiamasis principas. Kiekvienas turėtų galėti pasiekti ir būti pasiektas bet ko, naudojantis turimais įrankiais.",
-    "quoteAttribution": "Max ir Faruk Tairi, įkūrėjai"
+  "coreCompetence": {
+    "label": "„Europea“ pozicija",
+    "heading": "Prieinamumas kaip pagrindinė kompetencija",
+    "lead": "Prieinamumas „Europea“ nėra antraeilis dalykas – tai mūsų pagrindinė kompetencija. Turėdami specializuotų žinių, diegdami inovacijas ir ilgametę patirtį, kuriame sprendimus, stiprinančius dalyvavimą, supratimą ir lygiavertį bendravimą.",
+    "card1_tag": "Bendravimas",
+    "card1_name": "Prieinami pokalbiai",
+    "card1_desc": "Sprendimai balsui, tekstui, vaizdo įrašams ir nuotoliniam bendravimui, leidžiantys daugiau žmonių dalyvauti savo sąlygomis.",
+    "card2_tag": "Skaitmeninė įtrauktis",
+    "card2_name": "Interneto prieinamumas ir prieinamumas",
+    "card2_desc": "WCAG, naudojimo paprastumo ir skaitmeninio prieinamumo ekspertizė – sutelkiant dėmesį į praktinę naudą vartotojams ir organizacijoms.",
+    "card3_tag": "Inovacijos",
+    "card3_name": "Atviri standartai",
+    "card3_desc": "Technologijos ir paslaugos, sukurtos atsižvelgiant į ilgaamžiškumą, sąveikumą ir ateities bendravimo sprendimus."
   },
-  "stats": {
-    "years_label": "Metų, kuriant prieinamą technologiją",
-    "engineers_label": "Inžinieriai ir programuotojai",
-    "europeans_label": "Europos gyventojai, turintys negalią"
+  "evolution": {
+    "label": "Mūsų evoliucija",
+    "heading": "Nuo prieinamo bendravimo iki platesnio prieinamumo",
+    "lead": "„Europea“ veikla prasidėjo nuo prieinamo bendravimo per „T-Meeting“ ir sprendimus žmonėms, turintiems klausos ir komunikacijos sutrikimų. Pastaraisiais metais ta veikla išsiplėtė – nuo bendravimo iki skaitmeninio prieinamumo ir įtraukių skaitmeninių paslaugų.",
+    "body1": "Patirtis, įgyta prieinamo bendravimo srityje, sudarė natūralų kelią skaitmeniniam prieinamumui, naudojimo paprastumui ir naujoms įtraukių technologijų formoms.",
+    "body2": "Ši evoliucija aiškiai atsispindi iniciatyvose, tokiose kaip „EaseAccess24“ – kur ta pati pagrindinė nuostata išlieka: prieinamumas neturėtų būti papildoma galimybė, o savaime suprantama technologijų, bendravimo ir skaitmeninių paslaugų dizaino dalis."
   },
-  "values": {
-    "label": "Vertybės",
-    "heading": "Kaip mes mąstome ir kuriame.",
-    "item1_title": "Įtrauktis per dizainą",
-    "item1_heading": "Mes nepridedame prieinamumo vėliau.",
-    "item1_body": "Kiekvienas produktas prasideda nuo klausimo: kas yra išskiriamas? Kai projektuojame atsižvelgdami į reikliausius poreikius, kuriame sprendimus, kurie naudingi visiems.",
-    "item2_title": "Technologija su žmogiškumu",
-    "item2_heading": "Už kiekvienos kodo eilutės slypi žmogus.",
-    "item2_body": "Mūsų įrankiai sprendžia realias žmonių problemas. Visas mūsų kodas sukurtas viduje, komandos, kurioje dirba sistemų plėtros daktarai mokslininkai. Mes klausomės savo vartotojų ir kuriame tai, ko jiems iš tikrųjų reikia.",
-    "item3_title": "Statyti ilgam",
-    "item3_heading": "Mes pasirenkame sunkesnį kelią.",
-    "item3_body": "Trumpalaikiai pataisymai nėra mūsų verslas. Kai trūksta standartų, mes juos nustatome. Kai sprendimo nėra, mes jį kuriame. Mūsų produktais rūpinamės kaip savo vaikais."
+  "brands": {
+    "label": "Mūsų prekių ženklai",
+    "heading": "„Europea“ verslai",
+    "lead": "„Europea“ yra kelių specializuotų verslų ir prekių ženklų pagrindinė įmonė. Kartu jie parodo mūsų ekspertizės mastą prieinamo bendravimo, skaitmeninio prieinamumo ir vartotojo poreikius atitinkančių technologijų srityse.",
+    "tmeeting_tag": "Prieinamas bendravimas",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Prieinamas bendravimas – sukurtas dalyvauti. T-Meeting kuria sprendimus, kuriuose garsas, vaizdas ir realaus laiko tekstas veikia kartu, kad sukurtų saugų, įtraukų ir ateities poreikius atitinkantį bendravimą. Mūsų sprendimai grindžiami atvirais standartais ir yra sukurti viešajam sektoriui, organizacijoms ir fiziniams asmenims.",
+    "tmeeting_rtt_title": "RTT ir standartizavimas",
+    "tmeeting_rtt_body": "T-Meeting peržiūrėjo ir pateikė konsultacinius atsiliepimus dėl RTT/realaus laiko teksto standartizavimo srities darbų. Ši patirtis stiprina mūsų darbą su atvirais standartais, sąveikumu ir ateities poreikius atitinkančiais sprendimais, skirtais prieinamam bendravimui.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Apdovanojimas",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 yra Europea specializuotas skaitmeninio prieinamumo projektas. Daugiausia dėmesio skiriant WCAG, patogumui naudoti ir įtraukioms skaitmeninėms paslaugoms, projektas padeda organizacijoms kurti svetaines ir skaitmenines aplinkas, kurios veiktų daugiau žmonių.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Europea prekės ženklas",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum suburia Europea pastangas, susijusias su papildomais suvokimo produktais. Produktai yra sukurti remiantis Europea plėtros darbais ir siūlomi vartotojų rinkai, o atitinkami sprendimai per T-Meeting dažnai teikiami per viešąjį sektorių ir viešuosius pirkimus.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Partnerystė",
-    "heading": "Kartu esame stipresni.",
-    "body": "Su 25 metus kuriamu išsamiu produktų šeima „Europea“ ir jos įmonės didžiuojasi galėdamos bendradarbiauti didesniuose projektuose, skatinančiuose prieinamą skaitmenizaciją. Mes rengiame produktų demonstracijas, pristatome pranešimus konferencijose ir kartu kuriame sprendimus su viešosiomis bei privačiomis organizacijomis visoje Skandinavijoje ir Europoje.",
-    "item1_title": "Tyrimai ir plėtra",
-    "item1_body": "Mes bendradarbiavome su Švedijos pašto ir telekomunikacijų tarnyba (PTS) vykdydami kelis inovacijų projektus, įskaitant TERA Next Generation ir Fritt Fram.",
-    "item2_title": "Viešasis sektorius",
-    "item2_body": "Savivaldybės, regionai ir gerovės technologijų organizacijos. Jei turite skaitmeninę paslaugą, mes galime padėti padaryti ją visiškai prieinamą – nuo pradžios iki galo.",
-    "item3_title": "Renginiai ir švietimas",
-    "item3_body": "Mes organizuojame metines konferencijas ir produktų demonstracijas. Nuo 2018 m., bendradarbiaudami su „Lidol“, mes kartu remiame atvirą konferenciją „Komplett Kommunikation“.",
-    "cta": "Domina bendradarbiavimas?"
+  "history": {
+    "label": "Istorija",
+    "heading": "Trys dešimtmečiai plėtros prieinamumo srityje",
+    "lead": "Nuo 1993 m. Europea išsivystė nuo pagalbos priemonių ir vaizdo telefonijos iki prieinamo bendravimo, skaitmeninės įtraukties ir specializuotų prieinamumo projektų.",
+    "image_note_title": "Istorinė inovacijų kelionė",
+    "image_note_body": "Čia galima patalpinti istorinę nuotrauką iš Europea skaitmeninių ir mobiliųjų vaizdo telefonų kūrimo, kad būtų vizualizuota inovacijų kelionė 1993–2010 m.",
+    "item1_year": "1993",
+    "item1_title": "Įkurta Malmėje",
+    "item1_body": "„Europea i Malmö AB“ įkurta daugiausia dėmesio skiriant klausos sutrikimų ir bendravimo sunkumų turintiems žmonėms skirtoms pagalbos priemonėms ir prieinamiems sprendimams.",
+    "item2_year": "1993–2010",
+    "item2_title": "Skaitmeniniai ir mobilieji vaizdo telefonai",
+    "item2_body": "Pirmuosius dešimtmečius Europea kuria ir tiekia skaitmeninius bei mobiliuosius vaizdo telefonus, taip pat pagalbos priemones, kurios stiprina nepriklausomybę ir prieinamą bendravimą.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting dabartine forma",
+    "item3_body": "T-Meeting įsteigta dabartine forma, daugiausia dėmesio skiriant prieinamam bendravimui, atvirais standartais ir garso, vaizdo bei realaus laiko teksto sprendimams.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Produktai turtingesniam gyvenimui",
+    "item4_body": "Infiniuum sukurtas, kad klientai turėtų prieigą prie geriausių produktų – ir veikia kaip grupės elektroninės komercijos platforma.",
+    "item5_year": "2025",
+    "item5_title": "Skaitmeninis prieinamumas",
+    "item5_body": "EaseAccess24 įkurta daugiausia dėmesio skiriant skaitmeniniam prieinamumui ir WCAG – natūralus kitas Europea žingsnis siekiant didesnio dalyvavimo ir įtraukių skaitmeninių paslaugų kūrimo link."
+  },
+  "company": {
+    "label": "Apie Europea",
+    "heading": "Įmonė, valdanti mūsų projektus",
+    "lead": "Europea i Malmö AB yra strateginis pagrindas mūsų projektams. Suburiame patirtį, technologijas ir prekės ženklus prieinamumo srityje – ir skatiname plėtrą link sprendimų, kurie daro bendravimą ir skaitmenines aplinkas įtraukesnes.",
+    "tmeeting_tag": "Prieinamas bendravimas",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "T-Meeting yra Europea specializuotas prekės ženklas prieinamo bendravimo srityje. Naudodamas garsą, vaizdą ir realaus laiko tekstą, jis kuria sprendimus, leidžiančius saugiai, įtraukiai ir ateities poreikius atitinkančiam bendravimui – grindžiamus atvirais standartais ir ilgamete patirtimi šioje srityje.",
+    "ease_tag": "Skaitmeninis prieinamumas",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "EaseAccess24 yra Europea specializuotas skaitmeninio prieinamumo projektas. Daugiausia dėmesio skiriant WCAG, patogumui naudoti ir įtraukioms skaitmeninėms paslaugoms, projektas padeda organizacijoms kurti svetaines ir skaitmenines aplinkas, kurios veiktų daugiau žmonių.",
+    "infiniuum_tag": "Inovacijos ir produktai",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Infiniuum suburia Europea pastangas, susijusias su papildomais suvokimo produktais. Produktai yra sukurti remiantis Europea plėtros darbais ir siūlomi vartotojų rinkai, o atitinkami sprendimai per T-Meeting dažnai teikiami per viešąjį sektorių ir viešuosius pirkimus."
+  },
+  "vision": {
+    "label": "Vizija",
+    "heading": "Prieinamumo varomoji jėga Europoje",
+    "lead": "Europea siekia visuomenės, kurioje prieinamumas nebūtų papildoma galimybė ar išimtis – bet savaime suprantama bendravimo, technologijų ir skaitmeninių paslaugų projektavimo dalis.",
+    "vision_label": "Vizija",
+    "vision_body": "Mūsų ambicija yra būti pagrindine Europos jėga prieinamumo srityje, naudojant mūsų žinias, patirtį ir inovacijų pajėgumus, siekiant sumažinti kliūtis ir sukurti realų dalyvavimą – visose kalbose, visuomenės sistemose ir valstybių sienose.",
+    "belief_label": "Mūsų įsitikinimas",
+    "belief_body1": "Mes tikime, kad sprendimai, sukurti atsižvelgiant į reikliausius poreikius, sukuria geresnius sprendimus visiems.",
+    "belief_body2": "Štai kodėl mes laikome prieinamumą ne tik lygybės ir žmogaus teisių klausimu – bet ir inovacijų, universalaus dizaino ir ateities visuomenės varomąja jėga.",
+    "practice_label": "Mūsų vizija praktiškai",
+    "practice_body": "„T-Meeting“ perteikia Europos viziją neįgaliųjų komunikacijos srityje per „Komplett Kommunikation“ idėją – tai Faruko ir Maxo Tairių pristatyta koncepcija, apibūdinanti lygias galimybes bendrauti visiems.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Europos buvimas",
+    "heading": "Iš Šiaurės šalių – su Europos ambicijomis",
+    "lead": "„Europea“ savo šaknis turi Malmėje ir šiandien aktyviai veikia Švedijoje ir Norvegijoje. Per mūsų projektus ir bendradarbiavimą mes taip pat veikiame tarptautiniu mastu – turime dukterinę įmonę Šiaurės Makedonijoje ir nuolat plečiamės Prancūzijoje.",
+    "body1": "Mūsų ambicijos yra aiškios: augti kaip Europos jėga neįgaliųjų srityje, kur žinios, inovacijos ir praktinė patirtis naudojamos kuriant įtraukesnę komunikaciją ir skaitmenines aplinkas.",
+    "body2": "Neįgaliųjų sritį laikome bendra Europos problema ir norime prisidėti prie sprendimų, veikiančių įvairiose kalbose, peržengiančių sienas ir visuomenės sistemas, kūrimo."
+  },
+  "founders": {
+    "label": "Įkūrėjai",
+    "heading": "Įmonė, sukurta remiantis realiu neįgaliųjų srities supratimu",
+    "lead": "„Europea i Malmö AB“ 1993 m. įkūrė Farukas ir Maxas Tairi, abu turintys vertėjų patirtį. Dirbdami tarpininkaudami pokalbiuose, jie iš pirmų lūpų pamatė, kaip bendravimo kliūtys veikia žmonių gebėjimą suprasti, dalyvauti ir priimti savo sprendimus.",
+    "body1": "Ši patirtis tapo „Europea“ krypties ir pozicijos pagrindu: būti praktiška, žingeidžia ir ilgalaike jėga neįgaliųjų srityje.",
+    "body2": "Nuo pat pradžių verslas augo plėsdamas specializuotas žinias, inovacijas ir ilgalaikį įsipareigojimą neįgaliųjų srityje – šiandien jis apima kelis projektus ir prekės ženklus, kurių bendras tikslas yra komunikacija, dalyvavimas ir skaitmeninė įtrauktis.",
+    "body3": "Įkūrėjų patirtis vertimo, verslumo ir aukštos veiklos aplinkoje formavo įmonės kultūrą: ilgalaikį mąstymą, discipliną ir praktinį problemų sprendimą.",
+    "quote": "Bendravimas neturėtų būti kliūtis dalyvavimui – jis turėtų būti galimybė."
+  },
+  "industry": {
+    "label": "Pramonė ir narystė",
+    "heading": "Įsišakniję neįgaliųjų srities plėtroje",
+    "lead": "„Europea“ ilgą laiką dirba neįgaliųjų ir dalyvavimo srityje – glaudžiai bendradarbiaudama su pramone, vartotojų poreikiais ir ateities neįgaliųjų sprendimų kūrimu.",
+    "membership_tag": "Narystė",
+    "membership_name": "Pramonės asociacija „Branschorganisationen Svensk Tillgänglighet“",
+    "membership_body": "„Europea i Malmö AB“ yra pramonės asociacijos „Branschorganisationen Svensk Tillgänglighet“ narė ir remia organizacijos darbą siekiant didesnio dalyvavimo, žinių ir plėtros neįgaliųjų srityje."
   },
   "contact": {
     "label": "Susisiekite",
-    "heading": "Mes esame Malmėje.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, 3 aukštas",
-    "address2": "211 55 Malmė, Švedija",
-    "org": "Įm. kodas 556464-0323",
-    "noProduct": "Europea neturi viešai prieinamo produkto. Dėl pritaikomumo neįgaliesiems klausimų apsilankykite EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Norite sužinoti daugiau apie „Europea“?",
+    "lead": "Susisiekite, jei norite sužinoti daugiau apie „Europea“, mūsų projektus ar mūsų darbą neįgaliųjų komunikacijos, skaitmeninės neįgaliųjų prieigos ir įtraukiančių technologijų srityje.",
+    "address_label": "Adresas",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Telefonas",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "El. paštas",
+    "email_value": "info@europea.se",
+    "org_label": "Įmonė",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Įm. kodas 556464-0323 · Amiralsgatan 20, 211 55 Malmė"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Peršokti prie pagrindinio turinio"
+    "skipToMain": "Pereiti prie pagrindinio turinio"
   }
 }

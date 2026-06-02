@@ -1,80 +1,168 @@
 {
   "nav": {
     "about": "Maidir linn",
-    "portfolio": "Pórtóir",
+    "brands": "Brandaí",
+    "evolution": "Éabhlóid",
+    "vision": "Fís",
+    "europe": "An Eoraip",
     "contact": "Déan teagmháil",
     "openMenu": "Oscail an roghchlár nascleanúna",
     "closeMenu": "Dún an roghchlár nascleanúna",
     "home": "Baile Europea",
-    "switchLight": "Athraigh go mód solais",
+    "switchLight": "Athraigh go mód éadrom",
     "switchDark": "Athraigh go mód dorcha",
-    "languageSwitcher": "Roghnaigh teanga"
+    "languageSwitcher": "Roghnaigh teanga",
+    "cta": "Déan teagmháil linn"
   },
   "hero": {
-    "badge": "MALMÖ, AN tSVEIN · BUNÚ 1993 · GRÚPA INROCHTANNACHTA",
-    "title1": "Teicneolaíocht a thagann le chéile",
-    "title2": "daoine.",
-    "subtitle": "Creidimid i sochaí shóisialta inbhuanaithe atá tógtha ar chomhionannas agus éagsúlacht. Tugann cuideachtaí Europea uirlisí do dhaoine chun páirt iomlán a ghlacadh — agus chun saol níos saibhre a chaitheamh.",
-    "cta_primary": "Faigh Amach Ár gCuideachtaí",
-    "cta_secondary": "Déan Teagmháil Linn"
+    "eyebrow": "Inrochtaineacht · cumarsáid · cuimsiú digiteach",
+    "title1": "Fórsa láidir san ",
+    "titleEm": "inrochtaineacht",
+    "title2": " ó 1993 i leith",
+    "subtitle": "Forbraíonn agus ritheann Europea i Malmö AB fiontair laistigh de chumarsáid inrochtana, inrochtaineacht dhigiteach, agus réitigh teicneolaíochta atá dírithe ar an úsáideoir. Ó 1993 i leith táimid ag obair chun bacainní cumarsáide a laghdú agus chun réitigh a chruthú a fhágann go bhfuil cumarsáid, faisnéis, agus timpeallachtaí digiteacha inrochtana indéanta do níos mó daoine.",
+    "cta_primary": "Ár mbrandaí",
+    "cta_secondary": "Déan teagmháil linn",
+    "since_year": "1993",
+    "since_label": "Bunaithe i Malmö – gníomhach ó shin",
+    "stat1_number": "30+",
+    "stat1_label": "Blianta sa réimse",
+    "stat2_number": "3",
+    "stat2_label": "Ár mbrandaí",
+    "stat3_number": "SE & NO",
+    "stat3_label": "Marganna gníomhacha",
+    "stat4_number": "WCAG",
+    "stat4_label": "Inrochtaineacht dhigiteach"
   },
-  "mission": {
-    "label": "Ár Misean",
-    "heading": "Cumarsáid ar théarmaí comhionanna — do gach duine aonair.",
-    "body1": "Nuair a dhearamar ag smaoineamh ar na riachtanais is déine, cruthaímid táirgí a fhreastalaíonn ar gach duine. Ní bhaineann sé seo ach le ceartas agus cearta an duine — baineann sé le dearadh uilíoch, cuimsitheach. Is é sin smaointeoireacht na todhchaí.",
-    "body2": "Sa tSualainn amháin, tá beagnach dhá mhilliún duine ann a bhfuil fadhbanna éisteachta acu. Do go leor — lena n-áirítear iad siúd atá bodhar — bhí sé deacair go stairiúil seirbhísí a bhaint amach go díreach mar bhanc, soláthraí cúraim sláinte, nó oifig rialtais. Tá os cionn fiche cúig bliana caite againn ag dúnadh an bhearna sin. Sa lá atá inniu ann, is féidir lenár dteicneolaíocht do dhuine dallbhodhar oibriú i seirbhís do chustaiméirí agus gach glaoiteoir a chúidiú.",
-    "tag1": "Fócas ar an gCustaiméir",
-    "tag2": "Smaointeoireacht Fadtéarmach",
-    "tag3": "Nuálaíocht",
-    "quoteText": "\"Cumarsáid Iomlán.\"",
-    "quoteBody": "Cumarsáid Iomlán — an coincheap bunaitheach de Europea. Ba cheart go mbeadh gach duine in ann teacht ar aon duine agus a bheith teacht orthu, ag baint úsáide as na huirlisí atá ar láimh acu.",
-    "quoteAttribution": "Max & Faruk Tairi, bunaitheoirí"
+  "coreCompetence": {
+    "label": "Suíomh Europea",
+    "heading": "Inrochtaineacht mar phríomh-inniúlacht",
+    "lead": "Ní taobh-rian é an inrochtaineacht ag Europea – is í ár bpríomh-inniúlacht í. Trí eolas saineolais, nuálaíocht, agus taithí fhairsing, forbraímid réitigh a neartaíonn rannpháirtíocht, tuiscint, agus cumarsáid chothrom.",
+    "card1_tag": "Cumarsáid",
+    "card1_name": "Comhráite inrochtana",
+    "card1_desc": "Réitigh do chumarsáid gutha, téacs, físeáin, agus cianda a fhágann gur féidir le níos mó daoine páirt a ghlacadh ar a dtéarmaí féin.",
+    "card2_tag": "Cuimsiú digiteach",
+    "card2_name": "Gréasán & inrochtaineacht",
+    "card2_desc": "Saineolas i WCAG, inúsáidteacht, agus inrochtaineacht dhigiteach – le fócas ar luach praiticiúil d'úsáideoirí agus d'eagraíochtaí.",
+    "card3_tag": "Nuálaíocht",
+    "card3_name": "Caighdeáin oscailte",
+    "card3_desc": "Teicneolaíocht agus seirbhísí arna bhforbairt le fadbheatha, idir-inoibritheacht, agus réitigh chumarsáide atá cruthúnas ar an todhchaí i bhfócas."
   },
-  "stats": {
-    "years_label": "Blianta ag tógáil teicneolaíocht inrochtana",
-    "engineers_label": "Innealtóirí & forbróirí",
-    "europeans_label": "Eorpaigh ina gcónaí le míchumas"
+  "evolution": {
+    "label": "Ár n-éabhlóid",
+    "heading": "Ó chumarsáid inrochtana go hinrochtaineacht níos leithne",
+    "lead": "Thosaigh obair Europea laistigh de chumarsáid inrochtana trí T-Meeting agus réitigh do dhaoine a bhfuil dúshláin éisteachta agus cumarsáide acu. Le blianta beaga anuas, tá an obair sin leathnaithe – ó chumarsáid go hinrochtaineacht dhigiteach agus seirbhísí digiteacha cuimsitheacha.",
+    "body1": "Chruthaigh an taithí a fuarthas ó chumarsáid inrochtana cosán nádúrtha ar aghaidh i dtreo na hinrochtaineachta digití, na húsáidteachta, agus cineálacha nua teicneolaíochta cuimsitheacha.",
+    "body2": "Tá an éabhlóid sin le feiceáil go soiléir i dtionscnaimh mar EaseAccess24 – áit a gcónaíonn an dearbhú bunúsach céanna: nach chóir go mbeadh inrochtaineacht ina rogha breise, ach ina cuid féinshoiléir de conas a dhéantar teicneolaíocht, cumarsáid, agus seirbhísí digiteacha a dhearadh."
   },
-  "values": {
-    "label": "Luachanna",
-    "heading": "Conas a cheapaimid agus a thógann muid.",
-    "item1_title": "Cuimsiú de réir dearaidh",
-    "item1_heading": "Ní chuirimid inrochtaineacht leis tar éis na fírinne.",
-    "item1_body": "Tosaíonn gach táirge leis an gceist: cé atá á eisiamh? Nuair a dhearamar ag smaoineamh ar na riachtanais is déine, cruthaímid réitigh a fhreastalaíonn ar gach duine.",
-    "item2_title": "Teicneolaíocht le daonnacht",
-    "item2_heading": "Taobh thiar de gach líne cód tá duine.",
-    "item2_body": "Réitíonn ár n-uirlisí fadhbanna fíor-dhaonna. Forbraítear ár gcóid go léir laistigh den teach, ag foireann a chuimsíonn taighdeoirí dochtúireachta i bhforbairt córais. Éisteann muid lenár n-úsáideoirí agus tógann muid an rud a theastaíonn uathu i ndáiríre.",
-    "item3_title": "Tógáil le maireachtáil",
-    "item3_heading": "Tógann muid an cosán is deacra.",
-    "item3_body": "Ní dhéantar socruithe gearrthéarmacha mar ghnó againn. Nuair a bhíonn caighdeáin in easnamh, socraíonn muid iad. Nuair nach bhfuil réiteach ann, tógann muid é. Cothaítear ár dtáirgí cosúil lenár leanaí féin."
+  "brands": {
+    "label": "Ár mbrandaí",
+    "heading": "Fiontair laistigh de Europea",
+    "lead": "Is í Europea an chuideachta atá taobh thiar de roinnt fiontar agus brandaí speisialaithe. Le chéile, léiríonn siad leithead ár saineolais laistigh de chumarsáid inrochtana, inrochtaineacht dhigiteach, agus teicneolaíocht atá dírithe ar an úsáideoir.",
+    "tmeeting_tag": "Cumarsáid inrochtana",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Cumarsáid inrochtana – tógtha le haghaidh rannpháirtíochta. Forbraíonn T-Meeting réitigh ina n-oibríonn fuaim, físeán agus téacs fíor-ama le chéile chun cumarsáid shlán, chuimsitheach agus atá ullmhaithe don todhchaí a chruthú. Tá ár réitigh bunaithe ar chaighdeáin oscailte agus forbraítear iad don earnáil phoiblí, d'eagraíochtaí agus do dhaoine aonair.",
+    "tmeeting_rtt_title": "RTT agus caighdeánú",
+    "tmeeting_rtt_body": "Rinne T-Meeting athbhreithniú ar obair a bhaineann le caighdeánú le haghaidh RTT/téacs fíor-ama agus thug sé aiseolas comhairleach uirthi. Neartaíonn an taithí sin ár gcuid oibre le caighdeáin oscailte, idir-inoibritheacht, agus réitigh atá ullmhaithe don todhchaí le haghaidh cumarsáide inrochtana.",
+    "tmeeting_url": "tmeeting.se",
+    "ease_tag": "Fochuideachta",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "Is í EaseAccess24 fiontar na hEorpa speisialaithe laistigh de rochtain dhigiteach. Le fócas ar WCAG, inúsáidteacht, agus seirbhísí digiteacha cuimsitheacha, cabhraíonn an fiontar le heagraíochtaí láithreáin ghréasáin agus timpeallachtaí digiteacha a chruthú a oibríonn do níos mó daoine.",
+    "ease_url": "easeaccess24.com",
+    "infiniuum_tag": "Branda na hEorpa",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Tugann Infiniuum le chéile iarracht na hEorpa ar tháirgí comhlántacha braite. Tógann na táirgí ar obair forbartha na hEorpa agus cuirtear ar fáil iad don mhargadh tomhaltóirí, cé go mbíonn réitigh chomhréireacha trí T-Meeting go minic á soláthar tríd an earnáil phoiblí agus trí cheannacháin.",
+    "infiniuum_url": "infiniuum.com"
   },
-  "partnership": {
-    "label": "Comhpháirtíocht",
-    "heading": "Tá muid níos láidre le chéile.",
-    "body": "Le teaghlach táirgí cuimsitheach arna thógáil thar fiche cúig bliana, tá Europea agus a chuid cuideachtaí bródúil as a bheith ina gcomhpháirtithe ar thionscadail níos mó ag tiomáint digitiúcháin inrochtana. Déanaimid léirithe táirge, tugaimid cainteanna comhdhála, agus comhfhorbraímid réitigh le heagraíochtaí poiblí agus príobháideacha ar fud na Scairtíre agus na hEorpa.",
-    "item1_title": "Taighde & Forbairt",
-    "item1_body": "Tá comhpháirtíocht againn le PTS (Údarás Poist agus Teileachumarsáide na Sualainne) ar thionscadail nuálaíochta iolracha lena n-áirítear TERA Next Generation agus Fritt Fram.",
-    "item2_title": "An Earnáil Phoiblí",
-    "item2_body": "Bardais, réigiúin, agus eagraíochtaí teicneolaíochta leasa. Má tá seirbhís dhigiteach agat, is féidir linn cabhrú lena dhéanamh go hiomlán inrochtana — ó thús go deireadh.",
-    "item3_title": "Imeachtaí & Oideachas",
-    "item3_body": "Eagraímid comhdhálacha bliantúla agus léirithe táirge. Ó 2018, i gcomhpháirtíocht le Lidol, comh-urraitheoir againn comhdháil oscailte ar Komplett Kommunikation.",
-    "cta": "Suim agat i gcomhoibriú?"
+  "history": {
+    "label": "Stair",
+    "heading": "Trí scór bliain d'fhorbairt laistigh de rochtain",
+    "lead": "Ó 1993, d'éirigh an Eoraip ó chúntóirí cumarsáide agus teileafóin físeáin go cumarsáid inrochtana, cuimsiú digiteach, agus fiontair speisialaithe laistigh de rochtain.",
+    "image_note_title": "Aistear stairiúil nuálaíochta",
+    "image_note_body": "Is féidir íomhá stairiúil ó fhorbairt na hEorpa ar fhóin físe digiteacha agus soghluaiste a chur anseo chun an t-aistear nuálaíochta ó 1993–2010 a léirshamhlú.",
+    "item1_year": "1993",
+    "item1_title": "Bunaithe i Malmö",
+    "item1_body": "Bunaíodh Europea i Malmö AB le fócas ar chúntóirí cumarsáide agus réitigh inrochtana do dhaoine le mífhoimhne agus fadhbanna cumarsáide.",
+    "item2_year": "1993–2010",
+    "item2_title": "Fóin fhíse digiteacha agus soghluaiste",
+    "item2_body": "Le linn na gcéadta bliain, forbraíonn agus seachadann Europea fóin fhíse digiteacha agus soghluaiste chomh maith le cúntóirí cumarsáide a neartaíonn neamhspleáchas agus cumarsáid inrochtana.",
+    "item3_year": "2012",
+    "item3_title": "T-Meeting ina fhoirm reatha",
+    "item3_body": "Bunaítear T-Meeting ina fhoirm reatha le fócas ar chumarsáid inrochtana, caighdeáin oscailte, agus réitigh le haghaidh fuaime, físe, agus téacs fíor-ama.",
+    "item4_year": "Infiniuum",
+    "item4_title": "Táirgí do shaol níos saibhre",
+    "item4_body": "Cruthaítear Infiniuum chun rochtain a thabhairt do chustaiméirí ar na táirgí is fearr – agus feidhmíonn sé mar ardán ríomhthráchtála laistigh den ghrúpa.",
+    "item5_year": "2025",
+    "item5_title": "Inrochtaineacht dhigiteach",
+    "item5_body": "Bunaítear EaseAccess24 le fócas ar inrochtaineacht dhigiteach agus WCAG – céim nádúrtha eile in obair na hEorpa i dtreo rannpháirtíocht níos mó agus seirbhísí digiteacha cuimsitheacha."
+  },
+  "company": {
+    "label": "Maidir leis an Eoraip",
+    "heading": "An comhlacht atá taobh thiar dár bhfiontair",
+    "lead": "Is í Europea i Malmö AB an bonn straitéiseach taobh thiar dár bhfiontair. Tugaimid le chéile taithí, teicneolaíocht, agus brandaí laistigh de rochtain – agus tiomáinimíd forbairt i dtreo réitigh a dhéanann cumarsáid agus timpeallachtaí digiteacha níos cuimsithí.",
+    "tmeeting_tag": "Cumarsáid inrochtana",
+    "tmeeting_name": "T-Meeting",
+    "tmeeting_desc": "Is í T-Meeting branda speisialaithe na hEorpa laistigh de chumarsáid inrochtana. Trí fhuaim, físeán, agus téacs fíor-ama, forbraíonn sé réitigh a chuireann ar chumas cumarsáid shlán, chuimsitheach agus atá ullmhaithe don todhchaí – tógtha ar chaighdeáin oscailte agus taithí fhairsing sa réimse.",
+    "ease_tag": "Inrochtaineacht dhigiteach",
+    "ease_name": "EaseAccess24",
+    "ease_desc": "Is í EaseAccess24 fiontar speisialaithe na hEorpa laistigh de rochtain dhigiteach. Le fócas ar WCAG, inúsáidteacht, agus seirbhísí digiteacha cuimsitheacha, cabhraíonn an fiontar le heagraíochtaí láithreáin ghréasáin agus timpeallachtaí digiteacha a chruthú a oibríonn do níos mó daoine.",
+    "infiniuum_tag": "Nuálaíocht & táirgí",
+    "infiniuum_name": "Infiniuum",
+    "infiniuum_desc": "Tugann Infiniuum le chéile iarracht na hEorpa ar tháirgí comhlántacha braite. Tógann na táirgí ar obair forbartha na hEorpa agus cuirtear ar fáil iad don mhargadh tomhaltóirí, cé go mbíonn réitigh chomhréireacha trí T-Meeting go minic á soláthar tríd an earnáil phoiblí agus trí cheannacháin."
+  },
+  "vision": {
+    "label": "Fís",
+    "heading": "Fórsa tiomána don rochtain san Eoraip",
+    "lead": "Oibríonn an Eoraip i dtreo shochaí ina níl rochtain ach breisitheán roghnach nó eisceacht – ach cuid d'ábhar iontu féin de conas mar a dhéantar cumarsáid, teicneolaíocht, agus seirbhísí digiteacha a dhearadh.",
+    "vision_label": "Fís",
+    "vision_body": "Is í ár n-uaillmhian a bheith i d'fhórsa Eorpach tiomána laistigh de rochtain trí úsáid a bhaint as ár n-eolas, ár dtaithí, agus ár gcumas nuálaíochta chun bacainní a laghdú agus rannpháirtíocht fíor a chruthú – trasna teangacha, córais shochaíocha, agus teorainneacha náisiúnta.",
+    "belief_label": "Ár gcoinbhéirseacht",
+    "belief_body1": "Creidimid go ndéanann réitigh atá deartha leis na riachtanais is déine i gcuimhne réitigh níos fearr do gach duine.",
+    "belief_body2": "Sin an fáth a bhfeiceann muid rochtain ní hamháin mar cheist chothroime agus chearta an duine – ach mar fhórsa tiomána do nuálaíocht, dearadh uilíoch, agus sochaí na todhchaí.",
+    "practice_label": "Ár bhfís i gcleachtas",
+    "practice_body": "Tá fís na hEorpa i gcroílár T-Meeting trí smaoineamh 'Komplett Kommunikation' – coincheap a thug Faruk agus Max Tairi isteach a chuireann síos ar rochtain chomhionann ar chumarsáid do chách.",
+    "practice_term": "Komplett Kommunikation"
+  },
+  "europe": {
+    "label": "Láithreacht Eorpach",
+    "heading": "Ó Lochlann – le tionchar Eorpach",
+    "lead": "Tá fréamhacha Europea i Malmö agus tá sí ag feidhmiú go gníomhach sa tSualainn agus sa Iorua faoi láthair. Trínár dtionscnaimh agus ár gcomhar, oibrímid go hidirnáisiúnta freisin – le fochuideachta sa Mhacadóin Thuaidh agus obair bhunaíochta ar bun sa Fhrainc.",
+    "body1": "Is soiléir ár mianta: fás mar fhórsa Eorpach laistigh den rochtain, áit a n-úsáidtear eolas, nuálaíocht, agus taithí phraiticiúil chun cumarsáid agus timpeallachtaí digiteacha níos cuimsitheacha a chruthú.",
+    "body2": "Feicimid an rochtain mar ábhar Eorpach comónta agus is mian linn cur le forbairt réiteach a oibríonn thar theangacha, teorainneacha, agus córais shóisialta."
+  },
+  "founders": {
+    "label": "Na bunaitheoirí",
+    "heading": "Cuideachta tógtha ar fhíor-tuiscint ar rochtain",
+    "lead": "Bunaíodh Europea i Malmö AB sa bhliain 1993 ag Faruk agus Max Tairi, beirt a raibh cúlra acu mar aistritheoirí teanga. Tríd a gcuid oibre i gcomhráite aistrithe, chonaic siad go díreach an tionchar a bhíonn ag bacainní cumarsáide ar chumas daoine tuiscint, páirt a ghlacadh, agus a gcuid cinntí féin a dhéanamh.",
+    "body1": "Is é sin an taithí a bhí mar bhunús le treo agus seasamh Europea: a bheith i do fhórsa praiticiúil, eolach, agus fadtéarmach laistigh den rochtain.",
+    "body2": "Ó thús, tá an gnó ag fás trí shaineolas, nuálaíocht, agus tiomantas fadtéarmach don rochtain – agus sa lá atá inniu ann, tá roinnt tionscnamh agus brandaí ann le fócas comónta ar chumarsáid, rannpháirtíocht, agus cuimsiú digiteach.",
+    "body3": "Tá cúlra na mbunaitheoirí san aistriúchán, san fhiontraíocht, agus i dtimpeallachtaí ardfheidhmíochta tar éis cultúr na cuideachta a mhúnlú: smaointeoireacht fadtéarmach, smacht, agus réiteach praiticiúil fadhbanna.",
+    "quote": "Níor cheart go mbeadh cumarsáid ina bac ar rannpháirtíocht – ba cheart gur deis í."
+  },
+  "industry": {
+    "label": "Tionscal & cleamhnas",
+    "heading": "Fréamhaithe i bhforbairt na rochtana",
+    "lead": "Oibríonn Europea go fadtéarmach leis an rochtain agus leis an rannpháirtíocht – i gcaidreamh dlúth leis an tionscal, riachtanais úsáideoirí, agus forbairt na réiteach inrochtana don todhchaí.",
+    "membership_tag": "Ballraíocht",
+    "membership_name": "An eagraíocht tionscail Branschorganisationen Svensk Tillgänglighet",
+    "membership_body": "Is ball de chuid na heagraíochta tionscail Branschorganisationen Svensk Tillgänglighet í Europea i Malmö AB agus roinneann sí obair na heagraíochta ar mhaithe le rannpháirtíocht, eolas, agus forbairt níos mó sa réimse rochtana."
   },
   "contact": {
     "label": "Teagmháil",
-    "heading": "Táimid lonnaithe i Malmö.",
-    "company": "Europea i Malmö AB",
-    "address1": "Amiralsgatan 20, Urlár 3",
-    "address2": "211 55 Malmö, An tSualainn",
-    "org": "Eagraíocht. 556464-0323",
-    "noProduct": "Níl táirge poiblí ag Europea. Le haghaidh fiosruithe faoi chumasúcháin, tabhair cuairt ar EaseAccess24.com.",
-    "link_tmeeting": "T-Meeting Global AB · tmeeting.se",
-    "link_ease": "EaseAccess24 · easeaccess24.com"
+    "heading": "Ar mhaith leat tuilleadh eolais a fháil faoi Europea?",
+    "lead": "Déan teagmháil más mian leat tuilleadh eolais a fháil faoi Europea, ár dtionscnaimh, nó ár gcuid oibre i réimse an chur chuige cumarsáide, rochtain dhigiteach, agus teicneolaíocht chuimsitheach.",
+    "address_label": "Seoladh",
+    "address_value": "Amiralsgatan 20, 211 55 Malmö",
+    "phone_label": "Guthán",
+    "phone_value": "+46 (0)40 661 41 80",
+    "email_label": "Ríomhphost",
+    "email_value": "info@europea.se",
+    "org_label": "Cuideachta",
+    "org_value": "Europea i Malmö AB"
   },
   "footer": {
-    "copy": "© 2025 Europea i Malmö AB · Eagraíocht. 556464-0323 · Amiralsgatan 20, 211 55 Malmö"
+    "copy": "© 2026 Europea i Malmö AB"
   },
   "a11y": {
-    "skipToMain": "Déan neamhaird den ábhar príomhúil"
+    "skipToMain": "Scipeáil go dtí an príomh-ábhar"
   }
 }
